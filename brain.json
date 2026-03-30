@@ -3,28 +3,99 @@
   "version": "1.0.0",
   "description": "Economic crisis forecasting frameworks, systemic risk indicators, trigger monitoring, historical precedents, and compound interaction models. Sourced from BIS, IMF, Fed, ECB institutional frameworks; Minsky, Dalio, Reinhart-Rogoff academic models; Bridgewater, Universa, AQR, GMO institutional approaches; and AI-Rev engine crisis scenario analysis.",
   "created": "2026-03-28",
-  "lastUpdated": "2026-03-29",
-  "entryCount": 99,
+  "lastUpdated": "2026-03-30",
+  "entryCount": 101,
   "schema": {
     "type": "crisis-monitor",
-    "fields": ["id", "category", "subcategory", "title", "content", "dataSource", "leadTime", "reliability", "historicalPrecedents", "compoundsWith", "currentStatus", "lastUpdated", "tags"]
+    "fields": [
+      "id",
+      "category",
+      "subcategory",
+      "title",
+      "content",
+      "dataSource",
+      "leadTime",
+      "reliability",
+      "historicalPrecedents",
+      "compoundsWith",
+      "currentStatus",
+      "lastUpdated",
+      "tags"
+    ]
   },
   "triggerCategories": [
-    {"id": "credit-debt", "label": "Credit & Debt", "icon": "💳", "description": "Corporate debt ratios, consumer credit, sovereign debt, credit-to-GDP gap"},
-    {"id": "yield-curve", "label": "Yield Curve", "icon": "📈", "description": "Treasury yield spread inversions and recession signals"},
-    {"id": "asset-bubble", "label": "Asset Bubbles", "icon": "🫧", "description": "PE ratios, concentration risk, CAPE deviation from historical norms"},
-    {"id": "geopolitical", "label": "Geopolitical", "icon": "🌍", "description": "Active conflicts, trade wars, sanctions, export controls"},
-    {"id": "energy-shock", "label": "Energy Shock", "icon": "⛽", "description": "Oil supply disruption, OPEC dynamics, crude price spikes"},
-    {"id": "currency-inflation", "label": "Currency & Inflation", "icon": "💰", "description": "Dollar strength, sticky inflation, purchasing power erosion"},
-    {"id": "systemic-banking", "label": "Systemic Banking", "icon": "🏦", "description": "Bank stress, CRE exposure, distance-to-default metrics"},
-    {"id": "ai-specific", "label": "AI Bubble Risk", "icon": "🤖", "description": "AI capex vs revenue gap, GPU depreciation, commoditization pressure"}
+    {
+      "id": "credit-debt",
+      "label": "Credit & Debt",
+      "icon": "💳",
+      "description": "Corporate debt ratios, consumer credit, sovereign debt, credit-to-GDP gap"
+    },
+    {
+      "id": "yield-curve",
+      "label": "Yield Curve",
+      "icon": "📈",
+      "description": "Treasury yield spread inversions and recession signals"
+    },
+    {
+      "id": "asset-bubble",
+      "label": "Asset Bubbles",
+      "icon": "🫧",
+      "description": "PE ratios, concentration risk, CAPE deviation from historical norms"
+    },
+    {
+      "id": "geopolitical",
+      "label": "Geopolitical",
+      "icon": "🌍",
+      "description": "Active conflicts, trade wars, sanctions, export controls"
+    },
+    {
+      "id": "energy-shock",
+      "label": "Energy Shock",
+      "icon": "⛽",
+      "description": "Oil supply disruption, OPEC dynamics, crude price spikes"
+    },
+    {
+      "id": "currency-inflation",
+      "label": "Currency & Inflation",
+      "icon": "💰",
+      "description": "Dollar strength, sticky inflation, purchasing power erosion"
+    },
+    {
+      "id": "systemic-banking",
+      "label": "Systemic Banking",
+      "icon": "🏦",
+      "description": "Bank stress, CRE exposure, distance-to-default metrics"
+    },
+    {
+      "id": "ai-specific",
+      "label": "AI Bubble Risk",
+      "icon": "🤖",
+      "description": "AI capex vs revenue gap, GPU depreciation, commoditization pressure"
+    }
   ],
   "dataSources": {
-    "realtime": ["OFR Financial Stress Index (daily)", "Cleveland Fed SRI (daily)", "VIX/CBOE (real-time)"],
-    "weekly": ["St. Louis STLFSI4"],
-    "monthly": ["Cleveland Fed CFSI", "Shiller CAPE", "FRED yield curves"],
-    "quarterly": ["OFR Contagion Index", "Fed Banking System Vulnerability", "Credit-to-GDP gap"],
-    "manual": ["Geopolitical tension scoring", "AI capex bubble assessment"]
+    "realtime": [
+      "OFR Financial Stress Index (daily)",
+      "Cleveland Fed SRI (daily)",
+      "VIX/CBOE (real-time)"
+    ],
+    "weekly": [
+      "St. Louis STLFSI4"
+    ],
+    "monthly": [
+      "Cleveland Fed CFSI",
+      "Shiller CAPE",
+      "FRED yield curves"
+    ],
+    "quarterly": [
+      "OFR Contagion Index",
+      "Fed Banking System Vulnerability",
+      "Credit-to-GDP gap"
+    ],
+    "manual": [
+      "Geopolitical tension scoring",
+      "AI capex bubble assessment"
+    ]
   },
   "entries": [
     {
@@ -36,11 +107,29 @@
       "dataSource": "Academic literature, BIS working papers, Levy Economics Institute archives",
       "leadTime": "Framework-level — identifies regime positioning rather than timing specific events",
       "reliability": "High conceptual reliability. Validated across multiple crisis cycles (2000 dot-com, 2008 GFC, 1997 Asian crisis). Limitation: does not predict timing — only identifies when conditions are ripe for a Minsky Moment.",
-      "historicalPrecedents": ["2008 Global Financial Crisis", "Dot-Com Bubble 2000-2002", "1997 Asian Financial Crisis", "1929 Great Depression", "Savings & Loan Crisis 1980s"],
-      "compoundsWith": ["asset-bubble", "credit-debt", "systemic-banking", "ai-specific"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis",
+        "Dot-Com Bubble 2000-2002",
+        "1997 Asian Financial Crisis",
+        "1929 Great Depression",
+        "Savings & Loan Crisis 1980s"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "credit-debt",
+        "systemic-banking",
+        "ai-specific"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["minsky", "financial-instability", "ponzi-finance", "endogenous-crisis", "leverage-cycle", "foundational-framework"]
+      "tags": [
+        "minsky",
+        "financial-instability",
+        "ponzi-finance",
+        "endogenous-crisis",
+        "leverage-cycle",
+        "foundational-framework"
+      ]
     },
     {
       "id": "cm-002",
@@ -51,11 +140,30 @@
       "dataSource": "Bridgewater Associates research, Dalio's 'Principles for Navigating Big Debt Crises' (2018), 'The Changing World Order' (2021)",
       "leadTime": "Short cycle: 1-3 years for identifying late-cycle positioning. Long cycle: decades-level framework for understanding structural vulnerability.",
       "reliability": "High. Bridgewater's systematic application of this framework contributed to navigating 2008 successfully (Pure Alpha gained while markets crashed). The framework has been backtested across 48 debt crises spanning 500 years of economic history.",
-      "historicalPrecedents": ["2008 Global Financial Crisis", "1930s Great Depression", "1970s Stagflation", "Japan Lost Decades 1990-present", "European Sovereign Debt Crisis 2010-2012"],
-      "compoundsWith": ["credit-debt", "currency-inflation", "yield-curve", "systemic-banking"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis",
+        "1930s Great Depression",
+        "1970s Stagflation",
+        "Japan Lost Decades 1990-present",
+        "European Sovereign Debt Crisis 2010-2012"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "currency-inflation",
+        "yield-curve",
+        "systemic-banking"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["dalio", "debt-cycle", "deleveraging", "bridgewater", "long-term-debt-cycle", "short-term-debt-cycle", "monetary-policy"]
+      "tags": [
+        "dalio",
+        "debt-cycle",
+        "deleveraging",
+        "bridgewater",
+        "long-term-debt-cycle",
+        "short-term-debt-cycle",
+        "monetary-policy"
+      ]
     },
     {
       "id": "cm-003",
@@ -66,11 +174,29 @@
       "dataSource": "Reinhart & Rogoff 'This Time Is Different' (2009), 'The Liquidation of Government Debt' (2015), NBER working papers, IMF Global Financial Stability Reports",
       "leadTime": "2-5 years using credit-to-GDP deviation as primary signal. Post-crisis, provides timeline expectations for recovery duration.",
       "reliability": "Strong empirical basis across 800 years of data. Correctly predicted the extended recovery timeline after 2008. Criticism: the 90% debt threshold is less precise than originally claimed, and historical analogies can miss novel crisis mechanisms.",
-      "historicalPrecedents": ["2008 Global Financial Crisis", "1930s Great Depression", "1997 Asian Financial Crisis", "Latin American Debt Crises 1980s", "European Sovereign Debt Crisis 2010-2012", "Japanese Lost Decades"],
-      "compoundsWith": ["credit-debt", "systemic-banking", "currency-inflation"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis",
+        "1930s Great Depression",
+        "1997 Asian Financial Crisis",
+        "Latin American Debt Crises 1980s",
+        "European Sovereign Debt Crisis 2010-2012",
+        "Japanese Lost Decades"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "systemic-banking",
+        "currency-inflation"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["reinhart-rogoff", "credit-contraction", "debt-overhang", "this-time-is-different", "empirical-crisis-history", "recovery-timeline"]
+      "tags": [
+        "reinhart-rogoff",
+        "credit-contraction",
+        "debt-overhang",
+        "this-time-is-different",
+        "empirical-crisis-history",
+        "recovery-timeline"
+      ]
     },
     {
       "id": "cm-004",
@@ -81,11 +207,29 @@
       "dataSource": "OFR Contagion Index (quarterly), BIS research papers, Federal Reserve network analysis, academic literature (Acemoglu et al., Allen & Gale, Battiston et al.)",
       "leadTime": "Structural vulnerability assessment rather than timing prediction. Network fragility can persist for years before a trigger event activates the contagion channel.",
       "reliability": "Strong theoretical foundation validated by 2008 GFC analysis. Limitations: network data is incomplete (OTC derivatives are poorly mapped), models require assumptions about fire sale dynamics, and novel connection types (e.g., crypto-TradFi bridges) may not be captured.",
-      "historicalPrecedents": ["2008 Global Financial Crisis (Lehman cascade)", "1998 LTCM (hedge fund interconnection)", "2023 SVB/Credit Suisse (bank run contagion)", "2020 March COVID liquidity crisis"],
-      "compoundsWith": ["systemic-banking", "credit-debt", "carry-trade", "asset-bubble"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis (Lehman cascade)",
+        "1998 LTCM (hedge fund interconnection)",
+        "2023 SVB/Credit Suisse (bank run contagion)",
+        "2020 March COVID liquidity crisis"
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "credit-debt",
+        "carry-trade",
+        "asset-bubble"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["network-theory", "contagion", "robust-yet-fragile", "ofr-contagion-index", "systemic-risk", "fire-sale-externality", "common-asset-shocks"]
+      "tags": [
+        "network-theory",
+        "contagion",
+        "robust-yet-fragile",
+        "ofr-contagion-index",
+        "systemic-risk",
+        "fire-sale-externality",
+        "common-asset-shocks"
+      ]
     },
     {
       "id": "cm-005",
@@ -96,11 +240,29 @@
       "dataSource": "BEA Input-Output Accounts, OECD Inter-Country Input-Output tables, World Input-Output Database (WIOD), academic literature (Acemoglu et al. 2012)",
       "leadTime": "Not a timing predictor — identifies structural vulnerabilities and amplification channels. Combined with geopolitical monitoring, can identify which supply chains are most at risk.",
       "reliability": "Strong empirical validation during COVID-19 supply chain disruptions (2020-2022) and semiconductor shortage. Models correctly predicted which industries would face cascading constraints. Limitation: real-time supply chain data is sparse and often proprietary.",
-      "historicalPrecedents": ["COVID-19 Supply Chain Crisis 2020-2022", "2011 Tohoku Earthquake (Japanese auto supply chain)", "2021 Suez Canal Blockage", "2022 Semiconductor Shortage"],
-      "compoundsWith": ["geopolitical", "energy-shock", "ai-specific", "general"],
+      "historicalPrecedents": [
+        "COVID-19 Supply Chain Crisis 2020-2022",
+        "2011 Tohoku Earthquake (Japanese auto supply chain)",
+        "2021 Suez Canal Blockage",
+        "2022 Semiconductor Shortage"
+      ],
+      "compoundsWith": [
+        "geopolitical",
+        "energy-shock",
+        "ai-specific",
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["input-output", "supply-chain", "production-networks", "cascade", "chokepoints", "leontief", "granular-origins"]
+      "tags": [
+        "input-output",
+        "supply-chain",
+        "production-networks",
+        "cascade",
+        "chokepoints",
+        "leontief",
+        "granular-origins"
+      ]
     },
     {
       "id": "cm-006",
@@ -111,11 +273,31 @@
       "dataSource": "Office of Financial Research (US Treasury), updated daily, available at https://www.financialresearch.gov/financial-stress-index/",
       "leadTime": "Contemporaneous to very short-term. Primarily a real-time stress measure rather than a leading indicator. However, sustained elevated readings (weeks above 3-4) often precede more severe market dislocations.",
       "reliability": "High reliability as a stress measure. Captured all major stress episodes since its 2000 start date. Limitation: as a daily market-based measure, it reflects financial market stress rather than real economy stress — markets can be stressed while the economy is fine, and vice versa.",
-      "historicalPrecedents": ["2008 Global Financial Crisis (peak ~25)", "March 2020 COVID (peak ~15)", "2011 European Sovereign Debt (peak ~8)", "2023 SVB/Banking stress (peak ~5)", "March 2026 Iran tensions"],
-      "compoundsWith": ["credit-debt", "systemic-banking", "carry-trade", "currency-inflation", "asset-bubble"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis (peak ~25)",
+        "March 2020 COVID (peak ~15)",
+        "2011 European Sovereign Debt (peak ~8)",
+        "2023 SVB/Banking stress (peak ~5)",
+        "March 2026 Iran tensions"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "systemic-banking",
+        "carry-trade",
+        "currency-inflation",
+        "asset-bubble"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["ofr", "financial-stress-index", "daily", "33-variables", "5-categories", "real-time-monitoring", "stress-decomposition"]
+      "tags": [
+        "ofr",
+        "financial-stress-index",
+        "daily",
+        "33-variables",
+        "5-categories",
+        "real-time-monitoring",
+        "stress-decomposition"
+      ]
     },
     {
       "id": "cm-007",
@@ -126,11 +308,27 @@
       "dataSource": "Federal Reserve Bank of Cleveland, updated monthly, available through FRED database (series: CFSI)",
       "leadTime": "Contemporaneous to 1-3 months leading. Grade transitions from low to high have historically preceded economic downturns by 1-6 months.",
       "reliability": "Good track record of capturing major stress episodes. The 5-grade system provides intuitive severity assessment. Limitation: monthly frequency means it can lag fast-moving crises by 2-4 weeks.",
-      "historicalPrecedents": ["2008 Global Financial Crisis (Grade V)", "2011 European Sovereign Crisis (Grade IV)", "2020 COVID Crisis (Grade V briefly)", "2023 Banking Stress (Grade III)"],
-      "compoundsWith": ["credit-debt", "systemic-banking", "currency-inflation"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis (Grade V)",
+        "2011 European Sovereign Crisis (Grade IV)",
+        "2020 COVID Crisis (Grade V briefly)",
+        "2023 Banking Stress (Grade III)"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "systemic-banking",
+        "currency-inflation"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["cleveland-fed", "cfsi", "monthly", "5-grade-severity", "11-components", "trend-indicator"]
+      "tags": [
+        "cleveland-fed",
+        "cfsi",
+        "monthly",
+        "5-grade-severity",
+        "11-components",
+        "trend-indicator"
+      ]
     },
     {
       "id": "cm-008",
@@ -141,11 +339,29 @@
       "dataSource": "Federal Reserve Bank of St. Louis, updated weekly (Fridays), available through FRED database (series: STLFSI4)",
       "leadTime": "Primarily contemporaneous. Extended low readings (below -1.0 for 12+ months) serve as a contrarian leading indicator — the longer stress is suppressed, the larger the eventual correction.",
       "reliability": "Strong track record spanning 30+ years. PCA methodology is transparent and reproducible. Limitation: as a weekly index, it can miss intra-week stress spikes. Also, PCA weights are data-driven and can shift subtly with revisions.",
-      "historicalPrecedents": ["2008 Global Financial Crisis (peak ~5.5)", "2020 COVID Crisis (peak ~9.0, briefly)", "2011 European Crisis (~1.5)", "Late 2006 pre-GFC (below -1.0 for extended period)"],
-      "compoundsWith": ["credit-debt", "yield-curve", "systemic-banking", "asset-bubble"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis (peak ~5.5)",
+        "2020 COVID Crisis (peak ~9.0, briefly)",
+        "2011 European Crisis (~1.5)",
+        "Late 2006 pre-GFC (below -1.0 for extended period)"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "yield-curve",
+        "systemic-banking",
+        "asset-bubble"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["st-louis-fed", "stlfsi4", "weekly", "18-series", "pca", "interest-rates", "yield-spreads"]
+      "tags": [
+        "st-louis-fed",
+        "stlfsi4",
+        "weekly",
+        "18-series",
+        "pca",
+        "interest-rates",
+        "yield-spreads"
+      ]
     },
     {
       "id": "cm-009",
@@ -156,11 +372,30 @@
       "dataSource": "European Central Bank, updated weekly, available through ECB Statistical Data Warehouse",
       "leadTime": "Contemporaneous — designed to identify systemic stress in real time rather than predict it. However, a rising CISS from low levels (0.1 to 0.2 to 0.3) provides 2-4 weeks of early warning before threshold breaches.",
       "reliability": "Excellent for distinguishing systemic from non-systemic stress — very few false positives. Limitation: Euro-area focused, may miss US-centric or EM-centric stress that has not yet transmitted to European markets.",
-      "historicalPrecedents": ["2008 Global Financial Crisis (peak ~0.8)", "2011-2012 European Sovereign Debt Crisis (peak ~0.55)", "2020 COVID Crisis (peak ~0.55)", "2015 China selloff (did NOT breach threshold — correct non-signal)"],
-      "compoundsWith": ["systemic-banking", "credit-debt", "currency-inflation", "general"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis (peak ~0.8)",
+        "2011-2012 European Sovereign Debt Crisis (peak ~0.55)",
+        "2020 COVID Crisis (peak ~0.55)",
+        "2015 China selloff (did NOT breach threshold — correct non-signal)"
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "credit-debt",
+        "currency-inflation",
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["ecb", "ciss", "systemic-stress", "cross-correlation", "portfolio-theory", "europe", "interaction-effect", "few-false-positives"]
+      "tags": [
+        "ecb",
+        "ciss",
+        "systemic-stress",
+        "cross-correlation",
+        "portfolio-theory",
+        "europe",
+        "interaction-effect",
+        "few-false-positives"
+      ]
     },
     {
       "id": "cm-010",
@@ -171,11 +406,27 @@
       "dataSource": "Federal Reserve Bank of Cleveland, updated daily, derived from equity market data (stock prices, volatility) combined with balance sheet data for ~100 bank holding companies",
       "leadTime": "1-6 months ahead of acute banking crises. The gradual decline in aggregate distance-to-default provides a building-pressure signal that precedes sudden failure events.",
       "reliability": "Good track record for banking-specific stress. Limitation: uses equity market data, which can be volatile and may overreact to sentiment. Also, it measures publicly traded banks — shadow banking and non-bank financial institutions are not captured.",
-      "historicalPrecedents": ["2008 Global Financial Crisis (below 0.1 threshold)", "2023 SVB/Signature/First Republic (declining trend preceded failures)", "2020 COVID (sharp decline, rapid recovery)"],
-      "compoundsWith": ["systemic-banking", "credit-debt", "asset-bubble"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis (below 0.1 threshold)",
+        "2023 SVB/Signature/First Republic (declining trend preceded failures)",
+        "2020 COVID (sharp decline, rapid recovery)"
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "credit-debt",
+        "asset-bubble"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["cleveland-fed", "sri", "distance-to-default", "banking-system", "merton-model", "daily", "bank-health"]
+      "tags": [
+        "cleveland-fed",
+        "sri",
+        "distance-to-default",
+        "banking-system",
+        "merton-model",
+        "daily",
+        "bank-health"
+      ]
     },
     {
       "id": "cm-011",
@@ -186,11 +437,28 @@
       "dataSource": "Federal Reserve Board, Financial Stability Report (published twice yearly), with quarterly data updates. Based on confidential supervisory data (Call Reports, FR Y-9C filings).",
       "leadTime": "1-4 quarters leading. Dimension deterioration provides early warning of building vulnerability, though it cannot predict the timing of the trigger event.",
       "reliability": "High credibility — based on confidential supervisory data that is more detailed and accurate than market-based measures. Correctly identified SVB-type vulnerability pre-2023. Limitation: quarterly frequency means it can miss rapidly evolving situations. Also, non-bank financial institutions are not covered.",
-      "historicalPrecedents": ["2008 Global Financial Crisis (all four dimensions elevated)", "2023 SVB/Banking stress (Run Vulnerability elevated)", "2020 COVID (Liquidity dimension briefly stressed)"],
-      "compoundsWith": ["systemic-banking", "credit-debt", "carry-trade"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis (all four dimensions elevated)",
+        "2023 SVB/Banking stress (Run Vulnerability elevated)",
+        "2020 COVID (Liquidity dimension briefly stressed)"
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "credit-debt",
+        "carry-trade"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["federal-reserve", "banking-vulnerability", "capital-adequacy", "fire-sale", "liquidity-risk", "run-vulnerability", "quarterly", "supervisory-data"]
+      "tags": [
+        "federal-reserve",
+        "banking-vulnerability",
+        "capital-adequacy",
+        "fire-sale",
+        "liquidity-risk",
+        "run-vulnerability",
+        "quarterly",
+        "supervisory-data"
+      ]
     },
     {
       "id": "cm-012",
@@ -201,11 +469,33 @@
       "dataSource": "FRED (Federal Reserve Economic Data): T10Y3M series, updated daily. New York Fed Recession Probability model, updated monthly.",
       "leadTime": "10 months to 3 years, with average of ~14 months from first inversion to recession onset. The un-inversion (steepening) often occurs 3-6 months before recession, as the Fed begins cutting rates.",
       "reliability": "Highest of any single recession indicator. ~90-95% accuracy across 55+ years. One possible false positive (1966). Widely validated across academic studies and monetary policy regimes.",
-      "historicalPrecedents": ["1969-70 Recession", "1973-75 Recession", "1980 Recession", "1981-82 Recession", "1990-91 Recession", "2001 Recession", "2007-09 Great Recession", "2020 COVID Recession", "2022-2023 prolonged inversion"],
-      "compoundsWith": ["yield-curve", "credit-debt", "currency-inflation"],
+      "historicalPrecedents": [
+        "1969-70 Recession",
+        "1973-75 Recession",
+        "1980 Recession",
+        "1981-82 Recession",
+        "1990-91 Recession",
+        "2001 Recession",
+        "2007-09 Great Recession",
+        "2020 COVID Recession",
+        "2022-2023 prolonged inversion"
+      ],
+      "compoundsWith": [
+        "yield-curve",
+        "credit-debt",
+        "currency-inflation"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["yield-curve", "10y-3m", "recession-predictor", "treasury-spread", "most-reliable", "14-month-lead", "new-york-fed"]
+      "tags": [
+        "yield-curve",
+        "10y-3m",
+        "recession-predictor",
+        "treasury-spread",
+        "most-reliable",
+        "14-month-lead",
+        "new-york-fed"
+      ]
     },
     {
       "id": "cm-013",
@@ -216,11 +506,29 @@
       "dataSource": "FRED (Federal Reserve Economic Data): T10Y2Y series, updated daily",
       "leadTime": "6 months to 2 years from inversion to recession onset. Generally signals earlier than 10y-3m but with more variability.",
       "reliability": "Good but slightly inferior to 10y-3m spread. More prone to brief inversions that may not signal recession. Widely followed, which creates reflexive confidence effects.",
-      "historicalPrecedents": ["1978-80 Recession", "1989-90 Pre-recession", "2000 Pre-dot-com recession", "2006-07 Pre-GFC", "2019 Pre-COVID", "2022 deep inversion"],
-      "compoundsWith": ["yield-curve", "credit-debt", "currency-inflation"],
+      "historicalPrecedents": [
+        "1978-80 Recession",
+        "1989-90 Pre-recession",
+        "2000 Pre-dot-com recession",
+        "2006-07 Pre-GFC",
+        "2019 Pre-COVID",
+        "2022 deep inversion"
+      ],
+      "compoundsWith": [
+        "yield-curve",
+        "credit-debt",
+        "currency-inflation"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["yield-curve", "10y-2y", "recession-predictor", "media-watched", "self-fulfilling", "term-premium"]
+      "tags": [
+        "yield-curve",
+        "10y-2y",
+        "recession-predictor",
+        "media-watched",
+        "self-fulfilling",
+        "term-premium"
+      ]
     },
     {
       "id": "cm-014",
@@ -231,11 +539,29 @@
       "dataSource": "BIS Statistics (quarterly), national central banks, FRED. The BIS publishes credit-to-GDP gaps for 43 countries.",
       "leadTime": "2-5 years — longest lead time of any widely validated indicator. Optimal for macro-prudential policy activation.",
       "reliability": "Best long-range banking crisis predictor per Basel Committee research. However, high noise-to-signal ratio (75-150%) makes it unreliable as a standalone timing indicator. Should be combined with shorter-range indicators for actionable signals.",
-      "historicalPrecedents": ["2008 Global Financial Crisis (gap exceeded 10pp in US by 2006)", "1997 Asian Financial Crisis (extremely elevated in Thailand, Korea)", "1990 Japan bubble (gap >30pp)", "Nordic banking crises 1990-92"],
-      "compoundsWith": ["credit-debt", "asset-bubble", "systemic-banking"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis (gap exceeded 10pp in US by 2006)",
+        "1997 Asian Financial Crisis (extremely elevated in Thailand, Korea)",
+        "1990 Japan bubble (gap >30pp)",
+        "Nordic banking crises 1990-92"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "asset-bubble",
+        "systemic-banking"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["credit-to-gdp-gap", "bis", "basel-iii", "countercyclical-buffer", "long-range", "hp-filter", "macro-prudential", "noise-to-signal"]
+      "tags": [
+        "credit-to-gdp-gap",
+        "bis",
+        "basel-iii",
+        "countercyclical-buffer",
+        "long-range",
+        "hp-filter",
+        "macro-prudential",
+        "noise-to-signal"
+      ]
     },
     {
       "id": "cm-015",
@@ -246,11 +572,30 @@
       "dataSource": "Robert Shiller's online dataset (updated monthly), available at Yale: http://www.econ.yale.edu/~shiller/data.htm. Also available through Barclays and multpl.com.",
       "leadTime": "10-20 years for return prediction. As a crash indicator, no specific lead time — elevated CAPE indicates vulnerability but not timing.",
       "reliability": "Extremely high reliability as a 10-20 year return predictor (R-squared ~40% for subsequent 10-year returns). Poor reliability as a crash timing indicator. Cannot distinguish between 'expensive but going higher' and 'expensive and about to crash.'",
-      "historicalPrecedents": ["1929 crash (CAPE ~33)", "2000 dot-com peak (CAPE ~44)", "2007 pre-GFC (CAPE ~27)", "1982 secular bottom (CAPE ~8)", "2009 post-GFC bottom (CAPE ~13)"],
-      "compoundsWith": ["asset-bubble", "credit-debt", "yield-curve", "ai-specific"],
+      "historicalPrecedents": [
+        "1929 crash (CAPE ~33)",
+        "2000 dot-com peak (CAPE ~44)",
+        "2007 pre-GFC (CAPE ~27)",
+        "1982 secular bottom (CAPE ~8)",
+        "2009 post-GFC bottom (CAPE ~13)"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "credit-debt",
+        "yield-curve",
+        "ai-specific"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["cape", "shiller-pe", "valuation", "long-term-returns", "mean-reversion", "market-fragility", "10-year-earnings"]
+      "tags": [
+        "cape",
+        "shiller-pe",
+        "valuation",
+        "long-term-returns",
+        "mean-reversion",
+        "market-fragility",
+        "10-year-earnings"
+      ]
     },
     {
       "id": "cm-016",
@@ -261,11 +606,29 @@
       "dataSource": "BIS working papers, academic research (Borio and Drehmann, Aldasoro et al.), calculated from price series and realized volatility data",
       "leadTime": "2-3 years — medium-range. Useful for strategic positioning and portfolio adjustment rather than tactical trading.",
       "reliability": "Outperforms credit-to-GDP gap in some studies for medium-term crisis prediction. Lower noise-to-signal ratio than credit gap. Limitation: the indicator is less standardized than other metrics — different researchers use different specifications for 'rapid price growth' and 'low volatility.'",
-      "historicalPrecedents": ["2005-2006 pre-GFC (elevated)", "1998-1999 pre-dot-com (elevated)", "2017-2018 pre-volatility event (moderately elevated)", "2024-2025 AI stock concentration (potentially elevated)"],
-      "compoundsWith": ["asset-bubble", "ai-specific", "carry-trade", "credit-debt"],
+      "historicalPrecedents": [
+        "2005-2006 pre-GFC (elevated)",
+        "1998-1999 pre-dot-com (elevated)",
+        "2017-2018 pre-volatility event (moderately elevated)",
+        "2024-2025 AI stock concentration (potentially elevated)"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "ai-specific",
+        "carry-trade",
+        "credit-debt"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["mispricing-risk", "complacency", "low-volatility", "bis", "outperforms-credit", "2-3-year-lead", "behavioral-finance"]
+      "tags": [
+        "mispricing-risk",
+        "complacency",
+        "low-volatility",
+        "bis",
+        "outperforms-credit",
+        "2-3-year-lead",
+        "behavioral-finance"
+      ]
     },
     {
       "id": "cm-017",
@@ -276,11 +639,28 @@
       "dataSource": "BIS Statistics (quarterly), published for 32 countries. Available at https://www.bis.org/statistics/dsr.htm",
       "leadTime": "Up to 2 years for banking crises. Shorter lead time (6-12 months) for consumer spending slowdowns.",
       "reliability": "Strong empirical validation across countries and crisis types. Limitation: the BIS DSR uses aggregated data — it cannot capture distributional stress (e.g., if 80% of borrowers are fine but 20% are severely stressed, the aggregate DSR may look moderate).",
-      "historicalPrecedents": ["2008 Global Financial Crisis (US household DSR peaked ~18.5% in 2007)", "1990 UK recession (mortgage DSR spike after rate increases)", "Nordic banking crises 1990-92 (elevated DSR from rate shocks)"],
-      "compoundsWith": ["credit-debt", "yield-curve", "currency-inflation", "systemic-banking"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis (US household DSR peaked ~18.5% in 2007)",
+        "1990 UK recession (mortgage DSR spike after rate increases)",
+        "Nordic banking crises 1990-92 (elevated DSR from rate shocks)"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "yield-curve",
+        "currency-inflation",
+        "systemic-banking"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["debt-service-ratio", "bis", "flow-measure", "rate-sensitivity", "income-coverage", "mortgage-repricing", "2-year-lead"]
+      "tags": [
+        "debt-service-ratio",
+        "bis",
+        "flow-measure",
+        "rate-sensitivity",
+        "income-coverage",
+        "mortgage-repricing",
+        "2-year-lead"
+      ]
     },
     {
       "id": "cm-018",
@@ -291,11 +671,30 @@
       "dataSource": "CBOE VIX Index and VIX futures curves, real-time data available through CBOE and major data providers. Calculated as difference between front-month and second-month VIX futures.",
       "leadTime": "Days to weeks. Extremely short-range. Primarily contemporaneous with acute stress events.",
       "reliability": "High specificity for acute market stress events — when backwardation persists, a significant market dislocation is almost always occurring or imminent. Limitation: brief (intra-day) backwardation events can be noise. Also, the signal only captures equity market stress — crises that manifest first in credit or FX markets may not trigger VIX inversion until later.",
-      "historicalPrecedents": ["October 2008 crash (deep backwardation)", "August 2015 China selloff (brief backwardation)", "February 2018 Volmageddon (inverted before VIX spike)", "March 2020 COVID crash (deep sustained backwardation)"],
-      "compoundsWith": ["asset-bubble", "carry-trade", "geopolitical", "systemic-banking"],
+      "historicalPrecedents": [
+        "October 2008 crash (deep backwardation)",
+        "August 2015 China selloff (brief backwardation)",
+        "February 2018 Volmageddon (inverted before VIX spike)",
+        "March 2020 COVID crash (deep sustained backwardation)"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "carry-trade",
+        "geopolitical",
+        "systemic-banking"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["vix", "term-structure", "backwardation", "contango", "crash-signal", "real-time", "options-market", "short-range"]
+      "tags": [
+        "vix",
+        "term-structure",
+        "backwardation",
+        "contango",
+        "crash-signal",
+        "real-time",
+        "options-market",
+        "short-range"
+      ]
     },
     {
       "id": "cm-019",
@@ -306,11 +705,32 @@
       "dataSource": "FRED (credit spreads, SLOOS), BIS (credit-to-GDP), Bloomberg/ICE (high-yield indices), S&P/Moody's (default rates), Federal Reserve Financial Stability Report",
       "leadTime": "Variable: credit-to-GDP gap provides 2-5 years. Spread widening provides 3-12 months. SLOOS tightening provides 6-12 months. Rollover/maturity wall analysis provides 1-2 years.",
       "reliability": "Credit excesses precede the majority of banking crises. However, false positives are common — credit conditions can deteriorate and then stabilize without crisis. The key is the combination of elevated credit with a trigger event.",
-      "historicalPrecedents": ["2008 Global Financial Crisis", "1990-91 S&L Crisis", "1997 Asian Financial Crisis", "2001 Dot-com/corporate credit (Enron, WorldCom)", "European Sovereign Debt Crisis 2010-2012"],
-      "compoundsWith": ["yield-curve", "asset-bubble", "systemic-banking", "currency-inflation", "carry-trade"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis",
+        "1990-91 S&L Crisis",
+        "1997 Asian Financial Crisis",
+        "2001 Dot-com/corporate credit (Enron, WorldCom)",
+        "European Sovereign Debt Crisis 2010-2012"
+      ],
+      "compoundsWith": [
+        "yield-curve",
+        "asset-bubble",
+        "systemic-banking",
+        "currency-inflation",
+        "carry-trade"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["credit-trigger", "corporate-debt", "consumer-credit", "sovereign-debt", "spreads", "sloos", "maturity-wall", "private-credit"]
+      "tags": [
+        "credit-trigger",
+        "corporate-debt",
+        "consumer-credit",
+        "sovereign-debt",
+        "spreads",
+        "sloos",
+        "maturity-wall",
+        "private-credit"
+      ]
     },
     {
       "id": "cm-020",
@@ -321,11 +741,31 @@
       "dataSource": "Shiller CAPE (monthly), S&P 500 concentration data (daily), NYSE margin statistics (monthly), FINRA margin debt, Bloomberg PE and valuation multiples",
       "leadTime": "CAPE provides 10-20 year return forecasting but no timing. Concentration risk is a structural vulnerability measure. Margin debt peaks typically 3-12 months before corrections.",
       "reliability": "Bubble identification in retrospect has 100% accuracy; bubble identification in real-time is notoriously difficult ('the market can stay irrational longer than you can stay solvent'). Valuation extremes correctly identify vulnerability but provide no timing information.",
-      "historicalPrecedents": ["1929 Great Crash", "1989 Japan Nikkei peak", "2000 Dot-com bubble", "2007-08 Housing bubble", "2021-22 Crypto/SPAC/Meme bubble"],
-      "compoundsWith": ["credit-debt", "ai-specific", "carry-trade", "systemic-banking"],
+      "historicalPrecedents": [
+        "1929 Great Crash",
+        "1989 Japan Nikkei peak",
+        "2000 Dot-com bubble",
+        "2007-08 Housing bubble",
+        "2021-22 Crypto/SPAC/Meme bubble"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "ai-specific",
+        "carry-trade",
+        "systemic-banking"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["asset-bubble", "concentration-risk", "cape", "margin-debt", "mag-7", "speculation", "leverage", "bubble-deflation"]
+      "tags": [
+        "asset-bubble",
+        "concentration-risk",
+        "cape",
+        "margin-debt",
+        "mag-7",
+        "speculation",
+        "leverage",
+        "bubble-deflation"
+      ]
     },
     {
       "id": "cm-021",
@@ -336,11 +776,33 @@
       "dataSource": "Caldara-Iacoviello Geopolitical Risk Index (monthly), news monitoring, government policy announcements, military intelligence assessments (open source)",
       "leadTime": "Highly variable. Some geopolitical events (trade wars, sanctions escalation) build over months with visible warning signs. Others (military strikes, regime changes) can occur with hours of warning. Intelligence-based early warning systems may provide days to weeks of lead time for military events.",
       "reliability": "Geopolitical events are inherently unpredictable. The GPR Index captures market-relevant geopolitical risk but cannot predict specific events. Historical base rates: major geopolitical shocks that move markets >5% occur approximately once every 2-3 years.",
-      "historicalPrecedents": ["1973 Oil Embargo", "1990 Gulf War", "2001 September 11 attacks", "2014 Crimea annexation/sanctions", "2022 Russia-Ukraine war", "March 2026 Iran tensions"],
-      "compoundsWith": ["energy-shock", "currency-inflation", "asset-bubble", "carry-trade", "general"],
+      "historicalPrecedents": [
+        "1973 Oil Embargo",
+        "1990 Gulf War",
+        "2001 September 11 attacks",
+        "2014 Crimea annexation/sanctions",
+        "2022 Russia-Ukraine war",
+        "March 2026 Iran tensions"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "currency-inflation",
+        "asset-bubble",
+        "carry-trade",
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["geopolitical", "conflict", "sanctions", "trade-war", "gpr-index", "supply-chain", "safe-haven", "rapid-onset"]
+      "tags": [
+        "geopolitical",
+        "conflict",
+        "sanctions",
+        "trade-war",
+        "gpr-index",
+        "supply-chain",
+        "safe-haven",
+        "rapid-onset"
+      ]
     },
     {
       "id": "cm-022",
@@ -351,11 +813,30 @@
       "dataSource": "EIA (Energy Information Administration) weekly reports, IEA (International Energy Agency) monthly oil market reports, OPEC monthly oil market reports, Baker Hughes rig count, CFTC Commitments of Traders (oil futures positioning)",
       "leadTime": "Geopolitical energy shocks: hours to days. Supply/demand imbalance buildups: months. OPEC policy shifts: weeks. Overall, energy shocks are among the hardest to predict with useful lead times.",
       "reliability": "The causal link between large energy price spikes and economic slowdowns is well-established. However, the economy's sensitivity to energy shocks has declined over time (lower energy intensity, more diverse energy mix, better hedging). A $20/barrel spike in 2026 has less impact than a $20 spike in 1979.",
-      "historicalPrecedents": ["1973 OPEC Oil Embargo", "1979 Iranian Revolution oil shock", "1990 Gulf War oil spike", "2008 oil spike to $147/barrel", "2022 Russia-Ukraine energy crisis"],
-      "compoundsWith": ["geopolitical", "currency-inflation", "credit-debt", "general"],
+      "historicalPrecedents": [
+        "1973 OPEC Oil Embargo",
+        "1979 Iranian Revolution oil shock",
+        "1990 Gulf War oil spike",
+        "2008 oil spike to $147/barrel",
+        "2022 Russia-Ukraine energy crisis"
+      ],
+      "compoundsWith": [
+        "geopolitical",
+        "currency-inflation",
+        "credit-debt",
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["energy-shock", "oil", "opec", "supply-disruption", "stagflation", "inflation-transmission", "spare-capacity"]
+      "tags": [
+        "energy-shock",
+        "oil",
+        "opec",
+        "supply-disruption",
+        "stagflation",
+        "inflation-transmission",
+        "spare-capacity"
+      ]
     },
     {
       "id": "cm-023",
@@ -366,11 +847,32 @@
       "dataSource": "FRED (CPI, PCE, DXY, breakeven rates), BIS (effective exchange rates, cross-border claims), IMF (reserve adequacy), central bank communications",
       "leadTime": "Inflation trends: 6-18 months (inflation is a lagging indicator, but policy responses have forward-looking impact). Currency crises: days to weeks once capital flight begins, but balance of payments vulnerabilities can be identified months in advance.",
       "reliability": "Inflation persistence is well-forecasted by existing models. Currency crisis timing is notoriously difficult — vulnerabilities can persist for years before a trigger event forces the crisis. The combination of high external debt + current account deficit + strong dollar is a reliable vulnerability indicator, but the timing of the crisis depends on unpredictable trigger events.",
-      "historicalPrecedents": ["1997 Asian Financial Crisis (currency cascade)", "2018 Turkey/Argentina currency crises", "1970s US stagflation", "2022-2023 global inflation surge", "1992 ERM crisis (GBP)"],
-      "compoundsWith": ["credit-debt", "energy-shock", "geopolitical", "carry-trade", "yield-curve"],
+      "historicalPrecedents": [
+        "1997 Asian Financial Crisis (currency cascade)",
+        "2018 Turkey/Argentina currency crises",
+        "1970s US stagflation",
+        "2022-2023 global inflation surge",
+        "1992 ERM crisis (GBP)"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "energy-shock",
+        "geopolitical",
+        "carry-trade",
+        "yield-curve"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["currency-crisis", "inflation", "dxy", "dollar-strength", "de-anchoring", "em-vulnerability", "capital-flight", "policy-trilemma"]
+      "tags": [
+        "currency-crisis",
+        "inflation",
+        "dxy",
+        "dollar-strength",
+        "de-anchoring",
+        "em-vulnerability",
+        "capital-flight",
+        "policy-trilemma"
+      ]
     },
     {
       "id": "cm-024",
@@ -381,11 +883,31 @@
       "dataSource": "FDIC Quarterly Banking Profile, Federal Reserve H.8 statistical release (bank balance sheets), Fed discount window data, bank call reports, CoStar/CBRE (CRE data), Bloomberg (bank CDS spreads)",
       "leadTime": "Distance-to-default: 1-6 months. CDS spread widening: weeks to months. Deposit flows: days to weeks (but data is lagged by weeks). CRE maturity wall: identifiable 1-2 years ahead.",
       "reliability": "Banking stress indicators have a good track record but tend to fire late — by the time bank CDS spreads spike or discount window usage surges, the crisis is already underway. CRE concentration analysis is more forward-looking but the timing of CRE-driven bank stress depends on loan-by-loan maturity schedules.",
-      "historicalPrecedents": ["2008 GFC (Lehman, Bear Stearns, WaMu)", "2023 SVB/Signature/First Republic", "1980s S&L Crisis", "2010-12 European banking stress", "1930s Great Depression banking collapse"],
-      "compoundsWith": ["credit-debt", "asset-bubble", "carry-trade", "currency-inflation"],
+      "historicalPrecedents": [
+        "2008 GFC (Lehman, Bear Stearns, WaMu)",
+        "2023 SVB/Signature/First Republic",
+        "1980s S&L Crisis",
+        "2010-12 European banking stress",
+        "1930s Great Depression banking collapse"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "asset-bubble",
+        "carry-trade",
+        "currency-inflation"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["banking-crisis", "bank-runs", "cre-exposure", "deposit-flight", "duration-risk", "unrealized-losses", "discount-window", "too-big-to-fail"]
+      "tags": [
+        "banking-crisis",
+        "bank-runs",
+        "cre-exposure",
+        "deposit-flight",
+        "duration-risk",
+        "unrealized-losses",
+        "discount-window",
+        "too-big-to-fail"
+      ]
     },
     {
       "id": "cm-025",
@@ -396,11 +918,30 @@
       "dataSource": "Company earnings reports (capex disclosures), semiconductor industry data (SIA, SEMI), AI revenue estimates (Gartner, IDC), GPU utilization data (limited availability), cloud revenue growth rates",
       "leadTime": "The vulnerability is identifiable now; the timing of correction is unknown. Potential catalysts include: a major AI project failure/cancellation, significant earnings misses by AI-adjacent companies, or a broader market correction that forces reassessment of growth projections. Lead time from first visible signs of AI revenue disappointment to full correction could be 6-18 months.",
       "reliability": "High confidence that the capex-revenue gap must close. Low confidence in timing and mechanism. The gap could close gradually (revenue catches up partially, capex moderates) rather than through a dramatic crash. However, the magnitude of the gap and the leverage embedded in AI-related stocks suggest that the correction, when it comes, will be significant.",
-      "historicalPrecedents": ["2000-2002 Dot-com crash (telecom capex bubble)", "2022 Meta capex crash (75% stock decline on metaverse spending)", "1980s biotech hype cycle", "2017-2018 crypto infrastructure buildout and crash"],
-      "compoundsWith": ["asset-bubble", "credit-debt", "carry-trade", "general"],
+      "historicalPrecedents": [
+        "2000-2002 Dot-com crash (telecom capex bubble)",
+        "2022 Meta capex crash (75% stock decline on metaverse spending)",
+        "1980s biotech hype cycle",
+        "2017-2018 crypto infrastructure buildout and crash"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "credit-debt",
+        "carry-trade",
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["ai-bubble", "capex-revenue-gap", "gpu-depreciation", "commoditization", "nvidia", "hyperscaler", "vendor-financing", "dot-com-parallel"]
+      "tags": [
+        "ai-bubble",
+        "capex-revenue-gap",
+        "gpu-depreciation",
+        "commoditization",
+        "nvidia",
+        "hyperscaler",
+        "vendor-financing",
+        "dot-com-parallel"
+      ]
     },
     {
       "id": "cm-026",
@@ -411,11 +952,31 @@
       "dataSource": "BIS Triennial FX Survey, CFTC Commitments of Traders (currency futures positioning), TFX (Tokyo Financial Exchange) positioning data, cross-border banking statistics",
       "leadTime": "Structural vulnerability can be identified months ahead (elevated carry positioning, narrowing rate differentials, BOJ policy signals). The unwind itself typically occurs over 1-5 days with minimal advance warning.",
       "reliability": "Carry trade unwinds are well-documented and mechanistically understood. The difficulty is identifying the trigger event and predicting the magnitude of unwinding. Positioning data is incomplete, making it hard to estimate the potential size of an unwind event.",
-      "historicalPrecedents": ["1998 LTCM/Yen carry unwind", "2007-2008 carry trade unwind (yen appreciated 25%+ during GFC)", "2015 SNB peg removal (EUR/CHF)", "July 2024 BOJ mini-crisis", "1997 Asian Financial Crisis (carry-funded EM investments)"],
-      "compoundsWith": ["currency-inflation", "asset-bubble", "geopolitical", "systemic-banking"],
+      "historicalPrecedents": [
+        "1998 LTCM/Yen carry unwind",
+        "2007-2008 carry trade unwind (yen appreciated 25%+ during GFC)",
+        "2015 SNB peg removal (EUR/CHF)",
+        "July 2024 BOJ mini-crisis",
+        "1997 Asian Financial Crisis (carry-funded EM investments)"
+      ],
+      "compoundsWith": [
+        "currency-inflation",
+        "asset-bubble",
+        "geopolitical",
+        "systemic-banking"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["carry-trade", "yen", "boj", "hidden-leverage", "stairs-up-elevator-down", "fx", "unwind", "otc-opacity"]
+      "tags": [
+        "carry-trade",
+        "yen",
+        "boj",
+        "hidden-leverage",
+        "stairs-up-elevator-down",
+        "fx",
+        "unwind",
+        "otc-opacity"
+      ]
     },
     {
       "id": "cm-027",
@@ -426,11 +987,31 @@
       "dataSource": "Bloomberg (cross-asset correlation matrices), CBOE (implied correlation indices), portfolio analytics platforms, academic research (Longin and Solnik, Forbes and Rigobon)",
       "leadTime": "Near-zero lead time — correlation breakdown is a crisis amplification mechanism, not a predictor. However, indicators of vulnerability can be tracked: extremely low trailing correlations (indicating complacency), high portfolio leverage conditioned on low-correlation assumptions, and large assets under management in risk parity / VaR-constrained strategies.",
       "reliability": "Correlation breakdown during severe stress events is highly reliable — it happens in virtually every major crisis. The key uncertainty is threshold: moderate stress events may not trigger full correlation breakdown, while severe events consistently do. VIX above 35-40 has historically been a reliable indicator that correlation breakdown is occurring.",
-      "historicalPrecedents": ["2008 GFC (everything sold simultaneously)", "March 2020 COVID (Treasuries sold alongside equities)", "1998 LTCM (convergence trades diverged simultaneously)", "2022 (stocks AND bonds down simultaneously for first time in decades)"],
-      "compoundsWith": ["asset-bubble", "carry-trade", "systemic-banking", "credit-debt", "general"],
+      "historicalPrecedents": [
+        "2008 GFC (everything sold simultaneously)",
+        "March 2020 COVID (Treasuries sold alongside equities)",
+        "1998 LTCM (convergence trades diverged simultaneously)",
+        "2022 (stocks AND bonds down simultaneously for first time in decades)"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "carry-trade",
+        "systemic-banking",
+        "credit-debt",
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["correlation-breakdown", "diversification-failure", "forced-selling", "var-breach", "risk-parity", "amplification", "cross-asset", "safe-haven-failure"]
+      "tags": [
+        "correlation-breakdown",
+        "diversification-failure",
+        "forced-selling",
+        "var-breach",
+        "risk-parity",
+        "amplification",
+        "cross-asset",
+        "safe-haven-failure"
+      ]
     },
     {
       "id": "cm-028",
@@ -441,11 +1022,28 @@
       "dataSource": "Market data (NASDAQ historical), SEC filings, academic studies of dot-com crash (Ofek and Richardson, Brunnermeier and Nagel), journalistic accounts",
       "leadTime": "N/A — historical precedent. The precedent informs the AI bubble trigger analysis (cm-025) with specific parallels.",
       "reliability": "Well-documented historical event with extensive academic and journalistic analysis. The specific parallels (capex bubble, vendor financing, technology adoption curve vs. revenue curve) are genuine and analytically useful, though every cycle has unique elements.",
-      "historicalPrecedents": ["1990s railroad bubble (infrastructure buildout ahead of revenue)", "South Sea Bubble (1720)", "1920s Radio/Electricity bubble"],
-      "compoundsWith": ["ai-specific", "asset-bubble", "credit-debt"],
+      "historicalPrecedents": [
+        "1990s railroad bubble (infrastructure buildout ahead of revenue)",
+        "South Sea Bubble (1720)",
+        "1920s Radio/Electricity bubble"
+      ],
+      "compoundsWith": [
+        "ai-specific",
+        "asset-bubble",
+        "credit-debt"
+      ],
       "currentStatus": "Historical reference — actively used for AI cycle comparison",
       "lastUpdated": "2026-03-28",
-      "tags": ["dot-com", "nasdaq", "telecom-capex", "vendor-financing", "amazon-97-percent-drop", "ai-parallel", "infrastructure-overbuilt", "commoditization"]
+      "tags": [
+        "dot-com",
+        "nasdaq",
+        "telecom-capex",
+        "vendor-financing",
+        "amazon-97-percent-drop",
+        "ai-parallel",
+        "infrastructure-overbuilt",
+        "commoditization"
+      ]
     },
     {
       "id": "cm-029",
@@ -456,11 +1054,30 @@
       "dataSource": "FCIC (Financial Crisis Inquiry Commission) Report (2011), Bernanke/Geithner/Paulson accounts, academic literature (Gorton, Brunnermeier, Acharya), market data",
       "leadTime": "N/A — historical precedent. Key lesson: early warnings were present 18-24 months before the acute phase but were dismissed as 'contained.'",
       "reliability": "The most thoroughly documented and studied financial crisis in history. Lessons are well-established, though the specific crisis mechanism (securitized mortgage chain) is unlikely to repeat in the same form.",
-      "historicalPrecedents": ["1930s Great Depression (closest precedent for 2008)", "1990s Japan bubble collapse", "1997 Asian Financial Crisis"],
-      "compoundsWith": ["credit-debt", "asset-bubble", "systemic-banking", "carry-trade"],
+      "historicalPrecedents": [
+        "1930s Great Depression (closest precedent for 2008)",
+        "1990s Japan bubble collapse",
+        "1997 Asian Financial Crisis"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "asset-bubble",
+        "systemic-banking",
+        "carry-trade"
+      ],
       "currentStatus": "Historical reference — foundational for all modern crisis monitoring frameworks",
       "lastUpdated": "2026-03-28",
-      "tags": ["gfc", "2008", "lehman", "subprime", "securitization", "leverage", "systemic-collapse", "too-big-to-fail", "credit-contraction"]
+      "tags": [
+        "gfc",
+        "2008",
+        "lehman",
+        "subprime",
+        "securitization",
+        "leverage",
+        "systemic-collapse",
+        "too-big-to-fail",
+        "credit-contraction"
+      ]
     },
     {
       "id": "cm-030",
@@ -471,11 +1088,29 @@
       "dataSource": "IMF crisis reports, BIS capital flow data, academic literature (Radelet and Sachs, Corsetti, Pesenti and Roubini), country-level economic data",
       "leadTime": "N/A — historical precedent. Key lesson: the vulnerabilities (current account deficits, short-term foreign borrowing, currency pegs) were identifiable years before the crisis but were dismissed because growth was strong.",
       "reliability": "Well-documented and extensively studied. The crisis clearly demonstrated carry trade risks, contagion dynamics, and the dangers of currency mismatches. Policy lessons influenced subsequent EM reserve accumulation and flexible exchange rate adoption.",
-      "historicalPrecedents": ["1994 Mexican Tequila Crisis (precursor pattern)", "1992 ERM crisis (currency peg collapse)", "1998 Russian default (contagion from Asia)"],
-      "compoundsWith": ["carry-trade", "currency-inflation", "systemic-banking", "geopolitical"],
+      "historicalPrecedents": [
+        "1994 Mexican Tequila Crisis (precursor pattern)",
+        "1992 ERM crisis (currency peg collapse)",
+        "1998 Russian default (contagion from Asia)"
+      ],
+      "compoundsWith": [
+        "carry-trade",
+        "currency-inflation",
+        "systemic-banking",
+        "geopolitical"
+      ],
       "currentStatus": "Historical reference — key precedent for EM vulnerability analysis and carry trade risk assessment",
       "lastUpdated": "2026-03-28",
-      "tags": ["asian-crisis", "1997", "contagion", "carry-trade", "currency-peg", "imf", "capital-flight", "common-creditor"]
+      "tags": [
+        "asian-crisis",
+        "1997",
+        "contagion",
+        "carry-trade",
+        "currency-peg",
+        "imf",
+        "capital-flight",
+        "common-creditor"
+      ]
     },
     {
       "id": "cm-031",
@@ -486,11 +1121,28 @@
       "dataSource": "Real-time market data, OFR FSI readings, CBOE VIX, oil futures, FX rates, news analysis",
       "leadTime": "N/A — real-time case study. Key lesson: geopolitical shocks are inherently unpredictable in timing but their market transmission patterns are predictable and informative.",
       "reliability": "Demonstrates that geopolitical shock impact is highly dependent on pre-existing financial conditions. The same shock has different severity depending on market positioning, leverage, and valuation levels at the time of impact.",
-      "historicalPrecedents": ["1990 Gulf War oil spike", "2022 Russia-Ukraine (energy crisis, sanctions)", "2011 Arab Spring (EM contagion)"],
-      "compoundsWith": ["geopolitical", "energy-shock", "currency-inflation", "asset-bubble"],
+      "historicalPrecedents": [
+        "1990 Gulf War oil spike",
+        "2022 Russia-Ukraine (energy crisis, sanctions)",
+        "2011 Arab Spring (EM contagion)"
+      ],
+      "compoundsWith": [
+        "geopolitical",
+        "energy-shock",
+        "currency-inflation",
+        "asset-bubble"
+      ],
       "currentStatus": "Recent event — actively informing framework calibration",
       "lastUpdated": "2026-03-28",
-      "tags": ["iran-2026", "geopolitical-shock", "oil-spike", "differentiated-impact", "em-vs-us", "compound-analysis", "real-time-monitoring"]
+      "tags": [
+        "iran-2026",
+        "geopolitical-shock",
+        "oil-spike",
+        "differentiated-impact",
+        "em-vs-us",
+        "compound-analysis",
+        "real-time-monitoring"
+      ]
     },
     {
       "id": "cm-032",
@@ -501,11 +1153,26 @@
       "dataSource": "Meta Platforms SEC filings, market data, company earnings calls, analyst reports",
       "leadTime": "N/A — historical precedent. Key lesson: the magnitude of tech stock corrections can be extreme (-75%) even for fundamentally sound businesses, and recovery can be equally dramatic.",
       "reliability": "Well-documented single-stock case study. Limitation: one company's experience does not generalize — for every Meta recovery, there is a Cisco, Intel, or Nokia that never recovered to its peak.",
-      "historicalPrecedents": ["Amazon 2000-2001 ($107 to $7, eventual recovery to $3000+)", "Apple 1997 (near bankruptcy, eventual world's most valuable company)", "Cisco 2000 (crashed and never recovered to peak — counter-example)"],
-      "compoundsWith": ["asset-bubble", "ai-specific"],
+      "historicalPrecedents": [
+        "Amazon 2000-2001 ($107 to $7, eventual recovery to $3000+)",
+        "Apple 1997 (near bankruptcy, eventual world's most valuable company)",
+        "Cisco 2000 (crashed and never recovered to peak — counter-example)"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "ai-specific"
+      ],
       "currentStatus": "Historical reference — key pattern for AI stock correction analysis",
       "lastUpdated": "2026-03-28",
-      "tags": ["meta", "75-percent-crash", "recovery", "panic-selling", "year-of-efficiency", "buying-opportunity-vs-permanent-impairment", "ai-correction-template"]
+      "tags": [
+        "meta",
+        "75-percent-crash",
+        "recovery",
+        "panic-selling",
+        "year-of-efficiency",
+        "buying-opportunity-vs-permanent-impairment",
+        "ai-correction-template"
+      ]
     },
     {
       "id": "cm-033",
@@ -516,11 +1183,29 @@
       "dataSource": "Historical analysis (1970s, 2008, 2022), FRED (oil prices, CPI, Fed funds rate), IMF World Economic Outlook scenarios",
       "leadTime": "Each component can be tracked individually: oil supply risk (days-weeks), inflation trends (months), policy trajectory (months). The compound risk can be assessed continuously by monitoring the overlap.",
       "reliability": "The compound interaction is historically proven — every instance of simultaneous energy shock + high inflation + tight policy has produced severe economic outcomes. The key uncertainty is whether the compound will actually occur (geopolitical events are unpredictable).",
-      "historicalPrecedents": ["1973-75 oil embargo + inflation + Nixon-era tightening", "1979-82 Iranian Revolution + inflation + Volcker shock", "2022 Russia-Ukraine + inflation + Fed hiking cycle"],
-      "compoundsWith": ["energy-shock", "currency-inflation", "yield-curve", "credit-debt", "geopolitical"],
+      "historicalPrecedents": [
+        "1973-75 oil embargo + inflation + Nixon-era tightening",
+        "1979-82 Iranian Revolution + inflation + Volcker shock",
+        "2022 Russia-Ukraine + inflation + Fed hiking cycle"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "currency-inflation",
+        "yield-curve",
+        "credit-debt",
+        "geopolitical"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["compound-crisis", "oil-shock", "stagflation", "policy-trilemma", "volcker", "impossible-choice", "services-inflation"]
+      "tags": [
+        "compound-crisis",
+        "oil-shock",
+        "stagflation",
+        "policy-trilemma",
+        "volcker",
+        "impossible-choice",
+        "services-inflation"
+      ]
     },
     {
       "id": "cm-034",
@@ -531,11 +1216,29 @@
       "dataSource": "Financial Stability Board (leverage data), FRED (credit spreads), BIS (shadow banking monitor), SEC (broker-dealer leverage), Bloomberg (credit issuance volumes)",
       "leadTime": "Leverage and valuation metrics are observable months to years in advance. Credit freeze onset is rapid (days to weeks). The compound risk can be monitored continuously.",
       "reliability": "The 2008 crisis provided definitive validation of this compound mechanism. However, post-2008 regulation (Dodd-Frank, Basel III) has reduced banking sector leverage significantly. The risk has partially migrated to non-bank financial institutions (private credit, hedge funds) where regulation is lighter.",
-      "historicalPrecedents": ["2008 Global Financial Crisis (definitive example)", "1929-33 Great Depression (leverage + margin calls + bank failures)", "1998 LTCM (leverage + spread blowout + liquidity freeze)"],
-      "compoundsWith": ["credit-debt", "asset-bubble", "systemic-banking", "carry-trade"],
+      "historicalPrecedents": [
+        "2008 Global Financial Crisis (definitive example)",
+        "1929-33 Great Depression (leverage + margin calls + bank failures)",
+        "1998 LTCM (leverage + spread blowout + liquidity freeze)"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "asset-bubble",
+        "systemic-banking",
+        "carry-trade"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["compound-crisis", "credit-freeze", "leverage", "doom-loop", "margin-calls", "forced-selling", "shadow-banking", "collateral-destruction"]
+      "tags": [
+        "compound-crisis",
+        "credit-freeze",
+        "leverage",
+        "doom-loop",
+        "margin-calls",
+        "forced-selling",
+        "shadow-banking",
+        "collateral-destruction"
+      ]
     },
     {
       "id": "cm-035",
@@ -546,11 +1249,34 @@
       "dataSource": "Composite analysis across all trigger categories, ECB CISS methodology papers, BIS systemic risk research",
       "leadTime": "Depends on the specific triggers involved. The compound analysis adds no additional lead time but significantly increases the confidence and severity assessment of existing signals.",
       "reliability": "The principle is empirically validated across every major systemic crisis. The key finding — that crises are most severe when multiple triggers activate simultaneously — is essentially unanimous in the academic and institutional literature. Limitation: determining exact thresholds for 'elevated' across diverse trigger categories requires judgment.",
-      "historicalPrecedents": ["2008 GFC (credit + housing + leverage + banking simultaneously)", "1997 Asian Crisis (currency + carry trade + banking simultaneously)", "1979-82 (oil + inflation + tight money simultaneously)"],
-      "compoundsWith": ["general", "credit-debt", "asset-bubble", "geopolitical", "energy-shock", "currency-inflation", "systemic-banking", "ai-specific", "carry-trade"],
+      "historicalPrecedents": [
+        "2008 GFC (credit + housing + leverage + banking simultaneously)",
+        "1997 Asian Crisis (currency + carry trade + banking simultaneously)",
+        "1979-82 (oil + inflation + tight money simultaneously)"
+      ],
+      "compoundsWith": [
+        "general",
+        "credit-debt",
+        "asset-bubble",
+        "geopolitical",
+        "energy-shock",
+        "currency-inflation",
+        "systemic-banking",
+        "ai-specific",
+        "carry-trade"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["compound-crisis", "non-linear", "multi-trigger", "ecb-ciss", "systemic", "cross-correlation", "diversification-failure", "meta-indicator"]
+      "tags": [
+        "compound-crisis",
+        "non-linear",
+        "multi-trigger",
+        "ecb-ciss",
+        "systemic",
+        "cross-correlation",
+        "diversification-failure",
+        "meta-indicator"
+      ]
     },
     {
       "id": "cm-036",
@@ -561,11 +1287,31 @@
       "dataSource": "BEA Input-Output tables, World Input-Output Database, company supply chain disclosures, semiconductor industry data (SEMI, SIA), logistics data (Freightos Baltic Index, container ship tracking)",
       "leadTime": "Chokepoint vulnerability can be identified years in advance. Specific disruption triggers (geopolitical, natural disaster) may provide days to months of warning depending on the event type.",
       "reliability": "Supply chain cascade dynamics were dramatically validated during COVID-19. The mechanisms are well-understood. The key uncertainty is which chokepoints will be disrupted and when.",
-      "historicalPrecedents": ["COVID-19 supply chain crisis (2020-2022)", "2011 Tohoku earthquake (auto/electronics supply chains)", "2021 Suez Canal blockage", "2022 semiconductor shortage"],
-      "compoundsWith": ["geopolitical", "energy-shock", "ai-specific", "general"],
+      "historicalPrecedents": [
+        "COVID-19 supply chain crisis (2020-2022)",
+        "2011 Tohoku earthquake (auto/electronics supply chains)",
+        "2021 Suez Canal blockage",
+        "2022 semiconductor shortage"
+      ],
+      "compoundsWith": [
+        "geopolitical",
+        "energy-shock",
+        "ai-specific",
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["supply-chain", "cascade", "chokepoints", "semiconductor", "tsmc", "rare-earth", "input-output", "all-or-nothing", "covid-validated"]
+      "tags": [
+        "supply-chain",
+        "cascade",
+        "chokepoints",
+        "semiconductor",
+        "tsmc",
+        "rare-earth",
+        "input-output",
+        "all-or-nothing",
+        "covid-validated"
+      ]
     },
     {
       "id": "cm-037",
@@ -576,11 +1322,29 @@
       "dataSource": "Cross-referencing AI-specific data (cm-025) with composite stress indices (cm-006 through cm-011) and trigger monitors (cm-019 through cm-027)",
       "leadTime": "The structural vulnerability is identifiable now. The timing of the compound event depends on when AI revenue disappoints AND when broader stress appears. Either could come first; the crisis risk peaks when both coincide.",
       "reliability": "High confidence that the compound scenario would be significantly worse than either component alone. This is supported by the historical pattern of bubble deflation + macro stress compounds (dot-com crash during 2001 recession, housing crash during 2008 credit crisis). Low confidence in timing.",
-      "historicalPrecedents": ["2000-02 dot-com crash + recession (tech bubble + macro weakness)", "2008 housing crash + credit crisis (asset bubble + financial system stress)", "1929 stock market crash + bank failures (market bubble + banking crisis)"],
-      "compoundsWith": ["ai-specific", "asset-bubble", "credit-debt", "systemic-banking", "carry-trade", "general"],
+      "historicalPrecedents": [
+        "2000-02 dot-com crash + recession (tech bubble + macro weakness)",
+        "2008 housing crash + credit crisis (asset bubble + financial system stress)",
+        "1929 stock market crash + bank failures (market bubble + banking crisis)"
+      ],
+      "compoundsWith": [
+        "ai-specific",
+        "asset-bubble",
+        "credit-debt",
+        "systemic-banking",
+        "carry-trade",
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["ai-compound", "mag-7-concentration", "index-mechanical-risk", "simultaneous-stress", "sector-rotation-vs-systemic", "worst-case-scenario"]
+      "tags": [
+        "ai-compound",
+        "mag-7-concentration",
+        "index-mechanical-risk",
+        "simultaneous-stress",
+        "sector-rotation-vs-systemic",
+        "worst-case-scenario"
+      ]
     },
     {
       "id": "cm-038",
@@ -591,11 +1355,30 @@
       "dataSource": "Bridgewater Associates published research, Dalio's books and LinkedIn posts, investor letters (some publicly available), 13F filings (SEC)",
       "leadTime": "The systematized approach provides continuous forward-looking assessment. Bridgewater's framework is designed to anticipate regime changes months to quarters in advance.",
       "reliability": "Among the strongest track records in the hedge fund industry, particularly during crisis periods. Limitation: specific positions and signals are proprietary and not available in real-time. Published research provides framework-level insights but not trading signals.",
-      "historicalPrecedents": ["2008 GFC (Pure Alpha gained while markets crashed)", "2010-12 European crisis (successfully navigated)", "2020 COVID (mixed early performance, strong recovery)", "2025 (+26.2% YTD through Sep)"],
-      "compoundsWith": ["credit-debt", "yield-curve", "currency-inflation", "general"],
+      "historicalPrecedents": [
+        "2008 GFC (Pure Alpha gained while markets crashed)",
+        "2010-12 European crisis (successfully navigated)",
+        "2020 COVID (mixed early performance, strong recovery)",
+        "2025 (+26.2% YTD through Sep)"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "yield-curve",
+        "currency-inflation",
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["bridgewater", "dalio", "pure-alpha", "risk-parity", "all-weather", "300-decision-rules", "alpha-beta-separation", "debt-cycle"]
+      "tags": [
+        "bridgewater",
+        "dalio",
+        "pure-alpha",
+        "risk-parity",
+        "all-weather",
+        "300-decision-rules",
+        "alpha-beta-separation",
+        "debt-cycle"
+      ]
     },
     {
       "id": "cm-039",
@@ -606,11 +1389,29 @@
       "dataSource": "Universa investor letters (limited public availability), Taleb's published works, CBOE options data, VIX term structure data",
       "leadTime": "Universa's approach explicitly does not attempt to predict crisis timing. The framework is about maintaining persistent hedge exposure rather than timing entry/exit.",
       "reliability": "Extremely effective during severe crashes (March 2020 is the prime example). The strategy's limitation is the steady cost of carry during non-crisis periods — puts expire worthless during calm markets. The net portfolio return depends on how frequently crashes occur and how severe they are. Over a full cycle, the strategy can be highly effective or costly depending on crash frequency.",
-      "historicalPrecedents": ["March 2020 COVID crash (+3,600% on hedge)", "2008 GFC (Universa predecessors profited)", "2018 Volmageddon (February VIX spike)"],
-      "compoundsWith": ["asset-bubble", "carry-trade", "general"],
+      "historicalPrecedents": [
+        "March 2020 COVID crash (+3,600% on hedge)",
+        "2008 GFC (Universa predecessors profited)",
+        "2018 Volmageddon (February VIX spike)"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "carry-trade",
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["universa", "tail-risk", "black-swan", "taleb", "spitznagel", "put-options", "convexity", "vix-term-structure", "crash-protection"]
+      "tags": [
+        "universa",
+        "tail-risk",
+        "black-swan",
+        "taleb",
+        "spitznagel",
+        "put-options",
+        "convexity",
+        "vix-term-structure",
+        "crash-protection"
+      ]
     },
     {
       "id": "cm-040",
@@ -621,11 +1422,29 @@
       "dataSource": "AQR published research (aqr.com/insights), academic papers by Asness et al., 13F filings, Journal of Portfolio Management articles",
       "leadTime": "AQR's risk decomposition is a structural analysis tool rather than a timing tool. It identifies vulnerabilities that may persist for extended periods before materializing as losses.",
       "reliability": "AQR's academic rigor is among the highest in the hedge fund industry. Their risk decomposition framework has been validated across multiple crisis periods. Limitation: knowing that a strategy carries hidden crash risk does not tell you when the crash will occur.",
-      "historicalPrecedents": ["March 2009 momentum crash (one of the largest in history)", "2020 'value crash' (value factors suffered extreme drawdown)", "2007 quant meltdown (factor crowding + deleveraging)"],
-      "compoundsWith": ["asset-bubble", "carry-trade", "credit-debt", "general"],
+      "historicalPrecedents": [
+        "March 2009 momentum crash (one of the largest in history)",
+        "2020 'value crash' (value factors suffered extreme drawdown)",
+        "2007 quant meltdown (factor crowding + deleveraging)"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "carry-trade",
+        "credit-debt",
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["aqr", "asness", "risk-decomposition", "alpha-vs-beta", "momentum-crash", "hidden-risk", "volatility-selling", "leverage-amplification"]
+      "tags": [
+        "aqr",
+        "asness",
+        "risk-decomposition",
+        "alpha-vs-beta",
+        "momentum-crash",
+        "hidden-risk",
+        "volatility-selling",
+        "leverage-amplification"
+      ]
     },
     {
       "id": "cm-041",
@@ -636,11 +1455,29 @@
       "dataSource": "GMO quarterly forecasts (publicly available at gmo.com), Grantham's quarterly letters, GMO research papers, academic work on long-term return prediction",
       "leadTime": "7-year forecast horizon. GMO's framework explicitly does not predict timing — it predicts the direction and approximate magnitude of 7-year forward returns.",
       "reliability": "Strong long-term track record on directional calls and return forecasting. The 7-Year Forecast has correctly identified periods of overvaluation and undervaluation across multiple asset classes. Limitation: the 7-year horizon means you can be 'right' but suffer significant interim losses while waiting for reversion.",
-      "historicalPrecedents": ["1999-2000 dot-com call (correct, early by ~18 months)", "2007 housing/credit call (correct, early by ~12 months)", "2022 'superbubble' call (partially realized, ongoing)", "2009 EM value call (correct, EM outperformed)"],
-      "compoundsWith": ["asset-bubble", "credit-debt", "ai-specific"],
+      "historicalPrecedents": [
+        "1999-2000 dot-com call (correct, early by ~18 months)",
+        "2007 housing/credit call (correct, early by ~12 months)",
+        "2022 'superbubble' call (partially realized, ongoing)",
+        "2009 EM value call (correct, EM outperformed)"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "credit-debt",
+        "ai-specific"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["gmo", "grantham", "valuation-reversion", "7-year-forecast", "patient-capital", "quality-stocks", "mean-reversion", "bubble-calling"]
+      "tags": [
+        "gmo",
+        "grantham",
+        "valuation-reversion",
+        "7-year-forecast",
+        "patient-capital",
+        "quality-stocks",
+        "mean-reversion",
+        "bubble-calling"
+      ]
     },
     {
       "id": "cm-042",
@@ -651,11 +1488,24 @@
       "dataSource": "Academic research (Journal of Financial Economics, Journal of Banking & Finance, IMF working papers), BIS Innovation Hub, OFR research, fintech company publications",
       "leadTime": "Depends on the specific model. ML models trained on monthly data typically produce 3-12 month forecasts. Higher-frequency models (daily/weekly) produce shorter-range forecasts. Reported lead times in academic studies range from 1 month to 2 years.",
       "reliability": "In backtesting, ML models often outperform traditional models. Out-of-sample performance is less clear, as few models have been tested through multiple crisis cycles. The field is actively developing and no consensus 'best model' has emerged.",
-      "historicalPrecedents": ["N/A — emerging method. Some models have been backtested against 2008 GFC, 2020 COVID, and European sovereign crisis with promising but not definitive results."],
-      "compoundsWith": ["general"],
+      "historicalPrecedents": [
+        "N/A — emerging method. Some models have been backtested against 2008 GFC, 2020 COVID, and European sovereign crisis with promising but not definitive results."
+      ],
+      "compoundsWith": [
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["machine-learning", "ai-prediction", "non-linear", "overfitting-risk", "small-sample", "goodharts-law", "augmented-analysis", "emerging"]
+      "tags": [
+        "machine-learning",
+        "ai-prediction",
+        "non-linear",
+        "overfitting-risk",
+        "small-sample",
+        "goodharts-law",
+        "augmented-analysis",
+        "emerging"
+      ]
     },
     {
       "id": "cm-043",
@@ -666,11 +1516,25 @@
       "dataSource": "New York Fed Weekly Economic Index, Atlanta Fed GDPNow, Cleveland Fed nowcasting model, Google Trends, credit card transaction data (anonymized), freight data (Cass Freight Index), electricity consumption (EIA weekly)",
       "leadTime": "1-3 months ahead of official statistics. This is not prediction of the future — it is faster measurement of the present, which effectively functions as a 1-3 month lead on official data releases.",
       "reliability": "Demonstrated strong performance during COVID-19 crisis (the most severe rapid-onset economic event in modern history). Less tested during slower-developing crises where weekly data may not provide as much advantage. Noise is higher than monthly/quarterly official data.",
-      "historicalPrecedents": ["COVID-19 March 2020 (nowcasting detected collapse weeks before official data)", "2008 GFC (less dramatic advantage because the crisis developed over months rather than weeks)"],
-      "compoundsWith": ["general"],
+      "historicalPrecedents": [
+        "COVID-19 March 2020 (nowcasting detected collapse weeks before official data)",
+        "2008 GFC (less dramatic advantage because the crisis developed over months rather than weeks)"
+      ],
+      "compoundsWith": [
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["nowcasting", "high-frequency", "weekly-data", "real-time", "gdpnow", "wei", "speed-advantage", "covid-validated"]
+      "tags": [
+        "nowcasting",
+        "high-frequency",
+        "weekly-data",
+        "real-time",
+        "gdpnow",
+        "wei",
+        "speed-advantage",
+        "covid-validated"
+      ]
     },
     {
       "id": "cm-044",
@@ -681,11 +1545,25 @@
       "dataSource": "Academic research papers, OFR working papers, central bank research departments, fintech company publications. Underlying data: publicly available market data (limited) or confidential supervisory data (accessible only to regulators).",
       "leadTime": "Research models have demonstrated 1-6 month lead times for individual default prediction. System-wide crisis prediction lead times are less well-established.",
       "reliability": "Promising but unproven at scale. Out-of-sample backtesting shows improvement over traditional models, but no temporal graph learning model has been tested through a real-time systemic crisis. The field is approximately 3-5 years from potential production deployment at major institutions.",
-      "historicalPrecedents": ["N/A — emerging method. Backtested against 2008 GFC and 2023 banking stress with encouraging but preliminary results."],
-      "compoundsWith": ["systemic-banking", "credit-debt"],
+      "historicalPrecedents": [
+        "N/A — emerging method. Backtested against 2008 GFC and 2023 banking stress with encouraging but preliminary results."
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "credit-debt"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["temporal-graph-learning", "gnn", "network-dynamics", "deep-learning", "default-prediction", "cascading-default", "emerging", "cutting-edge"]
+      "tags": [
+        "temporal-graph-learning",
+        "gnn",
+        "network-dynamics",
+        "deep-learning",
+        "default-prediction",
+        "cascading-default",
+        "emerging",
+        "cutting-edge"
+      ]
     },
     {
       "id": "cm-045",
@@ -696,11 +1574,28 @@
       "dataSource": "Twitter/X API, Reddit API, Google Trends, news aggregators (GDELT, EventRegistry), satellite imagery providers (Planet Labs, Maxar), credit card transaction data (aggregated/anonymized), AIS ship tracking data",
       "leadTime": "Hours to weeks ahead of traditional data, depending on the source. Social sentiment: hours to days. Transaction data: days. Satellite: days to weeks. The advantage is speed and granularity rather than long-range forecasting.",
       "reliability": "Nascent and highly variable. Some alternative data sources have demonstrated clear predictive value (transaction data, shipping data). Others (social media sentiment) have mixed track records. The field is rapidly evolving.",
-      "historicalPrecedents": ["COVID-19 (credit card data and mobility data detected economic collapse before official statistics)", "2022 Russia-Ukraine (satellite imagery tracked military buildup before invasion)", "Various EM crises (nighttime light data revealed economic deterioration before official GDP revisions)"],
-      "compoundsWith": ["general", "geopolitical"],
+      "historicalPrecedents": [
+        "COVID-19 (credit card data and mobility data detected economic collapse before official statistics)",
+        "2022 Russia-Ukraine (satellite imagery tracked military buildup before invasion)",
+        "Various EM crises (nighttime light data revealed economic deterioration before official GDP revisions)"
+      ],
+      "compoundsWith": [
+        "general",
+        "geopolitical"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["alternative-data", "satellite", "sentiment-analysis", "nlp", "transaction-data", "google-trends", "ship-tracking", "emerging", "signal-to-noise"]
+      "tags": [
+        "alternative-data",
+        "satellite",
+        "sentiment-analysis",
+        "nlp",
+        "transaction-data",
+        "google-trends",
+        "ship-tracking",
+        "emerging",
+        "signal-to-noise"
+      ]
     },
     {
       "id": "cm-046",
@@ -711,11 +1606,31 @@
       "dataSource": "AI-Rev engine crisis scenario analysis (28-industry model), historical sector performance during crises, BEA input-output tables, Bloomberg sector returns during stress events",
       "leadTime": "Vulnerability is structural and identifiable now. The timing depends on when a compound crisis actually materializes.",
       "reliability": "Historical sector performance during crises is well-documented and the patterns are consistent. The AI-Rev engine's scenario analysis is based on these historical patterns plus cross-industry effect modeling. Limitation: each crisis is different, and sector vulnerability rankings can shift based on the specific mix of triggers.",
-      "historicalPrecedents": ["2008 GFC (financials, real estate, autos most impacted)", "2020 COVID (travel, hospitality, entertainment most impacted)", "2001 dot-com (tech, telecom most impacted)", "1973-75 oil crisis (energy-intensive industries most impacted)"],
-      "compoundsWith": ["credit-debt", "asset-bubble", "energy-shock", "systemic-banking", "ai-specific"],
+      "historicalPrecedents": [
+        "2008 GFC (financials, real estate, autos most impacted)",
+        "2020 COVID (travel, hospitality, entertainment most impacted)",
+        "2001 dot-com (tech, telecom most impacted)",
+        "1973-75 oil crisis (energy-intensive industries most impacted)"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "asset-bubble",
+        "energy-shock",
+        "systemic-banking",
+        "ai-specific"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["industry-vulnerability", "ai-rev-engine", "cyclical", "leverage", "capital-intensive", "compound-crisis", "sector-analysis", "28-industries"]
+      "tags": [
+        "industry-vulnerability",
+        "ai-rev-engine",
+        "cyclical",
+        "leverage",
+        "capital-intensive",
+        "compound-crisis",
+        "sector-analysis",
+        "28-industries"
+      ]
     },
     {
       "id": "cm-047",
@@ -726,11 +1641,29 @@
       "dataSource": "AI-Rev engine crisis scenario analysis, S&P 500 sector returns during historical crises, Bloomberg sector analytics, academic research on defensive sectors",
       "leadTime": "Resilience patterns are structural and identifiable in advance. Useful for portfolio positioning before crises materialize.",
       "reliability": "Historical resilience patterns are well-documented and persistent across crisis types. The key caveat is that 'resilient' does not mean 'unaffected' — even defensive sectors decline during severe crises, just less than cyclical sectors.",
-      "historicalPrecedents": ["2008 GFC (healthcare, utilities, staples outperformed)", "2020 COVID (healthcare, defense, tech outperformed)", "2022 inflation/rate shock (energy outperformed)", "1973 oil crisis (defense, energy outperformed)"],
-      "compoundsWith": ["general", "geopolitical", "energy-shock"],
+      "historicalPrecedents": [
+        "2008 GFC (healthcare, utilities, staples outperformed)",
+        "2020 COVID (healthcare, defense, tech outperformed)",
+        "2022 inflation/rate shock (energy outperformed)",
+        "1973 oil crisis (defense, energy outperformed)"
+      ],
+      "compoundsWith": [
+        "general",
+        "geopolitical",
+        "energy-shock"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["crisis-resilience", "defensive-sectors", "defense", "healthcare", "utilities", "consumer-staples", "flight-to-safety", "counter-cyclical"]
+      "tags": [
+        "crisis-resilience",
+        "defensive-sectors",
+        "defense",
+        "healthcare",
+        "utilities",
+        "consumer-staples",
+        "flight-to-safety",
+        "counter-cyclical"
+      ]
     },
     {
       "id": "cm-048",
@@ -741,11 +1674,29 @@
       "dataSource": "AI-Rev engine cross-industry effect model (167 mapped effects), BEA input-output tables, historical sector correlation data during crises vs. normal periods",
       "leadTime": "The regime-dependent nature of cross-industry effects is a structural insight. It does not predict crisis timing but does predict how the crisis will propagate once triggered.",
       "reliability": "The principle that cross-industry effects change character during crises is well-supported by historical evidence. The specific magnitude estimates depend on the AI-Rev engine's modeling assumptions and are less certain.",
-      "historicalPrecedents": ["2008 GFC (financial engine reversal cascaded through all sectors)", "2001 dot-com (tech/telecom engine reversal)", "2020 COVID (services/travel engine reversal, but tech became an engine — unusual)"],
-      "compoundsWith": ["ai-specific", "credit-debt", "asset-bubble", "systemic-banking", "general"],
+      "historicalPrecedents": [
+        "2008 GFC (financial engine reversal cascaded through all sectors)",
+        "2001 dot-com (tech/telecom engine reversal)",
+        "2020 COVID (services/travel engine reversal, but tech became an engine — unusual)"
+      ],
+      "compoundsWith": [
+        "ai-specific",
+        "credit-debt",
+        "asset-bubble",
+        "systemic-banking",
+        "general"
+      ],
       "currentStatus": "unknown",
       "lastUpdated": "2026-03-28",
-      "tags": ["cross-industry-cascade", "ai-rev-engine", "regime-dependent", "engine-reversal", "positive-sum-vs-negative-sum", "concentration-risk", "167-cross-effects"]
+      "tags": [
+        "cross-industry-cascade",
+        "ai-rev-engine",
+        "regime-dependent",
+        "engine-reversal",
+        "positive-sum-vs-negative-sum",
+        "concentration-risk",
+        "167-cross-effects"
+      ]
     },
     {
       "id": "cm-049",
@@ -756,11 +1707,27 @@
       "dataSource": "FRED Series T10Y3M",
       "leadTime": "Historically 6-18 months from inversion to recession, with recession often beginning shortly after un-inversion. Currently 18 months post-inversion.",
       "reliability": "The 10Y-3M spread has predicted every US recession since the 1960s with only one false positive (1966). The un-inversion-to-recession pattern held in 2001 and 2007-2008.",
-      "historicalPrecedents": ["Late 2000 un-inversion preceded March 2001 recession", "Mid-2007 un-inversion preceded December 2007 Great Recession", "1989 un-inversion preceded July 1990 recession"],
-      "compoundsWith": ["currency-inflation", "systemic-banking", "energy-shock", "asset-bubble"],
+      "historicalPrecedents": [
+        "Late 2000 un-inversion preceded March 2001 recession",
+        "Mid-2007 un-inversion preceded December 2007 Great Recession",
+        "1989 un-inversion preceded July 1990 recession"
+      ],
+      "compoundsWith": [
+        "currency-inflation",
+        "systemic-banking",
+        "energy-shock",
+        "asset-bubble"
+      ],
       "currentStatus": "warning — un-inversion pattern active, matches 2000 and 2007 pre-recession setup",
       "lastUpdated": "2026-03-29",
-      "tags": ["yield-curve", "recession-signal", "un-inversion", "FRED", "10Y-3M", "current-reading"]
+      "tags": [
+        "yield-curve",
+        "recession-signal",
+        "un-inversion",
+        "FRED",
+        "10Y-3M",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-050",
@@ -771,11 +1738,26 @@
       "dataSource": "FRED Series T10Y2Y",
       "leadTime": "Bear steepening phases have historically preceded recessions by 3-12 months.",
       "reliability": "The 10Y-2Y spread is the most widely followed yield curve measure. Bear steepening specifically has a strong track record as a pre-recession signal, though it has occasionally occurred without subsequent recession.",
-      "historicalPrecedents": ["Late 2000 bear steepening preceded 2001 recession", "Summer 2007 bear steepening preceded Great Recession", "1989-1990 bear steepening preceded 1990 recession"],
-      "compoundsWith": ["currency-inflation", "energy-shock", "systemic-banking", "asset-bubble"],
+      "historicalPrecedents": [
+        "Late 2000 bear steepening preceded 2001 recession",
+        "Summer 2007 bear steepening preceded Great Recession",
+        "1989-1990 bear steepening preceded 1990 recession"
+      ],
+      "compoundsWith": [
+        "currency-inflation",
+        "energy-shock",
+        "systemic-banking",
+        "asset-bubble"
+      ],
       "currentStatus": "warning — bear steepening pattern active",
       "lastUpdated": "2026-03-29",
-      "tags": ["yield-curve", "bear-steepening", "recession-signal", "10Y-2Y", "current-reading"]
+      "tags": [
+        "yield-curve",
+        "bear-steepening",
+        "recession-signal",
+        "10Y-2Y",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-051",
@@ -786,11 +1768,26 @@
       "dataSource": "BIS Credit-to-GDP gaps dataset",
       "leadTime": "2-5 years when gap exceeds 10%. Early warning (above 2%) provides 1-3 years lead time.",
       "reliability": "Among the most reliable crisis indicators when elevated. The BIS considers it the single best early warning indicator for banking crises. Current negative reading is a genuine positive signal, though it does not capture public debt risk.",
-      "historicalPrecedents": ["2005-2007 gap above 10% preceded 2008 GFC", "1997 Asian economies showed elevated gaps before crisis", "Spain/Ireland gaps above 25% before 2010 crisis"],
-      "compoundsWith": ["systemic-banking", "asset-bubble", "currency-inflation"],
+      "historicalPrecedents": [
+        "2005-2007 gap above 10% preceded 2008 GFC",
+        "1997 Asian economies showed elevated gaps before crisis",
+        "Spain/Ireland gaps above 25% before 2010 crisis"
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "asset-bubble",
+        "currency-inflation"
+      ],
       "currentStatus": "normal — gap below danger threshold",
       "lastUpdated": "2026-03-29",
-      "tags": ["credit-gap", "BIS", "deleveraging", "private-credit", "early-warning", "current-reading"]
+      "tags": [
+        "credit-gap",
+        "BIS",
+        "deleveraging",
+        "private-credit",
+        "early-warning",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-052",
@@ -801,11 +1798,27 @@
       "dataSource": "Robert Shiller's Yale website, YCharts",
       "leadTime": "Not a timing indicator — CAPE can remain elevated for years. Strong predictor of 10-year forward returns. Extreme readings (above 30) increase the severity of any correction that does occur.",
       "reliability": "Among the most reliable long-term valuation indicators. Correctly identified overvaluation before every major crash. Limitation: poor timing signal — markets can remain expensive for extended periods.",
-      "historicalPrecedents": ["1929 CAPE ~33 preceded Great Depression", "2000 CAPE ~44 preceded dot-com crash", "2007 CAPE ~28 preceded GFC (below current level)"],
-      "compoundsWith": ["yield-curve", "credit-debt", "ai-specific", "energy-shock"],
+      "historicalPrecedents": [
+        "1929 CAPE ~33 preceded Great Depression",
+        "2000 CAPE ~44 preceded dot-com crash",
+        "2007 CAPE ~28 preceded GFC (below current level)"
+      ],
+      "compoundsWith": [
+        "yield-curve",
+        "credit-debt",
+        "ai-specific",
+        "energy-shock"
+      ],
       "currentStatus": "critical — 2.56x historical average, near dot-com era levels",
       "lastUpdated": "2026-03-29",
-      "tags": ["CAPE", "overvaluation", "Shiller", "dot-com-parallel", "long-term-returns", "current-reading"]
+      "tags": [
+        "CAPE",
+        "overvaluation",
+        "Shiller",
+        "dot-com-parallel",
+        "long-term-returns",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-053",
@@ -816,11 +1829,28 @@
       "dataSource": "OFR Financial Stress Index data portal",
       "leadTime": "Contemporaneous to very short-term. Volatility component divergence can lead broader stress by 2-8 weeks.",
       "reliability": "High reliability as a stress measure. The -0.56 headline is genuine but the volatility divergence warrants monitoring.",
-      "historicalPrecedents": ["March 2020 spike from sub-zero to 15+ in days", "2008 GFC peak near 25", "2023 SVB stress peak near 5"],
-      "compoundsWith": ["credit-debt", "systemic-banking", "energy-shock", "currency-inflation", "asset-bubble"],
+      "historicalPrecedents": [
+        "March 2020 spike from sub-zero to 15+ in days",
+        "2008 GFC peak near 25",
+        "2023 SVB stress peak near 5"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "systemic-banking",
+        "energy-shock",
+        "currency-inflation",
+        "asset-bubble"
+      ],
       "currentStatus": "mixed — headline below average but volatility component elevated",
       "lastUpdated": "2026-03-29",
-      "tags": ["OFR-FSI", "volatility", "stress-index", "divergence", "pre-crisis-positioning", "current-reading"]
+      "tags": [
+        "OFR-FSI",
+        "volatility",
+        "stress-index",
+        "divergence",
+        "pre-crisis-positioning",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-054",
@@ -831,11 +1861,30 @@
       "dataSource": "CBOE, VIXCentral",
       "leadTime": "Very short-term — days to weeks. VIX backwardation signals an imminent event rather than a distant risk.",
       "reliability": "High for near-term directional signal. VIX above 30 plus backwardation has historically preceded significant market declines within 1-4 weeks. Limitation: VIX can spike and normalize quickly without broader crisis materializing.",
-      "historicalPrecedents": ["2022 Russia-Ukraine invasion (VIX >36 with backwardation)", "March 2020 COVID (VIX >80 with extreme backwardation)", "2008 GFC (VIX >80 with sustained backwardation)", "August 2015 China devaluation (brief VIX spike >40)"],
-      "compoundsWith": ["energy-shock", "geopolitical", "yield-curve", "asset-bubble", "currency-inflation"],
+      "historicalPrecedents": [
+        "2022 Russia-Ukraine invasion (VIX >36 with backwardation)",
+        "March 2020 COVID (VIX >80 with extreme backwardation)",
+        "2008 GFC (VIX >80 with sustained backwardation)",
+        "August 2015 China devaluation (brief VIX spike >40)"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "geopolitical",
+        "yield-curve",
+        "asset-bubble",
+        "currency-inflation"
+      ],
       "currentStatus": "critical — VIX >30 with inverted term structure signals acute near-term panic",
       "lastUpdated": "2026-03-29",
-      "tags": ["VIX", "backwardation", "volatility", "panic-signal", "term-structure", "options-market", "current-reading"]
+      "tags": [
+        "VIX",
+        "backwardation",
+        "volatility",
+        "panic-signal",
+        "term-structure",
+        "options-market",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-055",
@@ -846,11 +1895,27 @@
       "dataSource": "Federal Reserve Z.1 Financial Accounts",
       "leadTime": "Slow-moving indicator. Elevated levels create vulnerability that persists for quarters to years, with the actual crisis triggered by rate changes, revenue shocks, or refinancing failures.",
       "reliability": "Strong empirical relationship between elevated corporate debt-to-GDP and subsequent financial stress. The 2008 GFC occurred at a lower ratio than today's reading.",
-      "historicalPrecedents": ["Pre-2008 GFC peak at ~45% preceded worst financial crisis in 80 years", "2020 COVID spike above 55% required unprecedented Fed intervention", "Early 2000s ratio at ~44% preceded corporate default wave"],
-      "compoundsWith": ["yield-curve", "systemic-banking", "currency-inflation", "ai-specific"],
+      "historicalPrecedents": [
+        "Pre-2008 GFC peak at ~45% preceded worst financial crisis in 80 years",
+        "2020 COVID spike above 55% required unprecedented Fed intervention",
+        "Early 2000s ratio at ~44% preceded corporate default wave"
+      ],
+      "compoundsWith": [
+        "yield-curve",
+        "systemic-banking",
+        "currency-inflation",
+        "ai-specific"
+      ],
       "currentStatus": "elevated — near 50% danger threshold, above 2007 pre-crisis level",
       "lastUpdated": "2026-03-29",
-      "tags": ["corporate-debt", "leverage", "Z1", "refinancing-wall", "interest-rate-vulnerability", "current-reading"]
+      "tags": [
+        "corporate-debt",
+        "leverage",
+        "Z1",
+        "refinancing-wall",
+        "interest-rate-vulnerability",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-056",
@@ -861,11 +1926,27 @@
       "dataSource": "FDIC Quarterly Banking Profile",
       "leadTime": "Slow-moving. CRE stress typically builds over 12-24 months before reaching systemic levels. The office sector has been deteriorating since 2022.",
       "reliability": "FDIC data is authoritative and comprehensive. CRE stress is well-documented and actively monitored by regulators. The property-type divergence is real and concerning.",
-      "historicalPrecedents": ["2009-2010 CRE delinquencies exceeded 8%, hundreds of bank failures", "1990-1991 S&L crisis had major CRE component", "2023 regional bank stress partially driven by CRE concerns"],
-      "compoundsWith": ["credit-debt", "yield-curve", "currency-inflation"],
+      "historicalPrecedents": [
+        "2009-2010 CRE delinquencies exceeded 8%, hundreds of bank failures",
+        "1990-1991 S&L crisis had major CRE component",
+        "2023 regional bank stress partially driven by CRE concerns"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "yield-curve",
+        "currency-inflation"
+      ],
       "currentStatus": "elevated — office/multifamily sectors above 2019 baselines",
       "lastUpdated": "2026-03-29",
-      "tags": ["CRE", "office", "delinquency", "regional-banks", "multifamily", "vacancy-rates", "current-reading"]
+      "tags": [
+        "CRE",
+        "office",
+        "delinquency",
+        "regional-banks",
+        "multifamily",
+        "vacancy-rates",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-057",
@@ -876,11 +1957,26 @@
       "dataSource": "FRED Series TDSP",
       "leadTime": "Slow-moving. Household balance sheets change gradually. Current strength provides a buffer that extends the timeline before any potential crisis.",
       "reliability": "Fed data is authoritative. The 11.32% reading is a genuine positive signal for household resilience, though it does not capture distributional stress.",
-      "historicalPrecedents": ["Late 2007 peak at ~16% preceded wave of mortgage defaults", "2010-2019 average of 12.1% represented post-crisis normal", "Current 11.32% is among the lowest readings in 20+ years"],
-      "compoundsWith": ["systemic-banking", "asset-bubble", "currency-inflation"],
+      "historicalPrecedents": [
+        "Late 2007 peak at ~16% preceded wave of mortgage defaults",
+        "2010-2019 average of 12.1% represented post-crisis normal",
+        "Current 11.32% is among the lowest readings in 20+ years"
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "asset-bubble",
+        "currency-inflation"
+      ],
       "currentStatus": "normal — well below danger threshold, households insulated by locked-in low rates",
       "lastUpdated": "2026-03-29",
-      "tags": ["household-debt", "consumer-health", "mortgage-rates", "rate-lock-in", "debt-service-ratio", "current-reading"]
+      "tags": [
+        "household-debt",
+        "consumer-health",
+        "mortgage-rates",
+        "rate-lock-in",
+        "debt-service-ratio",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-058",
@@ -891,11 +1987,28 @@
       "dataSource": "S&P Dow Jones Indices, Goldman Sachs Global Investment Research",
       "leadTime": "Concentration risk is a structural vulnerability, not a timing signal. It amplifies the impact of any sector-specific catalyst.",
       "reliability": "Index concentration data is objective and well-measured. The relationship between extreme concentration and subsequent cap-weighted underperformance is historically consistent.",
-      "historicalPrecedents": ["Nifty Fifty 1970s concentration preceded 1973-74 crash", "2000 dot-com top-5 at ~18% preceded years of underperformance", "Current 33.3% exceeds all modern precedents"],
-      "compoundsWith": ["ai-specific", "yield-curve", "credit-debt", "geopolitical"],
+      "historicalPrecedents": [
+        "Nifty Fifty 1970s concentration preceded 1973-74 crash",
+        "2000 dot-com top-5 at ~18% preceded years of underperformance",
+        "Current 33.3% exceeds all modern precedents"
+      ],
+      "compoundsWith": [
+        "ai-specific",
+        "yield-curve",
+        "credit-debt",
+        "geopolitical"
+      ],
       "currentStatus": "critical — 33.3% concentration far exceeds 25% danger threshold",
       "lastUpdated": "2026-03-29",
-      "tags": ["concentration-risk", "Mag-7", "index-fragility", "tech-bubble", "Nifty-Fifty", "cap-weighted", "current-reading"]
+      "tags": [
+        "concentration-risk",
+        "Mag-7",
+        "index-fragility",
+        "tech-bubble",
+        "Nifty-Fifty",
+        "cap-weighted",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-059",
@@ -906,11 +2019,29 @@
       "dataSource": "IMF World Economic Outlook, OECD",
       "leadTime": "Sovereign debt crises typically build over years and trigger suddenly when bond markets lose confidence. The fiscal doom loop can accelerate rapidly once it begins.",
       "reliability": "Debt-to-GDP ratios are well-measured and widely available. The relationship between very high debt levels and constrained fiscal space is established. The specific tipping point varies by country.",
-      "historicalPrecedents": ["Greece 2010 (debt crisis at ~130% GDP)", "Italy 2011 (bond market revolt at ~120% GDP)", "Japan sustained 230%+ through domestic financing", "US trajectory toward 133% by 2030"],
-      "compoundsWith": ["currency-inflation", "yield-curve", "systemic-banking", "geopolitical"],
+      "historicalPrecedents": [
+        "Greece 2010 (debt crisis at ~130% GDP)",
+        "Italy 2011 (bond market revolt at ~120% GDP)",
+        "Japan sustained 230%+ through domestic financing",
+        "US trajectory toward 133% by 2030"
+      ],
+      "compoundsWith": [
+        "currency-inflation",
+        "yield-curve",
+        "systemic-banking",
+        "geopolitical"
+      ],
       "currentStatus": "elevated — US well above traditional 90-100% threshold, trajectory worsening",
       "lastUpdated": "2026-03-29",
-      "tags": ["sovereign-debt", "fiscal", "IMF", "debt-sustainability", "doom-loop", "interest-burden", "current-reading"]
+      "tags": [
+        "sovereign-debt",
+        "fiscal",
+        "IMF",
+        "debt-sustainability",
+        "doom-loop",
+        "interest-burden",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-060",
@@ -921,11 +2052,27 @@
       "dataSource": "Sequoia Capital publications, Goldman Sachs macro research",
       "leadTime": "The capex-revenue gap typically persists for 2-4 years before triggering a capex freeze. The telecom parallel suggests the correction comes 3-5 years after peak overbuilding begins.",
       "reliability": "The existence of the gap is well-documented. The timing of any resulting correction is uncertain. Key difference from telecom 2000: current AI spenders are more financially resilient.",
-      "historicalPrecedents": ["Telecom/fiber-optic boom 1998-2001 ($500B+ invested, mass bankruptcies)", "Railroad boom 1840s-1850s (massive overbuilding, eventual consolidation)", "Japanese semiconductor overcapacity 1990s"],
-      "compoundsWith": ["asset-bubble", "credit-debt", "yield-curve"],
+      "historicalPrecedents": [
+        "Telecom/fiber-optic boom 1998-2001 ($500B+ invested, mass bankruptcies)",
+        "Railroad boom 1840s-1850s (massive overbuilding, eventual consolidation)",
+        "Japanese semiconductor overcapacity 1990s"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "credit-debt",
+        "yield-curve"
+      ],
       "currentStatus": "elevated — massive capex-revenue gap mirrors telecom 2000, but revenue growing",
       "lastUpdated": "2026-03-29",
-      "tags": ["AI-capex", "revenue-gap", "infrastructure-overbuild", "telecom-parallel", "Sequoia", "Goldman-Sachs", "current-reading"]
+      "tags": [
+        "AI-capex",
+        "revenue-gap",
+        "infrastructure-overbuild",
+        "telecom-parallel",
+        "Sequoia",
+        "Goldman-Sachs",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-061",
@@ -936,11 +2083,29 @@
       "dataSource": "ICE (Brent), CME Group (WTI)",
       "leadTime": "Oil price shocks transmit to consumer prices within 1-3 months and to broader economic activity within 3-6 months.",
       "reliability": "Oil prices are directly observable. The relationship between oil above $120 and recession/inflation has strong historical precedent.",
-      "historicalPrecedents": ["2022 Russia-Ukraine spike to $130 triggered global inflation wave", "2007-2008 spike to $147 coincided with GFC onset", "1973 oil embargo quadrupled prices, triggered stagflation", "1979 Iranian Revolution doubled prices, triggered deep recession"],
-      "compoundsWith": ["currency-inflation", "yield-curve", "geopolitical", "systemic-banking"],
+      "historicalPrecedents": [
+        "2022 Russia-Ukraine spike to $130 triggered global inflation wave",
+        "2007-2008 spike to $147 coincided with GFC onset",
+        "1973 oil embargo quadrupled prices, triggered stagflation",
+        "1979 Iranian Revolution doubled prices, triggered deep recession"
+      ],
+      "compoundsWith": [
+        "currency-inflation",
+        "yield-curve",
+        "geopolitical",
+        "systemic-banking"
+      ],
       "currentStatus": "critical — $112 Brent with Hormuz disruption, approaching $120 danger threshold",
       "lastUpdated": "2026-03-29",
-      "tags": ["oil-shock", "Hormuz", "Iran", "energy-inflation", "Operation-Epic-Fury", "stagflation-risk", "current-reading"]
+      "tags": [
+        "oil-shock",
+        "Hormuz",
+        "Iran",
+        "energy-inflation",
+        "Operation-Epic-Fury",
+        "stagflation-risk",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-062",
@@ -951,11 +2116,28 @@
       "dataSource": "FDIC Quarterly Banking Profile",
       "leadTime": "Unrealized losses are a vulnerability that can persist for years or crystallize in days, depending on whether a deposit flight trigger occurs.",
       "reliability": "FDIC data is authoritative. The SVB precedent demonstrated exactly how unrealized losses translate to bank failures. Current $306B is an improvement but remains historically elevated.",
-      "historicalPrecedents": ["2023 SVB/Signature/First Republic failures (unrealized losses + deposit flight)", "2022-2023 peak unrealized losses above $500B", "S&L crisis 1980s (interest rate mismatch on bank portfolios)"],
-      "compoundsWith": ["yield-curve", "currency-inflation", "credit-debt"],
+      "historicalPrecedents": [
+        "2023 SVB/Signature/First Republic failures (unrealized losses + deposit flight)",
+        "2022-2023 peak unrealized losses above $500B",
+        "S&L crisis 1980s (interest rate mismatch on bank portfolios)"
+      ],
+      "compoundsWith": [
+        "yield-curve",
+        "currency-inflation",
+        "credit-debt"
+      ],
       "currentStatus": "elevated — $306B still significant, but improving from $500B+ SVB-era peak",
       "lastUpdated": "2026-03-29",
-      "tags": ["unrealized-losses", "SVB", "deposit-flight", "FDIC", "banking-fragility", "HTM", "AFS", "current-reading"]
+      "tags": [
+        "unrealized-losses",
+        "SVB",
+        "deposit-flight",
+        "FDIC",
+        "banking-fragility",
+        "HTM",
+        "AFS",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-063",
@@ -966,11 +2148,29 @@
       "dataSource": "CME FedWatch Tool, Federal Reserve Board of Governors",
       "leadTime": "Fed policy changes transmit to the broader economy with a 6-18 month lag. Current rate level is constraining economic activity from decisions made 12+ months ago.",
       "reliability": "The fed funds rate is directly observable. CME FedWatch probabilities provide reliable near-term guidance. The policy trap dynamic is clearly visible in Fed communications and market pricing.",
-      "historicalPrecedents": ["1970s Burns Fed cut too early, inflation re-accelerated", "2020 emergency cut from 1.50% to 0% in response to COVID", "2007-2008 Fed cut from 5.25% to near-zero as crisis unfolded"],
-      "compoundsWith": ["energy-shock", "yield-curve", "credit-debt", "systemic-banking", "asset-bubble"],
+      "historicalPrecedents": [
+        "1970s Burns Fed cut too early, inflation re-accelerated",
+        "2020 emergency cut from 1.50% to 0% in response to COVID",
+        "2007-2008 Fed cut from 5.25% to near-zero as crisis unfolded"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "yield-curve",
+        "credit-debt",
+        "systemic-banking",
+        "asset-bubble"
+      ],
       "currentStatus": "constrained — Fed trapped between slowing economy and oil-driven inflation resurgence",
       "lastUpdated": "2026-03-29",
-      "tags": ["Fed-funds", "rate-cuts", "higher-for-longer", "monetary-policy", "policy-trap", "inflation-constraint", "current-reading"]
+      "tags": [
+        "Fed-funds",
+        "rate-cuts",
+        "higher-for-longer",
+        "monetary-policy",
+        "policy-trap",
+        "inflation-constraint",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-064",
@@ -981,11 +2181,30 @@
       "dataSource": "Synthesis of cm-049, cm-050, cm-054, cm-061, cm-063",
       "leadTime": "Stagflation scenarios typically take 3-9 months to fully manifest after the energy shock trigger, as oil price increases transmit through supply chains to consumer prices.",
       "reliability": "The individual indicators are reliable. The compound interaction is supported by strong historical precedent (1973, 1979). The key uncertainty is whether structural differences from the 1970s provide sufficient protection.",
-      "historicalPrecedents": ["1973 oil embargo + recession = stagflation", "1979 Iranian Revolution + recession = stagflation sequel", "2022 Russia-Ukraine oil spike + tightening cycle (milder version)"],
-      "compoundsWith": ["yield-curve", "currency-inflation", "geopolitical", "systemic-banking", "credit-debt"],
+      "historicalPrecedents": [
+        "1973 oil embargo + recession = stagflation",
+        "1979 Iranian Revolution + recession = stagflation sequel",
+        "2022 Russia-Ukraine oil spike + tightening cycle (milder version)"
+      ],
+      "compoundsWith": [
+        "yield-curve",
+        "currency-inflation",
+        "geopolitical",
+        "systemic-banking",
+        "credit-debt"
+      ],
       "currentStatus": "active — multiple indicators simultaneously signaling",
       "lastUpdated": "2026-03-29",
-      "tags": ["stagflation", "oil-shock", "yield-curve", "Fed-trap", "1973-parallel", "1979-parallel", "compound-scenario", "current-reading"]
+      "tags": [
+        "stagflation",
+        "oil-shock",
+        "yield-curve",
+        "Fed-trap",
+        "1973-parallel",
+        "1979-parallel",
+        "compound-scenario",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-065",
@@ -996,11 +2215,29 @@
       "dataSource": "Synthesis of cm-049, cm-050, cm-054",
       "leadTime": "3-9 months from full compound configuration to recession onset, based on 2000 and 2007 precedents.",
       "reliability": "High — the un-inversion + VIX backwardation combination has preceded every major recession in the data period. False positive risk exists but is low when both yield curve measures and VIX backwardation are simultaneously signaling.",
-      "historicalPrecedents": ["Late 2000: un-inversion + VIX backwardation preceded March 2001 recession", "Summer 2007: same pattern preceded December 2007 Great Recession", "1989: similar configuration preceded July 1990 recession"],
-      "compoundsWith": ["energy-shock", "currency-inflation", "asset-bubble", "systemic-banking", "credit-debt"],
+      "historicalPrecedents": [
+        "Late 2000: un-inversion + VIX backwardation preceded March 2001 recession",
+        "Summer 2007: same pattern preceded December 2007 Great Recession",
+        "1989: similar configuration preceded July 1990 recession"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "currency-inflation",
+        "asset-bubble",
+        "systemic-banking",
+        "credit-debt"
+      ],
       "currentStatus": "active — classic pre-recession configuration",
       "lastUpdated": "2026-03-29",
-      "tags": ["un-inversion", "VIX-backwardation", "recession-timing", "2000-parallel", "2007-parallel", "compound-scenario", "current-reading"]
+      "tags": [
+        "un-inversion",
+        "VIX-backwardation",
+        "recession-timing",
+        "2000-parallel",
+        "2007-parallel",
+        "compound-scenario",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-066",
@@ -1011,11 +2248,29 @@
       "dataSource": "Synthesis of cm-052, cm-058, cm-060",
       "leadTime": "Bubble deflation timing is inherently unpredictable. The 2000 bubble took 6 months from first crack (March 2000) to confirmed bear market. Slow deflation scenarios can take 12-24 months.",
       "reliability": "The individual indicators are reliable. The compound interaction is well-supported by the 2000 precedent. The key uncertainty is timing and whether the correction is sharp or gradual.",
-      "historicalPrecedents": ["March 2000 dot-com bubble (CAPE 44, extreme concentration, telecom capex gap)", "Nifty Fifty deflation 1973-74 (concentration + overvaluation)", "Japan Nikkei 1989-90 (extreme valuations + concentrated gains)"],
-      "compoundsWith": ["ai-specific", "yield-curve", "credit-debt", "currency-inflation"],
+      "historicalPrecedents": [
+        "March 2000 dot-com bubble (CAPE 44, extreme concentration, telecom capex gap)",
+        "Nifty Fifty deflation 1973-74 (concentration + overvaluation)",
+        "Japan Nikkei 1989-90 (extreme valuations + concentrated gains)"
+      ],
+      "compoundsWith": [
+        "ai-specific",
+        "yield-curve",
+        "credit-debt",
+        "currency-inflation"
+      ],
       "currentStatus": "active — triple convergence of concentration, overvaluation, and capex fatigue",
       "lastUpdated": "2026-03-29",
-      "tags": ["Mag-7", "CAPE", "AI-bubble", "rotation", "dot-com-parallel", "cap-weighted-risk", "compound-scenario", "current-reading"]
+      "tags": [
+        "Mag-7",
+        "CAPE",
+        "AI-bubble",
+        "rotation",
+        "dot-com-parallel",
+        "cap-weighted-risk",
+        "compound-scenario",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-067",
@@ -1026,11 +2281,31 @@
       "dataSource": "ICE (Brent), CME Group (WTI), shipping insurance market data",
       "leadTime": "Oil price shocks transmit within weeks (gasoline) to months (manufacturing costs, inflation expectations).",
       "reliability": "Price data is directly observable. The 51% surge and its geopolitical driver are facts, not estimates. The persistence of geopolitically-driven supply disruptions is historically well-documented.",
-      "historicalPrecedents": ["2022 Russia-Ukraine invasion (Brent spiked ~60% over 2 months)", "1990 Gulf War (oil doubled in 3 months)", "1979 Iranian Revolution (oil doubled over 6 months)", "1973 oil embargo (oil quadrupled in 3 months)"],
-      "compoundsWith": ["currency-inflation", "yield-curve", "geopolitical", "systemic-banking", "credit-debt"],
+      "historicalPrecedents": [
+        "2022 Russia-Ukraine invasion (Brent spiked ~60% over 2 months)",
+        "1990 Gulf War (oil doubled in 3 months)",
+        "1979 Iranian Revolution (oil doubled over 6 months)",
+        "1973 oil embargo (oil quadrupled in 3 months)"
+      ],
+      "compoundsWith": [
+        "currency-inflation",
+        "yield-curve",
+        "geopolitical",
+        "systemic-banking",
+        "credit-debt"
+      ],
       "currentStatus": "critical — 51% surge in one month",
       "lastUpdated": "2026-03-29",
-      "tags": ["oil-shock", "Iran", "supply-chain-inflation", "rapid-change", "Hormuz", "transmission-channels", "90-day-change", "current-reading"]
+      "tags": [
+        "oil-shock",
+        "Iran",
+        "supply-chain-inflation",
+        "rapid-change",
+        "Hormuz",
+        "transmission-channels",
+        "90-day-change",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-068",
@@ -1041,11 +2316,30 @@
       "dataSource": "CME FedWatch Tool, Federal Reserve Board of Governors, Treasury yield data",
       "leadTime": "Rate expectation repricing transmits to the real economy over 3-12 months as financial decisions (refinancing, investment, borrowing) adjust to the new rate path.",
       "reliability": "Market pricing data is directly observable. The shift from 3-4 expected cuts to 1 expected cut is a factual observation. The cascading effects on corporate refinancing, housing, and CRE are well-understood transmission mechanisms.",
-      "historicalPrecedents": ["Late 2023 'higher for longer' repricing (10Y yield touched 5%)", "2013 Taper Tantrum (violent rate repricing on unexpected Fed hawkishness)", "1994 bond market massacre (unexpected tightening destroyed bond portfolios)"],
-      "compoundsWith": ["energy-shock", "yield-curve", "credit-debt", "systemic-banking", "asset-bubble"],
+      "historicalPrecedents": [
+        "Late 2023 'higher for longer' repricing (10Y yield touched 5%)",
+        "2013 Taper Tantrum (violent rate repricing on unexpected Fed hawkishness)",
+        "1994 bond market massacre (unexpected tightening destroyed bond portfolios)"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "yield-curve",
+        "credit-debt",
+        "systemic-banking",
+        "asset-bubble"
+      ],
       "currentStatus": "elevated — market expectations violently reset",
       "lastUpdated": "2026-03-29",
-      "tags": ["rate-expectations", "higher-for-longer", "Fed", "bond-market", "repricing", "financial-conditions", "90-day-change", "current-reading"]
+      "tags": [
+        "rate-expectations",
+        "higher-for-longer",
+        "Fed",
+        "bond-market",
+        "repricing",
+        "financial-conditions",
+        "90-day-change",
+        "current-reading"
+      ]
     },
     {
       "id": "cm-069",
@@ -1056,11 +2350,26 @@
       "dataSource": "OFR Repo Market Data, CFTC Traders in Financial Futures (leveraged fund short open interest), Federal Reserve Financial Stability Report, BIS Quarterly Review",
       "leadTime": "Hours to days. Repo funding stress can emerge overnight. The March 2020 episode went from calm to crisis in approximately 5 trading days.",
       "reliability": "High. Position sizes are observable through CFTC data and repo market volumes. The mechanical trigger (haircut increase → forced selling) is well-understood. The 2020 precedent validates the transmission mechanism.",
-      "historicalPrecedents": ["LTCM 1998 ($125B notional, required Fed-coordinated bailout)", "March 2020 Treasury market dysfunction ($1.6T Fed intervention)", "1998 Russian default triggering leveraged carry trade unwinds"],
-      "compoundsWith": ["systemic-banking", "yield-curve", "asset-bubble"],
+      "historicalPrecedents": [
+        "LTCM 1998 ($125B notional, required Fed-coordinated bailout)",
+        "March 2020 Treasury market dysfunction ($1.6T Fed intervention)",
+        "1998 Russian default triggering leveraged carry trade unwinds"
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "yield-curve",
+        "asset-bubble"
+      ],
       "currentStatus": "critical — $2T in leveraged exposure at 600% leverage with VIX at 31",
       "lastUpdated": "2026-03-29",
-      "tags": ["basis-trade", "repo", "hedge-fund-leverage", "LTCM-parallel", "Treasury-market", "collateral"]
+      "tags": [
+        "basis-trade",
+        "repo",
+        "hedge-fund-leverage",
+        "LTCM-parallel",
+        "Treasury-market",
+        "collateral"
+      ]
     },
     {
       "id": "cm-070",
@@ -1071,11 +2380,27 @@
       "dataSource": "S&P Global Ratings, Moody's default rate tracker, ICE BofA US High Yield Option-Adjusted Spread (OAS), Federal Reserve Financial Stability Report",
       "leadTime": "3-12 months. Maturity dates are known in advance. Default rates lag economic deterioration by 6-9 months. The BBB downgrade cascade, once triggered, can accelerate rapidly (weeks).",
       "reliability": "High. Maturity schedules are publicly available and precise. The mechanical relationship between higher rates and refinancing costs is arithmetic, not speculative. The BBB fallen-angel risk is well-documented by rating agencies.",
-      "historicalPrecedents": ["1989-1990 Junk Bond Crash (Drexel Burnham collapse)", "2001-2002 post-dot-com corporate default wave (WorldCom, Enron)", "March 2020 corporate bond market freeze (Fed created emergency facilities)", "2008-2009 corporate default spike (14.7% high-yield default rate)"],
-      "compoundsWith": ["credit-debt", "currency-inflation", "energy-shock"],
+      "historicalPrecedents": [
+        "1989-1990 Junk Bond Crash (Drexel Burnham collapse)",
+        "2001-2002 post-dot-com corporate default wave (WorldCom, Enron)",
+        "March 2020 corporate bond market freeze (Fed created emergency facilities)",
+        "2008-2009 corporate default spike (14.7% high-yield default rate)"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "currency-inflation",
+        "energy-shock"
+      ],
       "currentStatus": "elevated — peak maturity wall hitting in 2026 with rates stuck high",
       "lastUpdated": "2026-03-29",
-      "tags": ["maturity-wall", "refinancing", "junk-bonds", "CLOs", "zombie-companies", "downgrade-cascade"]
+      "tags": [
+        "maturity-wall",
+        "refinancing",
+        "junk-bonds",
+        "CLOs",
+        "zombie-companies",
+        "downgrade-cascade"
+      ]
     },
     {
       "id": "cm-071",
@@ -1086,11 +2411,25 @@
       "dataSource": "NAIC Capital Adequacy reports, Federal Insurance Office (FIO) systemic risk publications, AM Best insurer financial strength ratings, Bermuda Monetary Authority disclosures",
       "leadTime": "6-18 months. Illiquid asset deterioration is slow-moving but surrender waves can accelerate rapidly once confidence erodes. Regulatory intervention adds unpredictable timing.",
       "reliability": "Moderate-high. Asset allocation data is available through NAIC filings. The liquidity mismatch is structural and measurable. The trigger (credit cycle turn + surrender wave) depends on multiple conditions aligning.",
-      "historicalPrecedents": ["Executive Life Insurance Company collapse 1991 (junk bond portfolio + surrender wave)", "AIG 2008 (insurance entity with concentrated financial risk, required $182B bailout)", "Equitable Life (UK) 2000 (guaranteed annuity obligations exceeded asset values)"],
-      "compoundsWith": ["credit-debt", "systemic-banking"],
+      "historicalPrecedents": [
+        "Executive Life Insurance Company collapse 1991 (junk bond portfolio + surrender wave)",
+        "AIG 2008 (insurance entity with concentrated financial risk, required $182B bailout)",
+        "Equitable Life (UK) 2000 (guaranteed annuity obligations exceeded asset values)"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "systemic-banking"
+      ],
       "currentStatus": "elevated — $849B in illiquid assets on insurer balance sheets, hidden from public view",
       "lastUpdated": "2026-03-29",
-      "tags": ["shadow-insurance", "private-equity", "annuities", "Bermuda-reinsurance", "illiquid-assets", "regulatory-arbitrage"]
+      "tags": [
+        "shadow-insurance",
+        "private-equity",
+        "annuities",
+        "Bermuda-reinsurance",
+        "illiquid-assets",
+        "regulatory-arbitrage"
+      ]
     },
     {
       "id": "cm-072",
@@ -1101,11 +2440,26 @@
       "dataSource": "CBOE 0DTE volume data, SpotGamma GEX models, Tier1Alpha gamma analysis, CME S&P 500 futures liquidity data",
       "leadTime": "Minutes to hours. 0DTE gamma cascades are intraday events. The structural conditions (high VIX, thin liquidity, concentrated gamma) can persist for weeks before a catalyst triggers the cascade.",
       "reliability": "High for structural assessment. The gamma mechanics are mathematical, not speculative. The specific trigger timing is unpredictable. The precedents (1987, 2018) validate the self-reinforcing selling mechanism.",
-      "historicalPrecedents": ["Volmageddon February 2018 (XIV collapse, vol-targeting cascade)", "October 1987 crash (portfolio insurance amplification)", "August 2015 flash crash (ETF-underlying disconnect + algorithmic selling)"],
-      "compoundsWith": ["asset-bubble", "systemic-banking"],
+      "historicalPrecedents": [
+        "Volmageddon February 2018 (XIV collapse, vol-targeting cascade)",
+        "October 1987 crash (portfolio insurance amplification)",
+        "August 2015 flash crash (ETF-underlying disconnect + algorithmic selling)"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "systemic-banking"
+      ],
       "currentStatus": "critical — 56% of SPX options volume in 0DTE with VIX at 31, extreme gamma concentration",
       "lastUpdated": "2026-03-29",
-      "tags": ["0DTE", "gamma-squeeze", "options", "flash-crash", "Volmageddon-parallel", "market-makers", "procyclical"]
+      "tags": [
+        "0DTE",
+        "gamma-squeeze",
+        "options",
+        "flash-crash",
+        "Volmageddon-parallel",
+        "market-makers",
+        "procyclical"
+      ]
     },
     {
       "id": "cm-073",
@@ -1116,11 +2470,28 @@
       "dataSource": "CPMI-IOSCO Public Quantitative Disclosures for CCPs, BIS quarterly reviews, Bank of England Financial Stability Reports, Federal Reserve Financial Stability Report",
       "leadTime": "Days. CCP margin calls are issued daily (or intraday in extreme conditions). The LDI crisis went from stable to emergency intervention in approximately 5 trading days. A multi-asset scenario could develop even faster.",
       "reliability": "High for structural assessment. The procyclicality mechanism is documented and has been demonstrated in 2020 and 2022. The multi-asset simultaneous stress scenario is the key uncertainty — it has not been tested at scale.",
-      "historicalPrecedents": ["UK LDI Pension Crisis September 2022 (LCH margin calls triggered gilt death spiral)", "March 2020 'Dash for Cash' (CCP margin calls contributed to Treasury market freeze)", "MF Global 2011 (clearing member default, client asset segregation failure)"],
-      "compoundsWith": ["systemic-banking", "energy-shock", "yield-curve", "asset-bubble"],
+      "historicalPrecedents": [
+        "UK LDI Pension Crisis September 2022 (LCH margin calls triggered gilt death spiral)",
+        "March 2020 'Dash for Cash' (CCP margin calls contributed to Treasury market freeze)",
+        "MF Global 2011 (clearing member default, client asset segregation failure)"
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "energy-shock",
+        "yield-curve",
+        "asset-bubble"
+      ],
       "currentStatus": "elevated — multi-asset volatility already elevated, CCP margins already increased",
       "lastUpdated": "2026-03-29",
-      "tags": ["CCP", "margin-calls", "clearinghouse", "procyclical", "LDI-parallel", "dash-for-cash", "derivatives"]
+      "tags": [
+        "CCP",
+        "margin-calls",
+        "clearinghouse",
+        "procyclical",
+        "LDI-parallel",
+        "dash-for-cash",
+        "derivatives"
+      ]
     },
     {
       "id": "cm-074",
@@ -1131,11 +2502,26 @@
       "dataSource": "Cliffwater Direct Lending Index (CDLI), Alternative Credit Council non-accrual disclosures, Preqin private credit AUM data, SEC Division of Investment Management publications",
       "leadTime": "6-18 months. Private credit deterioration is slow-moving due to the amend-and-pretend dynamic. The transition from hidden stress to acknowledged defaults typically requires a macroeconomic recession to force the issue.",
       "reliability": "Moderate. The structural vulnerabilities are well-documented. The specific timing and magnitude of loss recognition is uncertain because the opacity that is the core problem also limits monitoring. PIK rates and non-accrual rates provide the best available signals.",
-      "historicalPrecedents": ["2007-2008 Subprime CDO crisis (opaque instruments, mark-to-model valuations, concentrated risk)", "2001 Enron/WorldCom (financial engineering masking deterioration until sudden collapse)", "1989-1990 S&L Crisis (extend-and-pretend on commercial real estate loans)"],
-      "compoundsWith": ["credit-debt", "systemic-banking"],
+      "historicalPrecedents": [
+        "2007-2008 Subprime CDO crisis (opaque instruments, mark-to-model valuations, concentrated risk)",
+        "2001 Enron/WorldCom (financial engineering masking deterioration until sudden collapse)",
+        "1989-1990 S&L Crisis (extend-and-pretend on commercial real estate loans)"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "systemic-banking"
+      ],
       "currentStatus": "elevated — $1.7-3.5T in opaque lending with rising PIK rates masking true default levels",
       "lastUpdated": "2026-03-29",
-      "tags": ["private-credit", "PIK", "amend-and-pretend", "opaque-lending", "BDCs", "subprime-parallel", "floating-rate"]
+      "tags": [
+        "private-credit",
+        "PIK",
+        "amend-and-pretend",
+        "opaque-lending",
+        "BDCs",
+        "subprime-parallel",
+        "floating-rate"
+      ]
     },
     {
       "id": "cm-075",
@@ -1146,11 +2532,25 @@
       "dataSource": "ETF net flow data (ICI, Bloomberg), SPY/RSP spread data, AP redemption basket analysis, SEC Office of Analytics publications",
       "leadTime": "Days to weeks. ETF outflow pressure builds over days as institutional investors rebalance. The August 2015 flash crash demonstrated that ETF-underlying disconnects can emerge within minutes during acute stress.",
       "reliability": "High for structural assessment. The mechanics of AP redemption and the liquidity mismatch between the ETF and its underlying basket are well-documented. The trigger (synchronized risk-off causing massive outflows) depends on a catalyst.",
-      "historicalPrecedents": ["1929 Investment Trust collapse (liquid wrapper over illiquid assets)", "August 2015 flash crash (ETF prices disconnected from underlying NAVs by up to 20%)", "March 2020 corporate bond ETF discount to NAV (LQD, HYG traded at 5%+ discounts)"],
-      "compoundsWith": ["asset-bubble", "systemic-banking"],
+      "historicalPrecedents": [
+        "1929 Investment Trust collapse (liquid wrapper over illiquid assets)",
+        "August 2015 flash crash (ETF prices disconnected from underlying NAVs by up to 20%)",
+        "March 2020 corporate bond ETF discount to NAV (LQD, HYG traded at 5%+ discounts)"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "systemic-banking"
+      ],
       "currentStatus": "critical — $10T+ passive with 33% Mag 7 concentration, unprecedented structural fragility",
       "lastUpdated": "2026-03-29",
-      "tags": ["passive-investing", "ETF-liquidity", "concentration-risk", "Mag-7", "SPY-RSP-spread", "1929-parallel"]
+      "tags": [
+        "passive-investing",
+        "ETF-liquidity",
+        "concentration-risk",
+        "Mag-7",
+        "SPY-RSP-spread",
+        "1929-parallel"
+      ]
     },
     {
       "id": "cm-076",
@@ -1161,11 +2561,26 @@
       "dataSource": "USD/JPY exchange rate, JGB yield curve (Ministry of Finance Japan), BOJ monetary policy statements, US Treasury International Capital (TIC) data on Japanese holdings",
       "leadTime": "Days to weeks for acute episodes. The 1998 unwind took approximately 3 weeks from catalyst to crisis. The August 2024 Phase 1 episode developed over approximately 5 trading days. Structural repatriation is a multi-year process.",
       "reliability": "High. The carry trade mechanics are well-understood. BOJ policy direction is observable. The August 2024 episode validated the transmission mechanism. The key uncertainty is timing and whether the unwind is gradual (manageable) or sudden (destabilizing).",
-      "historicalPrecedents": ["1998 Yen carry trade unwind (catalyzed LTCM collapse)", "August 2024 Phase 1 unwind (Nikkei -12% in one day, global equity selloff)", "2007 Yen carry trade partial unwind (February-March volatility spike)"],
-      "compoundsWith": ["carry-trade", "yield-curve", "asset-bubble"],
+      "historicalPrecedents": [
+        "1998 Yen carry trade unwind (catalyzed LTCM collapse)",
+        "August 2024 Phase 1 unwind (Nikkei -12% in one day, global equity selloff)",
+        "2007 Yen carry trade partial unwind (February-March volatility spike)"
+      ],
+      "compoundsWith": [
+        "carry-trade",
+        "yield-curve",
+        "asset-bubble"
+      ],
       "currentStatus": "elevated — BOJ tightening while US assets overvalued, JGB 40yr at 4.24%",
       "lastUpdated": "2026-03-29",
-      "tags": ["yen-carry-trade", "BOJ", "JGB", "LTCM-parallel", "repatriation", "USD-JPY"]
+      "tags": [
+        "yen-carry-trade",
+        "BOJ",
+        "JGB",
+        "LTCM-parallel",
+        "repatriation",
+        "USD-JPY"
+      ]
     },
     {
       "id": "cm-077",
@@ -1176,11 +2591,27 @@
       "dataSource": "Trepp CMBS Delinquency Rates, Federal Reserve H.8 Data (commercial bank balance sheets), FDIC Quarterly Banking Profile, CoStar/Green Street CRE valuation indices",
       "leadTime": "12-24 months for the doom loop to fully develop. Individual bank failures can be sudden (SVB collapsed in 48 hours), but the broader CRE-bank feedback loop operates over quarters as maturity deadlines arrive and extend-and-pretend options expire.",
       "reliability": "High. CRE maturity schedules are public. Bank CRE exposure concentrations are reported in regulatory filings. Trepp delinquency data is observable. The doom loop dynamic is historically validated by the S&L crisis. The key uncertainty is regulatory response — will regulators force loss recognition or continue to allow extend-and-pretend?",
-      "historicalPrecedents": ["1980s-1990s S&L Crisis (CRE concentration + extend-and-pretend + eventual mass failures)", "2008-2010 regional bank failures (292 FDIC-insured institutions failed, many from CRE exposure)", "Japan 1990s 'zombie lending' (banks kept extending to insolvent borrowers, prolonging stagnation for a decade)"],
-      "compoundsWith": ["systemic-banking", "credit-debt", "energy-shock"],
+      "historicalPrecedents": [
+        "1980s-1990s S&L Crisis (CRE concentration + extend-and-pretend + eventual mass failures)",
+        "2008-2010 regional bank failures (292 FDIC-insured institutions failed, many from CRE exposure)",
+        "Japan 1990s 'zombie lending' (banks kept extending to insolvent borrowers, prolonging stagnation for a decade)"
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "credit-debt",
+        "energy-shock"
+      ],
       "currentStatus": "critical — 7.30% CMBS delinquency, $936B maturing into impossible refinancing conditions",
       "lastUpdated": "2026-03-29",
-      "tags": ["CRE", "regional-banks", "doom-loop", "extend-and-pretend", "S&L-parallel", "office-collapse", "Trepp"]
+      "tags": [
+        "CRE",
+        "regional-banks",
+        "doom-loop",
+        "extend-and-pretend",
+        "S&L-parallel",
+        "office-collapse",
+        "Trepp"
+      ]
     },
     {
       "id": "cm-078",
@@ -1191,11 +2622,28 @@
       "dataSource": "Cross-Currency Basis Swap spreads, FRA-OIS spread, US Treasury International Capital (TIC) data, BIS International Banking Statistics, Federal Reserve swap line usage data",
       "leadTime": "Days to weeks. The August 2007 Eurodollar freeze developed over approximately 10 days from first signs of stress to full-blown crisis. The speed depends on the nature of the triggering event — a geopolitical shock (sanctions, asset freezes) can cause immediate hoarding, while a gradual tightening of dollar supply creates a slower squeeze.",
       "reliability": "High for structural assessment. The $13T in offshore liabilities is documented by BIS. The collateral squeeze mechanics are well-understood from 2007-2008. The cross-currency basis swap and FRA-OIS spreads provide reliable real-time monitoring. The specific trigger (geopolitical shock, regulatory tightening) is unpredictable.",
-      "historicalPrecedents": ["August 2007 European interbank market freeze (BNP Paribas, true start of GFC)", "March 2020 global dollar shortage (Fed expanded swap lines to 14 central banks)", "1997-1998 Asian Financial Crisis (dollar funding withdrawal from EM economies)", "2022 UK gilt crisis (offshore institutions scrambling for dollar and sterling liquidity)"],
-      "compoundsWith": ["currency-inflation", "systemic-banking", "geopolitical"],
+      "historicalPrecedents": [
+        "August 2007 European interbank market freeze (BNP Paribas, true start of GFC)",
+        "March 2020 global dollar shortage (Fed expanded swap lines to 14 central banks)",
+        "1997-1998 Asian Financial Crisis (dollar funding withdrawal from EM economies)",
+        "2022 UK gilt crisis (offshore institutions scrambling for dollar and sterling liquidity)"
+      ],
+      "compoundsWith": [
+        "currency-inflation",
+        "systemic-banking",
+        "geopolitical"
+      ],
       "currentStatus": "elevated — $13T+ in offshore dollar liabilities with collateral under pressure from rate regime",
       "lastUpdated": "2026-03-29",
-      "tags": ["Eurodollar", "offshore-dollar", "collateral-squeeze", "FRA-OIS", "shadow-banking", "EM-vulnerability", "2007-parallel"]
+      "tags": [
+        "Eurodollar",
+        "offshore-dollar",
+        "collateral-squeeze",
+        "FRA-OIS",
+        "shadow-banking",
+        "EM-vulnerability",
+        "2007-parallel"
+      ]
     },
     {
       "id": "cm-079",
@@ -1206,11 +2654,24 @@
       "dataSource": "YCharts, financial platforms",
       "leadTime": "Real-time. Equity indices are lagging indicators of economic health but leading indicators of financial conditions and wealth effects.",
       "reliability": "High as a current reading. The index value and YTD performance are factual. Interpretation of whether current levels represent fair value, overvaluation, or a buying opportunity depends on forward earnings assumptions that are inherently uncertain.",
-      "historicalPrecedents": ["2000 Dot-Com peak and subsequent 49% decline", "2007 pre-GFC peak and 57% decline", "2022 inflation-driven 25% correction", "1973-74 stagflationary bear market (-48%)"],
-      "compoundsWith": ["asset-bubble", "ai-specific"],
+      "historicalPrecedents": [
+        "2000 Dot-Com peak and subsequent 49% decline",
+        "2007 pre-GFC peak and 57% decline",
+        "2022 inflation-driven 25% correction",
+        "1973-74 stagflationary bear market (-48%)"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "ai-specific"
+      ],
       "currentStatus": "elevated — down from ATH but still historically stretched",
       "lastUpdated": "2026-03-29",
-      "tags": ["S&P-500", "YTD", "tech-rotation", "stagflation"]
+      "tags": [
+        "S&P-500",
+        "YTD",
+        "tech-rotation",
+        "stagflation"
+      ]
     },
     {
       "id": "cm-080",
@@ -1221,11 +2682,23 @@
       "dataSource": "BLS",
       "leadTime": "Monthly, with approximately 5-week lag. The unemployment rate is a lagging indicator — by the time it rises significantly, recession is often already underway or imminent.",
       "reliability": "High. BLS methodology is well-established and consistently applied. The headline rate (U-3) understates true labor market slack because it excludes discouraged workers and involuntary part-time workers (U-6 at approximately 8.0%).",
-      "historicalPrecedents": ["2007-2009 unemployment rose from 4.4% to 10.0%", "2001 recession: unemployment rose from 3.9% to 6.3%", "1990-91 recession: 5.2% to 7.8%", "Sahm Rule has accurately identified every recession since 1970"],
-      "compoundsWith": ["credit-debt", "currency-inflation"],
+      "historicalPrecedents": [
+        "2007-2009 unemployment rose from 4.4% to 10.0%",
+        "2001 recession: unemployment rose from 3.9% to 6.3%",
+        "1990-91 recession: 5.2% to 7.8%",
+        "Sahm Rule has accurately identified every recession since 1970"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "currency-inflation"
+      ],
       "currentStatus": "mildly elevated — creeping up to 4-year high",
       "lastUpdated": "2026-03-29",
-      "tags": ["unemployment", "BLS", "labor-market"]
+      "tags": [
+        "unemployment",
+        "BLS",
+        "labor-market"
+      ]
     },
     {
       "id": "cm-081",
@@ -1236,11 +2709,22 @@
       "dataSource": "BLS CPI",
       "leadTime": "Monthly, with approximately 2-week lag. CPI is a coincident-to-lagging indicator of inflationary pressures.",
       "reliability": "High as a statistical measure. The BLS methodology is transparent and consistently applied. However, CPI's fixed-basket approach can overstate or understate lived inflation depending on consumption patterns. The divergence from PCE creates ambiguity about the true inflation picture.",
-      "historicalPrecedents": ["1970s double-dip inflation (CPI appeared to normalize then re-accelerated)", "2021-2023 post-COVID inflation surge (CPI peaked at 9.1%)", "2018 'transitory' inflation scare that proved short-lived"],
-      "compoundsWith": ["currency-inflation", "energy-shock"],
+      "historicalPrecedents": [
+        "1970s double-dip inflation (CPI appeared to normalize then re-accelerated)",
+        "2021-2023 post-COVID inflation surge (CPI peaked at 9.1%)",
+        "2018 'transitory' inflation scare that proved short-lived"
+      ],
+      "compoundsWith": [
+        "currency-inflation",
+        "energy-shock"
+      ],
       "currentStatus": "normalizing — headline near target but core sticky at 2.5%",
       "lastUpdated": "2026-03-29",
-      "tags": ["CPI", "inflation", "services-inflation"]
+      "tags": [
+        "CPI",
+        "inflation",
+        "services-inflation"
+      ]
     },
     {
       "id": "cm-082",
@@ -1251,11 +2735,23 @@
       "dataSource": "BEA",
       "leadTime": "Monthly, with approximately 4-week lag. PCE is released later than CPI but is considered the more comprehensive and accurate measure.",
       "reliability": "High. The BEA's methodology is rigorous and the PCE measure's chain-weighted approach adjusts for substitution effects that CPI misses. The Fed's explicit targeting of PCE makes this the single most important inflation reading for monetary policy.",
-      "historicalPrecedents": ["1970s double-dip: Core PCE appeared to normalize then re-accelerated violently", "2022-2023: Core PCE peaked above 5% before beginning descent", "1998: Core PCE fell below 1.5%, enabling Greenspan to ease into the dot-com bubble"],
-      "compoundsWith": ["currency-inflation", "yield-curve"],
+      "historicalPrecedents": [
+        "1970s double-dip: Core PCE appeared to normalize then re-accelerated violently",
+        "2022-2023: Core PCE peaked above 5% before beginning descent",
+        "1998: Core PCE fell below 1.5%, enabling Greenspan to ease into the dot-com bubble"
+      ],
+      "compoundsWith": [
+        "currency-inflation",
+        "yield-curve"
+      ],
       "currentStatus": "warning — 3.1% and re-accelerating, worst in 2 years, diverging from CPI",
       "lastUpdated": "2026-03-29",
-      "tags": ["Core-PCE", "Fed-preferred", "services-inflation", "re-acceleration"]
+      "tags": [
+        "Core-PCE",
+        "Fed-preferred",
+        "services-inflation",
+        "re-acceleration"
+      ]
     },
     {
       "id": "cm-083",
@@ -1266,11 +2762,22 @@
       "dataSource": "ISM",
       "leadTime": "Monthly, released on first business day. PMI is a leading indicator — readings below 50 for extended periods have preceded every recession since 1948.",
       "reliability": "High. The ISM survey methodology has been consistent since 1948, providing one of the longest and most reliable economic time series available. Individual monthly readings can be noisy, but 3-month trends are highly informative.",
-      "historicalPrecedents": ["2001: PMI fell below 50 six months before recession was officially declared", "2008: PMI plunged to 32.4 during GFC — lowest since 1980", "2019-2020: Extended sub-50 readings preceded COVID recession"],
-      "compoundsWith": ["general"],
+      "historicalPrecedents": [
+        "2001: PMI fell below 50 six months before recession was officially declared",
+        "2008: PMI plunged to 32.4 during GFC — lowest since 1980",
+        "2019-2020: Extended sub-50 readings preceded COVID recession"
+      ],
+      "compoundsWith": [
+        "general"
+      ],
       "currentStatus": "normal — modest expansion after long contraction",
       "lastUpdated": "2026-03-29",
-      "tags": ["ISM", "manufacturing", "PMI", "expansion"]
+      "tags": [
+        "ISM",
+        "manufacturing",
+        "PMI",
+        "expansion"
+      ]
     },
     {
       "id": "cm-084",
@@ -1281,11 +2788,22 @@
       "dataSource": "ISM",
       "leadTime": "Monthly, released on third business day. Services PMI is a coincident-to-lagging indicator — services activity typically holds up longer than manufacturing in downturns.",
       "reliability": "High. ISM Services survey covers a representative sample of the US services economy. The series is shorter than manufacturing (began 1997 vs. 1948) but has proven reliable through multiple cycles.",
-      "historicalPrecedents": ["2006-2007: Services PMI stayed above 50 well into credit crisis", "2008: Services PMI collapsed to 37.8 — worst reading in series history", "2020: COVID plunged services to 41.8 before rapid recovery"],
-      "compoundsWith": ["currency-inflation"],
+      "historicalPrecedents": [
+        "2006-2007: Services PMI stayed above 50 well into credit crisis",
+        "2008: Services PMI collapsed to 37.8 — worst reading in series history",
+        "2020: COVID plunged services to 41.8 before rapid recovery"
+      ],
+      "compoundsWith": [
+        "currency-inflation"
+      ],
       "currentStatus": "strong — highest reading since Aug 2022, but supports sticky services inflation",
       "lastUpdated": "2026-03-29",
-      "tags": ["ISM-Services", "PMI", "services-boom", "late-cycle"]
+      "tags": [
+        "ISM-Services",
+        "PMI",
+        "services-boom",
+        "late-cycle"
+      ]
     },
     {
       "id": "cm-085",
@@ -1296,11 +2814,24 @@
       "dataSource": "Conference Board, U of Michigan",
       "leadTime": "Monthly. Consumer confidence is a leading indicator with 2-4 month transmission to spending. Extreme readings have preceded every recession in the survey's history.",
       "reliability": "Moderate-to-high. Both surveys have long track records of identifying turning points. However, confidence can be volatile and occasionally gives false recession signals (e.g., 2011 debt ceiling crisis crashed confidence but no recession followed). The current decline's breadth across both surveys increases reliability.",
-      "historicalPrecedents": ["2008: Conference Board fell to 25.3, its all-time low, during GFC", "2011: Debt ceiling crisis crashed confidence to 40s without recession", "1990: Confidence collapse preceded Gulf War recession", "2020: COVID plunged confidence but recovery was rapid due to fiscal stimulus"],
-      "compoundsWith": ["geopolitical", "energy-shock", "currency-inflation"],
+      "historicalPrecedents": [
+        "2008: Conference Board fell to 25.3, its all-time low, during GFC",
+        "2011: Debt ceiling crisis crashed confidence to 40s without recession",
+        "1990: Confidence collapse preceded Gulf War recession",
+        "2020: COVID plunged confidence but recovery was rapid due to fiscal stimulus"
+      ],
+      "compoundsWith": [
+        "geopolitical",
+        "energy-shock",
+        "currency-inflation"
+      ],
       "currentStatus": "depressed — near 12-year lows, consumers rattled by geopolitics and inflation",
       "lastUpdated": "2026-03-29",
-      "tags": ["consumer-confidence", "sentiment", "demand-destruction"]
+      "tags": [
+        "consumer-confidence",
+        "sentiment",
+        "demand-destruction"
+      ]
     },
     {
       "id": "cm-086",
@@ -1311,11 +2842,21 @@
       "dataSource": "US Department of Labor",
       "leadTime": "Weekly, with 5-day lag. Initial claims are the highest-frequency labor market indicator available. Spikes provide early warning of recession with 1-3 month lead time.",
       "reliability": "High for detecting acute deterioration. Very reliable when claims spike suddenly. Less useful for detecting gradual labor market weakening (the 'low hiring, low firing' scenario). State-level data can be noisy due to processing backlogs and seasonal adjustment issues.",
-      "historicalPrecedents": ["March 2020: Claims exploded from 211K to 6.9M in two weeks", "2008: Claims remained below 350K until October 2008 despite recession starting December 2007", "2001: Claims crossed 400K threshold in September 2001, confirming recession"],
-      "compoundsWith": ["general"],
+      "historicalPrecedents": [
+        "March 2020: Claims exploded from 211K to 6.9M in two weeks",
+        "2008: Claims remained below 350K until October 2008 despite recession starting December 2007",
+        "2001: Claims crossed 400K threshold in September 2001, confirming recession"
+      ],
+      "compoundsWith": [
+        "general"
+      ],
       "currentStatus": "normal — historically low claims, labor market stable",
       "lastUpdated": "2026-03-29",
-      "tags": ["jobless-claims", "labor-market", "stability"]
+      "tags": [
+        "jobless-claims",
+        "labor-market",
+        "stability"
+      ]
     },
     {
       "id": "cm-087",
@@ -1326,11 +2867,22 @@
       "dataSource": "Baltic Exchange",
       "leadTime": "Daily. The BDI is a leading indicator for industrial production and global trade with approximately 2-3 month lead time. Sharp declines have preceded global recessions.",
       "reliability": "Moderate-to-high. The index is based on actual shipping contracts, making it resistant to financial speculation. However, it can be distorted by supply-side factors (ship scrapping, new builds, route disruptions) that have nothing to do with demand. The Houthi disruptions currently inflate the reading relative to actual trade volume.",
-      "historicalPrecedents": ["2008: BDI collapsed 94% from 11,793 to 663, presaging global trade freeze", "2016: BDI hit all-time low of 290 amid China slowdown fears", "2020: COVID disrupted shipping but recovery was rapid as stimulus fueled goods demand"],
-      "compoundsWith": ["energy-shock", "geopolitical"],
+      "historicalPrecedents": [
+        "2008: BDI collapsed 94% from 11,793 to 663, presaging global trade freeze",
+        "2016: BDI hit all-time low of 290 amid China slowdown fears",
+        "2020: COVID disrupted shipping but recovery was rapid as stimulus fueled goods demand"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "geopolitical"
+      ],
       "currentStatus": "normal-to-elevated — down from recent highs but still above year-ago levels",
       "lastUpdated": "2026-03-29",
-      "tags": ["BDI", "shipping", "global-trade"]
+      "tags": [
+        "BDI",
+        "shipping",
+        "global-trade"
+      ]
     },
     {
       "id": "cm-088",
@@ -1341,11 +2893,23 @@
       "dataSource": "China NBS",
       "leadTime": "Monthly, released on last day of month. China PMI is a leading indicator for global industrial demand and commodity prices with 1-2 month lead time.",
       "reliability": "Moderate. The official NBS PMI is widely suspected of being smoothed by Chinese statistical authorities, with the private Caixin PMI sometimes telling a different story. However, readings below 50 from the official survey are particularly informative because they represent contraction despite any upward bias in the methodology.",
-      "historicalPrecedents": ["2015-2016: China PMI contraction triggered global growth scare and commodity crash", "2008: China PMI fell to 38.8 during GFC before massive stimulus response", "2020: COVID plunged China PMI to 35.7 before rapid V-shaped recovery"],
-      "compoundsWith": ["geopolitical", "general"],
+      "historicalPrecedents": [
+        "2015-2016: China PMI contraction triggered global growth scare and commodity crash",
+        "2008: China PMI fell to 38.8 during GFC before massive stimulus response",
+        "2020: COVID plunged China PMI to 35.7 before rapid V-shaped recovery"
+      ],
+      "compoundsWith": [
+        "geopolitical",
+        "general"
+      ],
       "currentStatus": "depressed — contracting for 2nd straight month, weak export demand",
       "lastUpdated": "2026-03-29",
-      "tags": ["China-PMI", "contraction", "global-demand", "export-weakness"]
+      "tags": [
+        "China-PMI",
+        "contraction",
+        "global-demand",
+        "export-weakness"
+      ]
     },
     {
       "id": "cm-089",
@@ -1356,11 +2920,24 @@
       "dataSource": "CBS News, FXLeaders",
       "leadTime": "Real-time. Gold typically leads other safe-haven moves by days to weeks. Sharp gold rallies have preceded or coincided with every major financial crisis since 1971.",
       "reliability": "High as a sentiment and positioning indicator. Gold's price reflects the aggregate risk assessment of the most sophisticated global actors (central banks, sovereign wealth funds). The signal is less reliable for timing specific events — gold can remain elevated for extended periods without a crisis materializing.",
-      "historicalPrecedents": ["1979-1980: Gold surged to $850 amid inflation, Iran hostage crisis, Soviet invasion of Afghanistan", "2008-2011: Gold rose from $700 to $1,920 during and after GFC", "2020: Gold hit $2,075 on COVID monetary stimulus fears", "2024-2026: Current super-cycle driven by de-dollarization and geopolitical risk"],
-      "compoundsWith": ["geopolitical", "currency-inflation"],
+      "historicalPrecedents": [
+        "1979-1980: Gold surged to $850 amid inflation, Iran hostage crisis, Soviet invasion of Afghanistan",
+        "2008-2011: Gold rose from $700 to $1,920 during and after GFC",
+        "2020: Gold hit $2,075 on COVID monetary stimulus fears",
+        "2024-2026: Current super-cycle driven by de-dollarization and geopolitical risk"
+      ],
+      "compoundsWith": [
+        "geopolitical",
+        "currency-inflation"
+      ],
       "currentStatus": "extreme — in super-cycle, $4,400+ despite 15-20% correction from $5,600 ATH",
       "lastUpdated": "2026-03-29",
-      "tags": ["gold", "safe-haven", "de-dollarization", "super-cycle"]
+      "tags": [
+        "gold",
+        "safe-haven",
+        "de-dollarization",
+        "super-cycle"
+      ]
     },
     {
       "id": "cm-090",
@@ -1371,11 +2948,22 @@
       "dataSource": "Major crypto exchanges",
       "leadTime": "Real-time. Bitcoin is a coincident indicator of risk appetite. Its 24/7 trading makes it the first asset to react to weekend geopolitical events, sometimes providing an early signal for Monday equity market opens.",
       "reliability": "Moderate. Bitcoin's price is influenced by crypto-specific factors (regulatory news, exchange collapses, halving cycles) that can overwhelm macro signals. Most useful as a risk-appetite gauge when interpreted alongside gold, VIX, and credit spreads rather than in isolation.",
-      "historicalPrecedents": ["2022: Bitcoin fell 77% from $69K to $15.5K alongside equity bear market and crypto contagion (Luna, FTX)", "March 2020: Bitcoin crashed 50% in two days alongside COVID equity selloff", "2018: Bitcoin fell 84% during crypto winter despite no broader macro crisis"],
-      "compoundsWith": ["asset-bubble"],
+      "historicalPrecedents": [
+        "2022: Bitcoin fell 77% from $69K to $15.5K alongside equity bear market and crypto contagion (Luna, FTX)",
+        "March 2020: Bitcoin crashed 50% in two days alongside COVID equity selloff",
+        "2018: Bitcoin fell 84% during crypto winter despite no broader macro crisis"
+      ],
+      "compoundsWith": [
+        "asset-bubble"
+      ],
       "currentStatus": "elevated but declining — risk-off rotation underway",
       "lastUpdated": "2026-03-29",
-      "tags": ["Bitcoin", "crypto", "risk-off", "speculative-assets"]
+      "tags": [
+        "Bitcoin",
+        "crypto",
+        "risk-off",
+        "speculative-assets"
+      ]
     },
     {
       "id": "cm-091",
@@ -1386,11 +2974,25 @@
       "dataSource": "ICE Data",
       "leadTime": "Real-time. Dollar strength transmits to EM economies with a 1-3 month lag as hedging positions expire and debt servicing dates arrive. The impact on US corporate earnings shows up with a 1-2 quarter lag.",
       "reliability": "High as a current reading. The DXY is a well-defined, transparent index weighted against six major currencies (EUR 57.6%, JPY 13.6%, GBP 11.9%, CAD 9.1%, SEK 4.2%, CHF 3.6%). Its limitation is that it does not capture the dollar's relationship with emerging market currencies, which is where the most acute stress typically occurs.",
-      "historicalPrecedents": ["2022: DXY surged to 114, creating EM debt crises and forcing BOJ intervention", "2014-2015: Strong dollar contributed to commodity collapse and EM stress", "1997-1998: Dollar strength was a key factor in the Asian Financial Crisis", "1985: Plaza Accord was required to reverse destabilizing dollar strength"],
-      "compoundsWith": ["currency-inflation", "geopolitical", "carry-trade"],
+      "historicalPrecedents": [
+        "2022: DXY surged to 114, creating EM debt crises and forcing BOJ intervention",
+        "2014-2015: Strong dollar contributed to commodity collapse and EM stress",
+        "1997-1998: Dollar strength was a key factor in the Asian Financial Crisis",
+        "1985: Plaza Accord was required to reverse destabilizing dollar strength"
+      ],
+      "compoundsWith": [
+        "currency-inflation",
+        "geopolitical",
+        "carry-trade"
+      ],
       "currentStatus": "elevated — safe-haven surge above 100, pressuring EM and exporters",
       "lastUpdated": "2026-03-29",
-      "tags": ["DXY", "dollar-strength", "safe-haven", "EM-pressure"]
+      "tags": [
+        "DXY",
+        "dollar-strength",
+        "safe-haven",
+        "EM-pressure"
+      ]
     },
     {
       "id": "cm-092",
@@ -1401,11 +3003,25 @@
       "dataSource": "Freddie Mac PMMS",
       "leadTime": "Weekly. Mortgage rates are a coincident indicator of financial conditions and a leading indicator of housing activity with 1-3 month transmission. Housing activity is a leading indicator of broader economic activity with 2-4 quarter lead time.",
       "reliability": "High. Freddie Mac's survey has been the benchmark mortgage rate series since 1971. The rate directly determines housing affordability and purchasing behavior. The relationship between mortgage rates, housing activity, and economic growth is one of the most robust and well-documented in economics.",
-      "historicalPrecedents": ["1981: Mortgage rates reached 18.63%, devastating housing and contributing to deep recession", "2006-2007: Rates above 6% contributed to housing bubble burst", "2022-2023: Rates surged from 3% to 7.79%, freezing housing market", "2019: Rate decline from 5% to 3.5% fueled housing recovery"],
-      "compoundsWith": ["credit-debt", "currency-inflation", "yield-curve"],
+      "historicalPrecedents": [
+        "1981: Mortgage rates reached 18.63%, devastating housing and contributing to deep recession",
+        "2006-2007: Rates above 6% contributed to housing bubble burst",
+        "2022-2023: Rates surged from 3% to 7.79%, freezing housing market",
+        "2019: Rate decline from 5% to 3.5% fueled housing recovery"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "currency-inflation",
+        "yield-curve"
+      ],
       "currentStatus": "elevated — highest in 6 months, rising sharply on inflation fears",
       "lastUpdated": "2026-03-29",
-      "tags": ["mortgage-rates", "housing", "affordability", "Freddie-Mac"]
+      "tags": [
+        "mortgage-rates",
+        "housing",
+        "affordability",
+        "Freddie-Mac"
+      ]
     },
     {
       "id": "cm-093",
@@ -1416,11 +3032,25 @@
       "dataSource": "COMEX, LME via Trading Economics",
       "leadTime": "Real-time. Copper has historically led economic turning points by 1-3 months. However, the structural demand shift from AI and energy transition may reduce its reliability as a cyclical indicator going forward.",
       "reliability": "Moderate — currently transitioning. Copper's traditional PhD-in-economics reliability is being complicated by structural demand forces that decouple price from cyclical economic activity. The indicator remains useful but requires contextualization: elevated prices may reflect structural deficit rather than economic strength.",
-      "historicalPrecedents": ["2008: Copper crashed 66% from $4.08 to $1.38 during GFC, accurately signaling global recession", "2011: Copper peaked at $4.62 and declined for 5 years as China investment slowed", "2020: COVID crashed copper to $2.12 before stimulus-driven recovery to new highs", "2024-2026: AI/energy transition structural demand has created new price regime"],
-      "compoundsWith": ["ai-specific", "energy-shock"],
+      "historicalPrecedents": [
+        "2008: Copper crashed 66% from $4.08 to $1.38 during GFC, accurately signaling global recession",
+        "2011: Copper peaked at $4.62 and declined for 5 years as China investment slowed",
+        "2020: COVID crashed copper to $2.12 before stimulus-driven recovery to new highs",
+        "2024-2026: AI/energy transition structural demand has created new price regime"
+      ],
+      "compoundsWith": [
+        "ai-specific",
+        "energy-shock"
+      ],
       "currentStatus": "extreme — structural deficit despite economic headwinds, elevated on AI/energy demand",
       "lastUpdated": "2026-03-29",
-      "tags": ["copper", "Dr-Copper", "structural-deficit", "AI-demand", "energy-transition"]
+      "tags": [
+        "copper",
+        "Dr-Copper",
+        "structural-deficit",
+        "AI-demand",
+        "energy-transition"
+      ]
     },
     {
       "id": "cm-094",
@@ -1431,11 +3061,31 @@
       "dataSource": "Federal Reserve Economic Data (FRED), Bureau of Labor Statistics CPI archives, OPEC historical pricing, NBER business cycle dating, academic literature (Blinder, Hamilton, Barsky & Kilian)",
       "leadTime": "Yield curve inversion gave 4 months lead before geopolitical trigger. Equity market peaked 9 months before the embargo. CPI acceleration gave 12+ months warning that the monetary regime was unsustainable.",
       "reliability": "Very high — one of the most thoroughly studied crisis episodes in economic history. The trigger sequence (monetary excess → inflation → geopolitical shock → stagflation) is well-documented and the indicator readings are precisely known.",
-      "historicalPrecedents": ["1979 Second Oil Crisis (similar dynamics, tighter starting conditions)", "2022 Russia-Ukraine energy shock (European gas dependence parallel)", "1971 Nixon Shock (precipitating monetary event)"],
-      "compoundsWith": ["energy-shock", "currency-inflation", "yield-curve", "geopolitical"],
+      "historicalPrecedents": [
+        "1979 Second Oil Crisis (similar dynamics, tighter starting conditions)",
+        "2022 Russia-Ukraine energy shock (European gas dependence parallel)",
+        "1971 Nixon Shock (precipitating monetary event)"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "currency-inflation",
+        "yield-curve",
+        "geopolitical"
+      ],
       "currentStatus": "historical reference — strong parallel to current 2026 macro conditions where tariff-driven supply shock meets pre-existing inflation and yield curve stress",
       "lastUpdated": "2026-03-29",
-      "tags": ["1973", "oil-crisis", "stagflation", "Yom-Kippur", "wage-price-spiral", "Bretton-Woods", "OAPEC", "COLA", "Arthur-Burns", "yield-curve-inversion"]
+      "tags": [
+        "1973",
+        "oil-crisis",
+        "stagflation",
+        "Yom-Kippur",
+        "wage-price-spiral",
+        "Bretton-Woods",
+        "OAPEC",
+        "COLA",
+        "Arthur-Burns",
+        "yield-curve-inversion"
+      ]
     },
     {
       "id": "cm-095",
@@ -1446,11 +3096,33 @@
       "dataSource": "IMF post-crisis assessments, BIS working papers on twin crises, Bank of Thailand data, Radelet & Sachs analysis, Corsetti-Pesenti-Roubini academic literature, EMBI historical spreads",
       "leadTime": "Current account deficit exceeding 8% + USD appreciation gave 12-18 months lead. Finance One collapse (Feb 1997) gave 4 months warning before the peg broke. The doom loop from peg break to systemic crisis took approximately 3 months.",
       "reliability": "Very high. The twin crisis mechanism (currency devaluation → debt burden increase → banking collapse → capital flight → further devaluation) is thoroughly documented and has repeated in multiple emerging market episodes. The key lesson is that currency pegs create hidden fragility by encouraging unhedged borrowing.",
-      "historicalPrecedents": ["1994 Mexican Tequila Crisis (similar peg collapse + capital flight)", "1998 Russian debt default (contagion from Asian crisis)", "2001 Argentine crisis (currency board collapse)", "2018 Turkish lira crisis (unhedged corporate dollar debt)"],
-      "compoundsWith": ["carry-trade", "currency-inflation", "systemic-banking", "credit-debt"],
+      "historicalPrecedents": [
+        "1994 Mexican Tequila Crisis (similar peg collapse + capital flight)",
+        "1998 Russian debt default (contagion from Asian crisis)",
+        "2001 Argentine crisis (currency board collapse)",
+        "2018 Turkish lira crisis (unhedged corporate dollar debt)"
+      ],
+      "compoundsWith": [
+        "carry-trade",
+        "currency-inflation",
+        "systemic-banking",
+        "credit-debt"
+      ],
       "currentStatus": "historical reference — Yen carry trade unwind (cm-076) is the modern parallel, with Japanese institutional capital flows replacing Thai banking flows as the transmission mechanism",
       "lastUpdated": "2026-03-29",
-      "tags": ["1997", "Asian-crisis", "Thailand", "twin-crisis", "currency-peg", "doom-loop", "EMBI", "carry-trade", "BIBF", "Finance-One", "current-account"]
+      "tags": [
+        "1997",
+        "Asian-crisis",
+        "Thailand",
+        "twin-crisis",
+        "currency-peg",
+        "doom-loop",
+        "EMBI",
+        "carry-trade",
+        "BIBF",
+        "Finance-One",
+        "current-account"
+      ]
     },
     {
       "id": "cm-096",
@@ -1461,11 +3133,31 @@
       "dataSource": "NASDAQ historical data, Shiller CAPE dataset, Federal Reserve repo operations data, Barron's archives, SEC filing analysis (cash burn rates), NBER dating, academic literature (Ofek & Richardson, Brunnermeier)",
       "leadTime": "HY credit spread divergence gave 9 months lead (mid-1999). Yield curve inversion gave 1 month lead (Feb 2000). Barron's 'Burning Up' (Mar 20, 2000) was effectively a coincident indicator at the top.",
       "reliability": "Very high — exhaustively documented by both academic research and contemporaneous journalism. The trigger sequence (rate hikes → liquidity withdrawal → valuation compression → equity funding squeeze → doom loop) is precisely traceable. The 15-year recovery timeline is a crucial data point for calibrating expectations about the current AI cycle.",
-      "historicalPrecedents": ["1929 stock market crash (similar retail mania, margin-driven leverage)", "1720 South Sea Bubble (subscription model parallels equity issuance dependency)", "1990s Japan Nikkei collapse (asset bubble from excess liquidity)"],
-      "compoundsWith": ["asset-bubble", "ai-specific", "yield-curve", "credit-debt"],
+      "historicalPrecedents": [
+        "1929 stock market crash (similar retail mania, margin-driven leverage)",
+        "1720 South Sea Bubble (subscription model parallels equity issuance dependency)",
+        "1990s Japan Nikkei collapse (asset bubble from excess liquidity)"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "ai-specific",
+        "yield-curve",
+        "credit-debt"
+      ],
       "currentStatus": "historical reference — strongest parallel to current market structure. CAPE at 39 today vs 44 then. Mag 7 concentration echoes the narrow leadership. AI capex parallels telecom capex.",
       "lastUpdated": "2026-03-29",
-      "tags": ["dot-com", "NASDAQ", "CAPE-44", "equity-funding-squeeze", "Y2K-liquidity", "Barrons", "15-year-recovery", "Burning-Up", "rate-hike-trigger", "concentration-risk"]
+      "tags": [
+        "dot-com",
+        "NASDAQ",
+        "CAPE-44",
+        "equity-funding-squeeze",
+        "Y2K-liquidity",
+        "Barrons",
+        "15-year-recovery",
+        "Burning-Up",
+        "rate-hike-trigger",
+        "concentration-risk"
+      ]
     },
     {
       "id": "cm-097",
@@ -1476,11 +3168,33 @@
       "dataSource": "FCIC Report, Federal Reserve H.15 (LIBOR/TED spread), S&P/Case-Shiller, ABX-HE indices (Markit), VIX historical data, BIS banking statistics, Bernanke/Geithner memoirs",
       "leadTime": "Yield curve inversion (Feb 2006) gave 18 months lead. ABX crash (Feb 2007) gave 6 months precision lead to interbank freeze. Bear Stearns funds (Jun 2007) gave 2 months lead. BNP Paribas (Aug 2007) was effectively the start of the crisis itself.",
       "reliability": "Highest possible — the most documented financial crisis in history, with a congressional investigation (FCIC), thousands of academic papers, and detailed memoirs from key participants. The collateral contagion mechanism is precisely understood and directly applicable to current risks.",
-      "historicalPrecedents": ["1930s Great Depression (systemic bank failure cascade)", "1990s Japan (real estate bubble → zombie banking → lost decade)", "2023 SVB/regional bank crisis (modern echo of confidence-driven bank runs)"],
-      "compoundsWith": ["systemic-banking", "credit-debt", "asset-bubble", "yield-curve"],
+      "historicalPrecedents": [
+        "1930s Great Depression (systemic bank failure cascade)",
+        "1990s Japan (real estate bubble → zombie banking → lost decade)",
+        "2023 SVB/regional bank crisis (modern echo of confidence-driven bank runs)"
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "credit-debt",
+        "asset-bubble",
+        "yield-curve"
+      ],
       "currentStatus": "historical reference — collateral contagion mechanism echoes directly in Treasury basis trade (cm-069) where hedge funds use leveraged Treasury positions as repo collateral, and in private credit (cm-074) where illiquid assets are used to back leveraged structures",
       "lastUpdated": "2026-03-29",
-      "tags": ["2008-GFC", "Lehman", "subprime", "CDO", "ABX", "collateral-contagion", "LIBOR", "repo", "shadow-banking", "BNP-Paribas", "TED-spread", "margin-calls"]
+      "tags": [
+        "2008-GFC",
+        "Lehman",
+        "subprime",
+        "CDO",
+        "ABX",
+        "collateral-contagion",
+        "LIBOR",
+        "repo",
+        "shadow-banking",
+        "BNP-Paribas",
+        "TED-spread",
+        "margin-calls"
+      ]
     },
     {
       "id": "cm-098",
@@ -1491,11 +3205,31 @@
       "dataSource": "Federal Reserve repo operations data, VIX historical data, BIS Bulletin on March 2020 market turmoil, US Treasury bid-ask spread data (TRACE), academic literature (Vissing-Jorgensen, He & Krishnamurthy), NBER",
       "leadTime": "September 2019 repo spike gave 5 months lead on plumbing fragility. Yield curve inversion (May-Aug 2019) gave 6-7 months lead on economic vulnerability. COVID itself gave approximately 7 weeks from first WHO report to market crash, but only 3 trading days from Italy lockdown to freefall.",
       "reliability": "Very high for the mechanism analysis. The Dash for Cash / systematic deleveraging dynamic is thoroughly documented by BIS, the Fed, and academic researchers. The specific vulnerability (repo fragility + systematic strategy crowding) is directly relevant to current basis trade risk (cm-069). The recovery speed is NOT generalizable — it was entirely a function of the largest monetary and fiscal intervention in history.",
-      "historicalPrecedents": ["1987 Black Monday (mechanical/portfolio insurance-driven crash)", "2008 GFC repo freeze (similar plumbing failure, slower development)", "2019 September repo spike (direct precursor and warning signal)"],
-      "compoundsWith": ["systemic-banking", "credit-debt", "asset-bubble", "general"],
+      "historicalPrecedents": [
+        "1987 Black Monday (mechanical/portfolio insurance-driven crash)",
+        "2008 GFC repo freeze (similar plumbing failure, slower development)",
+        "2019 September repo spike (direct precursor and warning signal)"
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "credit-debt",
+        "asset-bubble",
+        "general"
+      ],
       "currentStatus": "historical reference — repo fragility warning pattern directly relevant to current basis trade risk (cm-069), and the systematic deleveraging mechanism remains active with even larger AUM in vol-targeting and risk parity strategies",
       "lastUpdated": "2026-03-29",
-      "tags": ["COVID", "dash-for-cash", "risk-parity", "repo-crisis", "systematic-deleveraging", "fastest-recovery", "VIX-82", "Treasury-market-break", "BBB-cliff", "September-2019-repo"]
+      "tags": [
+        "COVID",
+        "dash-for-cash",
+        "risk-parity",
+        "repo-crisis",
+        "systematic-deleveraging",
+        "fastest-recovery",
+        "VIX-82",
+        "Treasury-market-break",
+        "BBB-cliff",
+        "September-2019-repo"
+      ]
     },
     {
       "id": "cm-099",
@@ -1506,11 +3240,113 @@
       "dataSource": "Bank of England Financial Stability Reports, House of Commons Treasury Committee hearings, MOVE Index historical data, UK DMO gilt auction data, Pension Protection Fund data, BIS working papers on LDI and leverage",
       "leadTime": "MOVE Index uptrend through H1 2022 gave 6 months lead that bond market liquidity was fragile. The acute crisis developed in 3 trading days from trigger (Sep 23 mini-Budget) to BoE emergency intervention (Sep 28). The doom loop was approximately 48 hours from pension system insolvency when intervention occurred.",
       "reliability": "Very high — recent event with extensive documentation from the BoE, parliamentary inquiries, and market data. The LDI doom loop mechanism is precisely understood and has been analyzed in detail by the BoE, BIS, and academic researchers. The structural parallel to basis trade and CCP margin risks is direct and well-recognized by regulators.",
-      "historicalPrecedents": ["1992 UK ERM crisis (political trigger → market crisis → policy reversal)", "2020 March Treasury market break (bond market liquidity evaporation)", "1998 LTCM (leveraged fixed-income positions → margin calls → forced selling)"],
-      "compoundsWith": ["systemic-banking", "yield-curve", "currency-inflation"],
+      "historicalPrecedents": [
+        "1992 UK ERM crisis (political trigger → market crisis → policy reversal)",
+        "2020 March Treasury market break (bond market liquidity evaporation)",
+        "1998 LTCM (leveraged fixed-income positions → margin calls → forced selling)"
+      ],
+      "compoundsWith": [
+        "systemic-banking",
+        "yield-curve",
+        "currency-inflation"
+      ],
       "currentStatus": "historical reference — LDI doom-loop mechanics directly parallel to Treasury basis trade (cm-069) and CCP margin procyclicality (cm-073). UK has since implemented LDI leverage limits, but the mechanism remains active in other markets.",
       "lastUpdated": "2026-03-29",
-      "tags": ["UK-Gilt", "LDI", "Truss", "margin-doom-loop", "pension-crisis", "MOVE-index", "48-hours", "BoE-emergency", "Kwarteng", "mini-Budget", "leverage-procyclicality"]
+      "tags": [
+        "UK-Gilt",
+        "LDI",
+        "Truss",
+        "margin-doom-loop",
+        "pension-crisis",
+        "MOVE-index",
+        "48-hours",
+        "BoE-emergency",
+        "Kwarteng",
+        "mini-Budget",
+        "leverage-procyclicality"
+      ]
+    },
+    {
+      "id": "cm-100",
+      "category": "trigger",
+      "subcategory": "geopolitical",
+      "title": "EU Infrastructure Decoupling: Digital and Financial Sovereignty",
+      "content": "Europe is executing a systematic replacement of US-controlled digital and financial infrastructure with EU-governed sovereign alternatives. This is not policy rhetoric -- it is operational infrastructure deployment with regulatory mandates enforcing adoption.\n\nThe digital layer: Euro Office launched March 27, 2026 (open-source ONLYOFFICE fork, EU governance, coalition: Ionos, Nextcloud, XWiki, OpenProject, Open-Xchange). Full DOCX/XLSX/PPTX compatibility eliminates switching costs. Stable release Summer 2026. Germany, Denmark, and Estonia have active sovereign cloud procurement mandates. Gartner projects EU sovereign cloud spend tripling to EUR 23B by 2027. The structural catalyst is the CLOUD Act (2018): US law enforcement can compel data from US companies regardless of physical server location, making US cloud providers legally non-compliant with EU data sovereignty requirements. This is settled law, not a political dispute -- the conflict is structural and permanent.\n\nThe financial layer: SEPA Instant is mandated across all Eurozone banks (receive by Jan 2025, send by Oct 2025). Wero (European Payments Initiative), backed by 16 major banks, is absorbing national payment systems -- iDEAL (Netherlands) migrated January 2026. Account-to-account (A2A) payments cost 30-70% less than card interchange networks. A2A captured 17% of EU e-commerce in 2024, projected EUR 850B by 2026. EU interchange fees are capped by regulation. Visa and Mastercard cannot compete on speed, coverage, or cost within the EU framework.\n\nCrisis monitoring relevance: this decoupling is a slow-moving structural shift (2-5 year lead time) that compounds with dollar hegemony erosion and multipolar financial system fragmentation. When EU payments settle in EUR via Wero/SEPA and EU data runs on sovereign infrastructure, US visibility into European economic activity (transaction patterns, consumption data, credit signals) degrades. This is not a crisis trigger in isolation but a compound amplifier that worsens data quality for US-based risk models and reduces early-warning signal fidelity for institutions monitoring EU economic conditions.",
+      "dataSource": "Euro Office coalition press releases (Mar 2026), European Payments Initiative (EPI) Wero reports, SEPA Instant regulation (EC 2023), Gartner sovereign cloud projections, CLOUD Act (2018) legal analysis, Dutch National Bank iDEAL migration announcements",
+      "leadTime": "2-5 years for full structural effect. Digital layer: Summer 2026 Euro Office stable release begins broad EU adoption. Financial layer: SEPA Instant mandate operational, Wero absorbing national systems through 2026-2027. Full US data visibility degradation: 3-5 years.",
+      "reliability": "High for mandate enforcement (SEPA Instant is law, not suggestion). Medium-high for adoption trajectory (Wero/Euro Office face inertia but have strong incentive structure). Lower for BRICS/Global South adoption spillover (geopolitical logic is sound but timing uncertain).",
+      "historicalPrecedents": [
+        "SWIFT exclusion of Iran (2012) and Russia (2022) as catalyst for alternative payment infrastructure development",
+        "EU GDPR (2018) as precedent for successful regulatory override of US tech platform behavior",
+        "China UnionPay development as domestic card network built in response to Visa/Mastercard dependency concerns"
+      ],
+      "compoundsWith": [
+        "currency-inflation",
+        "geopolitical",
+        "systemic-banking"
+      ],
+      "currentStatus": "Active and accelerating. SEPA Instant mandates operational. Wero launched and absorbing iDEAL. Euro Office in tech preview (launched Mar 27, 2026), stable release Summer 2026. Germany/Denmark/Estonia mandates in force. Monitor: EU member state sovereign cloud policy adoption rate, Wero merchant acceptance percentage, Euro Office public sector deployment announcements.",
+      "lastUpdated": "2026-03-30",
+      "tags": [
+        "EU",
+        "digital-sovereignty",
+        "euro-office",
+        "SEPA-Instant",
+        "Wero",
+        "EPI",
+        "CLOUD-Act",
+        "A2A",
+        "geopolitical",
+        "decoupling",
+        "Visa",
+        "Mastercard",
+        "iDEAL",
+        "sovereign-cloud",
+        "infrastructure-replacement",
+        "slow-burn-trigger"
+      ]
+    },
+    {
+      "id": "cm-101",
+      "category": "compound-interaction",
+      "subcategory": "geopolitical",
+      "title": "EU Decoupling + Dollar Hegemony Erosion: Compound Data Visibility Crisis",
+      "content": "The intersection of EU infrastructure decoupling (cm-100) and the existing dollar hegemony erosion trend creates a compound effect that is more significant than either trend in isolation: the progressive degradation of US financial surveillance and early-warning capabilities.\n\nThe mechanism operates through data flows. Currently, US institutions -- including the Federal Reserve, Treasury, major investment banks, and intelligence agencies -- have deep visibility into global economic activity because that activity flows through US-controlled rails. SWIFT transaction data passes through US jurisdiction. Microsoft Azure and Google Cloud process European enterprise data under US law (CLOUD Act). Visa and Mastercard transaction data gives US institutions near-real-time consumption signal across 450M European consumers.\n\nWhen EU payments shift to Wero/SEPA: EUR-denominated, EU-jurisdiction, EU-governed settlement. Transaction data no longer flows through US financial infrastructure. When EU enterprise data shifts to Euro Office + sovereign cloud: EU-jurisdiction storage and processing. CLOUD Act compulsion is no longer applicable. When BRICS nations adopt similar frameworks (the natural extension of the EU open-source sovereignty blueprint): the geographic coverage of US data blindspots expands.\n\nFor crisis monitoring specifically, this compound creates a second-order risk: US-based risk models that currently incorporate European economic signals (PMI, consumption patterns, credit flows) will face increasing data latency and degraded signal quality as EU decoupling progresses. Models calibrated on comprehensive global data visibility will produce less reliable crisis forecasts as that visibility narrows. The irony is that the crisis monitoring infrastructure most dependent on complete data (Fed, IMF, BIS) is most exposed to the visibility degradation.\n\nThis is not an acute crisis trigger -- it is a slow-moving degradation of the early-warning capability that is supposed to detect acute triggers. Lead time to material impact: 3-7 years. The compound with dollar reserve currency erosion (as more trade settles outside USD) is that both financial transaction data AND dollar-settlement data degrade simultaneously, creating a dual-channel visibility reduction.\n\nFor AI-Rev engine relevance: sectors most dependent on US financial data infrastructure (banks, div-fin, insurance) face increasing model risk as their credit and risk assessment frameworks lose European signal quality. This is a tail risk for AI-powered financial modeling tools that assume data completeness.",
+      "dataSource": "EU infrastructure decoupling analysis (cm-100), dollar reserve currency erosion literature (BIS working papers, Gita Gopinath IMF research), SWIFT data flow analysis, CLOUD Act jurisdictional analysis, Federal Reserve international financial surveillance frameworks",
+      "leadTime": "3-7 years for material degradation of US data visibility into EU economic activity. Acute crisis interaction: if a EU-originated financial stress event (e.g., sovereign debt crisis, banking stress) develops after decoupling is advanced, US early-warning detection capability may be materially reduced, potentially extending reaction time by days to weeks -- significant in fast-moving market events.",
+      "reliability": "Medium. The directional logic is sound and follows from infrastructure facts. The timeline and magnitude of impact on US risk model accuracy is speculative -- US institutions will adapt and develop alternative data sources. The compound effect is real but the severity depends on adaptation speed.",
+      "historicalPrecedents": [
+        "Asian Financial Crisis (1997): US institutions had limited visibility into Thai, Korean, Indonesian financial flows before the crisis -- geographic data blindspots contributed to delayed recognition",
+        "Russian financial isolation post-2022: Western institutions lost real-time data on Russian economic activity; sanctions effectiveness assessment became significantly harder"
+      ],
+      "compoundsWith": [
+        "currency-inflation",
+        "geopolitical",
+        "systemic-banking",
+        "credit-debt"
+      ],
+      "currentStatus": "Early stage. EU decoupling (cm-100) is operational but not yet material enough to degrade US data visibility. Monitor for: percentage of EU cross-border payments settling via SEPA vs SWIFT, EU sovereign cloud adoption rate among regulated financial institutions, any Fed or IMF commentary on data quality concerns in European monitoring.",
+      "lastUpdated": "2026-03-30",
+      "tags": [
+        "EU",
+        "dollar-hegemony",
+        "data-visibility",
+        "compound-risk",
+        "early-warning-degradation",
+        "SWIFT",
+        "CLOUD-Act",
+        "geopolitical",
+        "decoupling",
+        "surveillance-capability",
+        "Fed",
+        "IMF",
+        "BIS",
+        "AI-Rev",
+        "financial-modeling",
+        "multipolar",
+        "BRICS",
+        "slow-burn-compound"
+      ]
     }
   ]
 }
