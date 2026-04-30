@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Economic crisis forecasting frameworks, systemic risk indicators, trigger monitoring, historical precedents, and compound interaction models. Sourced from BIS, IMF, Fed, ECB institutional frameworks; Minsky, Dalio, Reinhart-Rogoff academic models; Bridgewater, Universa, AQR, GMO institutional approaches; and AI-Rev engine crisis scenario analysis.",
   "created": "2026-03-28",
-  "lastUpdated": "2026-03-30",
-  "entryCount": 101,
+  "lastUpdated": "2026-04-26",
+  "entryCount": 154,
   "schema": {
     "type": "crisis-monitor",
     "fields": [
@@ -120,8 +120,8 @@
         "systemic-banking",
         "ai-specific"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "elevated — Speculative lending expanding in private credit, Ponzi-adjacent dynamics in AI capex (spending to justify prior spending). Minsky's 'stability breeds instability' actively playing out in tech infrastructure.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "minsky",
         "financial-instability",
@@ -153,8 +153,8 @@
         "yield-curve",
         "systemic-banking"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — US in late stages of long-term debt cycle, debt-to-GDP anchored ~130%. Short-term cycle strained by sticky inflation and restrictive Fed policy. High asset valuations despite massive deficits. Bridgewater warns of pending stagflationary deleveraging.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "dalio",
         "debt-cycle",
@@ -187,8 +187,8 @@
         "systemic-banking",
         "currency-inflation"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "elevated — US sovereign debt and shadow banking credit growth mirror classic 'This Time Is Different' pre-crisis over-leverage signatures. Rapid private debt accumulation at structurally higher rates severely limits fiscal response capacity for next shock.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "reinhart-rogoff",
         "credit-contraction",
@@ -219,8 +219,8 @@
         "carry-trade",
         "asset-bubble"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — Counterparty risks concentrated in non-bank financial institutions and Treasury basis trades, creating fragile single points of failure. Mag 7 concentration ensures localized tech shock cascades mechanically through passive index funds.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "network-theory",
         "contagion",
@@ -252,8 +252,8 @@
         "ai-specific",
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "active — Cross-sector vulnerability actively manifesting in AI-energy nexus: data center power demands straining regional grids. Semiconductor supply chain or power infrastructure disruption would instantly cascade into enterprise software, cloud, and advanced manufacturing.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "input-output",
         "supply-chain",
@@ -287,8 +287,8 @@
         "currency-inflation",
         "asset-bubble"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "stable — OFR FSI at -1.03 as of April 2026, safely below historical median of 0. Reflects stable global market conditions driven by abundant funding liquidity and secure risk assets.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "ofr",
         "financial-stress-index",
@@ -319,8 +319,8 @@
         "systemic-banking",
         "currency-inflation"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "deprecated — CFSI permanently discontinued by Cleveland Fed in 2016 due to construction errors that overestimated stress in real estate and securitization. No current reading available.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "cleveland-fed",
         "cfsi",
@@ -351,8 +351,8 @@
         "systemic-banking",
         "asset-bubble"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "stable — STLFSI4 reading -0.37 as of April 2026, well below 0 baseline. Below-average financial market stress driven by contained credit spreads and Fed rate cuts.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "st-louis-fed",
         "stlfsi4",
@@ -384,8 +384,8 @@
         "currency-inflation",
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "stable — ECB CISS at 0.02 as of April 2026, far below 0.3 elevated threshold. Frictionless liquidity, minimal systemic stress across European financial markets.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "ecb",
         "ciss",
@@ -416,8 +416,8 @@
         "credit-debt",
         "asset-bubble"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "stable — Cleveland Fed SRI projects low probability of stress (~1%) as of early 2026. Reflects secure banking system with strong balance sheets, low asset volatility, contained credit risks.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "cleveland-fed",
         "sri",
@@ -447,8 +447,8 @@
         "credit-debt",
         "carry-trade"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "stable — Fed Financial Stability Report (Nov 2025) rates banking system \"sound and resilient.\" Most banks well above regulatory capital requirements, high liquid assets, reduced uninsured deposit reliance.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "federal-reserve",
         "banking-vulnerability",
@@ -485,8 +485,8 @@
         "credit-debt",
         "currency-inflation"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — 10Y-3M spread positive at ~+15 bps as of early 2026, recently un-inverting after longest/deepest inversion since 1980s. Normalization matches pre-recession danger zone signal as markets anticipate emergency rate cuts.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "yield-curve",
         "10y-3m",
@@ -519,8 +519,8 @@
         "credit-debt",
         "currency-inflation"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — 10Y-2Y spread at +60 bps as of April 2026, continuing bear-steepening un-inversion. Directly matches 2000 and 2007 pre-recession patterns. Economic danger window has arrived.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "yield-curve",
         "10y-2y",
@@ -550,8 +550,8 @@
         "asset-bubble",
         "systemic-banking"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "stable — BIS US Credit-to-GDP gap in negative territory, safely below +10pp Basel III crisis threshold. No excessive systematic private sector credit build-up relative to long-term trend.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "credit-to-gdp-gap",
         "bis",
@@ -585,8 +585,8 @@
         "yield-curve",
         "ai-specific"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "critical — Shiller CAPE at 40.1 as of April 2026, vs historical mean ~17.4. Second-priciest valuation in US market history, approaching dot-com peak of 44.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "cape",
         "shiller-pe",
@@ -618,8 +618,8 @@
         "carry-trade",
         "credit-debt"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "elevated — Systematic mispricing: corporate credit spreads extremely compressed despite high sovereign yields and structural fiscal risks. Mimics 2005-2007 environment where risk premiums failed to reflect fundamental dangers.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "mispricing-risk",
         "complacency",
@@ -650,8 +650,8 @@
         "currency-inflation",
         "systemic-banking"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "stable — BIS aggregate DSR for US private non-financial sector at 14.1%, below historical average of 14.6% and well below 2007 crisis peak of 18.5%. Manageable near-term debt repayment constraints.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "debt-service-ratio",
         "bis",
@@ -683,8 +683,8 @@
         "geopolitical",
         "systemic-banking"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — VIX calm around 18 with normalized contango term structure. But 0DTE options now ~60% of SPX volume, structurally suppressing VIX and exposing market to sudden unhedged intraday volatility cascades.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "vix",
         "term-structure",
@@ -719,8 +719,8 @@
         "currency-inflation",
         "carry-trade"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "elevated — HY spreads tight at ~286 bps, default rates low at 2.06%. Orderly surface but record hedge fund leverage and tightening monetary conditions keep underlying credit risks elevated.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "credit-trigger",
         "corporate-debt",
@@ -754,8 +754,8 @@
         "carry-trade",
         "systemic-banking"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — Mag 7 still ~34% of S&P 500, extreme concentration risk. AI valuations stretched but capital beginning to rotate toward equal-weight strategies as mega-cap momentum cools.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "asset-bubble",
         "concentration-risk",
@@ -791,8 +791,8 @@
         "carry-trade",
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "active — Direct US-Israel-Iran military conflict erupted Feb 2026, effectively closing Strait of Hormuz. Major Middle East escalation diverting US military resources, heightening Taiwan vulnerability.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "geopolitical",
         "conflict",
@@ -826,8 +826,8 @@
         "credit-debt",
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "active — Brent above $101/bbl due to US-Iran conflict and Hormuz closure. Millions of barrels/day shut in, creating immediate global energy shock.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "energy-shock",
         "oil",
@@ -861,8 +861,8 @@
         "carry-trade",
         "yield-curve"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — Headline inflation surging from Middle East energy shock. Core PCE sticky at 2.8-3.0%. Wage growth cooled to 3.7% but supply shocks + sticky core aggressively reviving stagflation fears.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "currency-crisis",
         "inflation",
@@ -896,8 +896,8 @@
         "carry-trade",
         "currency-inflation"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "critical — CRE office loan delinquencies at record 12.34%. FDIC Problem Bank List at 60 institutions. Hundreds of billions in unrealized bond losses on bank balance sheets. Severe structural threat to regional bank solvency.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "banking-crisis",
         "bank-runs",
@@ -930,8 +930,8 @@
         "carry-trade",
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "elevated — Hyperscaler AI capex projected $600-700B in 2026 vs actual AI software revenue creating massive gap. GPU demand voracious with Blackwell rollout but financing gap introduces significant long-term vulnerability.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "ai-bubble",
         "capex-revenue-gap",
@@ -965,8 +965,8 @@
         "geopolitical",
         "systemic-banking"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "critical — Markets on high alert for violent yen carry trade unwind. BOJ widely expected to hike to 1% on April 28, 2026. 10Y JGB yields at multi-decade highs, US-Japan rate differential compressing. Leveraged positions at imminent risk of forced unwind.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "carry-trade",
         "yen",
@@ -1000,8 +1000,8 @@
         "credit-debt",
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "active — 60/40 portfolio suffering severe correlation breakdown. Trailing 12-month stock-bond correlation at +0.95. Bonds entirely failing as diversifier. April 2026 inflation and tariff shocks driving both equities and fixed income down simultaneously.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "correlation-breakdown",
         "diversification-failure",
@@ -1195,8 +1195,8 @@
         "credit-debt",
         "geopolitical"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "elevated — Middle East friction and structural energy underinvestment keep oil shock highly plausible. Crude spike + sticky core inflation would prevent Fed cuts, creating severe simultaneous tightening squeeze on consumers.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "compound-crisis",
         "oil-shock",
@@ -1227,8 +1227,8 @@
         "systemic-banking",
         "carry-trade"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — HY spreads deceptively tight, masking extreme vulnerabilities in private credit refinancing and levered hedge fund basis trades. Rapid repricing of peak equity valuations could trigger margin calls and sudden shadow banking liquidity freeze.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "compound-crisis",
         "credit-freeze",
@@ -1265,8 +1265,8 @@
         "ai-specific",
         "carry-trade"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — At least 5 major triggers (geopolitical conflict, market concentration, private credit leverage, sovereign debt, grid constraints) at 'elevated' or higher. Historical clustering mirrors 2007 dynamics, raising probability of multi-trigger systemic activation.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "compound-crisis",
         "non-linear",
@@ -1299,8 +1299,8 @@
         "ai-specific",
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "active — Geopolitical rerouting from Red Sea, Panama Canal draft variations, escalating tariffs have fundamentally fragmented global logistics. Persistent shipping route friction and critical mineral supply chain disruptions compounding operational shocks.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "supply-chain",
         "cascade",
@@ -1335,8 +1335,8 @@
         "carry-trade",
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — Mega-cap tech ~33% of S&P 500. Downward revision in AI monetization timelines would trigger severe index-level deflation. Passive flows anchor broader market to these names — AI capex reality check forces indiscriminate liquidation across unrelated sectors.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "ai-compound",
         "mag-7-concentration",
@@ -1367,8 +1367,8 @@
         "currency-inflation",
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — Dalio warned early 2026 of looming 'financial reset' from sovereign debt, advocating 'stagflation portfolio' heavy in gold, TIPS, AI infrastructure. Bridgewater filings show massive gold miner allocation (Newmont), complete exit from Chinese equities.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "bridgewater",
         "dalio",
@@ -1399,8 +1399,8 @@
         "carry-trade",
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "critical — Spitznagel early 2026: US equities in 'Goldilocks zone' blow-off rally, S&P could hit 8000 before 80% catastrophic crash. Calls this 'biggest bubble in human history.' Universa maintaining aggressive tail-risk hedging posture.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "universa",
         "tail-risk",
@@ -1433,8 +1433,8 @@
         "credit-debt",
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "elevated — Asness early 2026: market 'expensive but not a bubble.' Value spread at ~80th percentile historically. AQR exploiting wide valuation gap with double-digit returns and record inflows across market-neutral and multi-strategy funds.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "aqr",
         "asness",
@@ -1466,8 +1466,8 @@
         "credit-debt",
         "ai-specific"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — Grantham Q1 2026 GMO 7-Year Forecast projects deeply negative real returns for US Large Cap equities. Advises shift toward deep value, EM debt, quality small caps to navigate persistently overvalued domestic market.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "gmo",
         "grantham",
@@ -1494,8 +1494,8 @@
       "compoundsWith": [
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "active — March 2026 BIS research confirmed tree-based ensemble algorithms (random forests) consistently outperform regression for crisis prediction. AI graph transformers now detecting real-time structural vulnerabilities in shadow banking without constant retraining.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "machine-learning",
         "ai-prediction",
@@ -1523,8 +1523,8 @@
       "compoundsWith": [
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — Atlanta Fed GDPNow sank to 1.2% for Q1 2026 by April 21, sharp downward revision from earlier 3% projections. Driven by softer retail sales, manufacturing indexes, and real gross private domestic investment.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "nowcasting",
         "high-frequency",
@@ -1552,8 +1552,8 @@
         "systemic-banking",
         "credit-debt"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "active — Early 2026 research deployed Spatial-Temporal Graph Attention Networks (ST-GAT) for interbank contagion and default prediction, achieving 88%+ AUC. Models integrate macro trends and dynamic bilateral exposures to map hidden contagion paths.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "temporal-graph-learning",
         "gnn",
@@ -1583,8 +1583,8 @@
         "general",
         "geopolitical"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "warning — BLS employment showing unexpected weakness early 2026. Institutions relying on Indeed/Aspen Tech Labs alternative job vacancy data showing steep YoY declines in corporate postings. Highly predictive signal for slowing revenues and rising recession risk.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "alternative-data",
         "satellite",
@@ -1619,8 +1619,8 @@
         "systemic-banking",
         "ai-specific"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "critical — In a present-day crisis: Capital Goods, Automobiles, Consumer Discretionary, Real Estate devastated by suppressed demand and high financing. Cloud Platforms, Enterprise SaaS, Foundry Equipment face catastrophic downside if corporate IT budgets freeze and AI infrastructure cycle bursts.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "industry-vulnerability",
         "ai-rev-engine",
@@ -1652,8 +1652,8 @@
         "geopolitical",
         "energy-shock"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "stable — Utilities, Healthcare, Big Pharma, Food & Beverage have deep structural protection via inelastic essential demand and regulated returns. Would maintain steady cash flows and act as counter-cyclical safe havens even in severe contraction.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "crisis-resilience",
         "defensive-sectors",
@@ -1686,8 +1686,8 @@
         "systemic-banking",
         "general"
       ],
-      "currentStatus": "unknown",
-      "lastUpdated": "2026-03-28",
+      "currentStatus": "active — Financial shock today would halt speculative frontier model capex but ACCELERATE applied AI for margin-saving enterprise automation. 2008/2020 pattern: survival-driven capital reallocation accelerates cost-cutting AI deployment while bankrupting hardware-heavy unproven projects.",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "cross-industry-cascade",
         "ai-rev-engine",
@@ -3347,6 +3347,1523 @@
         "BRICS",
         "slow-burn-compound"
       ]
+    },
+    {
+      "id": "cm-102",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "1970s Gold Bugs: End of the Dollar Predictions",
+      "content": "Howard Ruff, Harry Browne, and 1970s 'Gold Bugs' predicted total collapse of fiat currency, hyperinflation, and the end of the US Dollar (1978-1980). Claimed: societal collapse, permanent hyperinflation, return to barter and gold. ACTUAL: Paul Volcker raised rates aggressively, crushing inflation. 1980s-1990s saw massive expansion and historic bull market. Gold crashed from 1980 peak, stagnated 20 years.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - prediction was wrong",
+      "reliability": "WRONG",
+      "historicalPrecedents": [
+        "1970s stagflation"
+      ],
+      "compoundsWith": [],
+      "currentStatus": "resolved - prediction failed",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "gold-bugs",
+        "hyperinflation",
+        "fiat-collapse",
+        "1970s",
+        "wrong-prediction"
+      ],
+      "prediction": "Total collapse of fiat currency, hyperinflation, end of USD",
+      "predictor": "Howard Ruff, Harry Browne, 1970s Gold Bugs",
+      "year": "1978-1980",
+      "accuracy": "WRONG",
+      "whoProfited": "Newsletter writers, survivalist book authors, gold dealers",
+      "skinInTheGame": false,
+      "lessonsLearned": "Central banks have tools to combat inflation. Betting linearly on temporary macro trends extending to infinity ignores institutional adaptation."
+    },
+    {
+      "id": "cm-103",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "1987 Black Monday: Great Depression 2.0 Predictions",
+      "content": "Ravi Batra (author of 'The Great Depression of 1990') and financial media predicted Black Monday signaled a direct repeat of 1929 and imminent global Great Depression. ACTUAL: Fed provided immediate liquidity ('Greenspan put'). Real economy largely unaffected. Market recovered to new all-time highs within two years, leading into massive 1990s boom.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - prediction was wrong",
+      "reliability": "WRONG",
+      "historicalPrecedents": [
+        "1929 crash",
+        "cm-029"
+      ],
+      "compoundsWith": [],
+      "currentStatus": "resolved - prediction failed",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "black-monday",
+        "1987",
+        "depression",
+        "wrong-prediction"
+      ],
+      "prediction": "Great Depression 2.0, massive unemployment, decimation of global wealth",
+      "predictor": "Ravi Batra, financial media",
+      "year": "1987",
+      "accuracy": "WRONG",
+      "whoProfited": "Doom-centric book authors (Batra became #1 NYT Bestseller), media outlets",
+      "skinInTheGame": false,
+      "lessonsLearned": "Market crashes do not equal economic depressions. Central bank interventions act as massive shock absorbers compared to 1920s."
+    },
+    {
+      "id": "cm-104",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "1990s Japan Mirror: US Lost Decade Predictions",
+      "content": "Various macroeconomists predicted US real estate and stock markets would suffer a 'Lost Decade' exactly mirroring Japan's 1989 bubble burst (1990-1992). Claimed: decades of deflation, stagnant growth, collapsing real estate. ACTUAL: US economy fundamentally differed from Japan's leveraged, insular banking system. US entered the 'Roaring 90s' driven by tech innovation and PC/Internet boom.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - prediction was wrong",
+      "reliability": "WRONG",
+      "historicalPrecedents": [
+        "Japan 1989 bubble"
+      ],
+      "compoundsWith": [],
+      "currentStatus": "resolved - prediction failed",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "japan-mirror",
+        "lost-decade",
+        "1990s",
+        "wrong-prediction"
+      ],
+      "prediction": "Decades of deflation, stagnant growth, collapsing real estate in America",
+      "predictor": "Various macroeconomists and contrarian pundits",
+      "year": "1990-1992",
+      "accuracy": "WRONG",
+      "whoProfited": "Contrarian newsletter writers selling 'safe haven' international investments",
+      "skinInTheGame": false,
+      "lessonsLearned": "Drawing 1-to-1 analogies between different economies ignores vital differences in demographics, immigration, banking regulations, and corporate dynamism."
+    },
+    {
+      "id": "cm-105",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "Y2K: Global Infrastructure Collapse Predictions",
+      "content": "Gary North, IT survivalists, and mainstream media predicted global infrastructure collapse from Y2K date bug (1998-1999). Claimed: planes falling from sky, power grids failing permanently, banking system collapse, return to agrarian living. ACTUAL: Massive global remediation ($300B) fixed bugs in advance. Jan 1, 2000 passed with only minor, isolated glitches.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - prediction was wrong",
+      "reliability": "WRONG",
+      "historicalPrecedents": [],
+      "compoundsWith": [],
+      "currentStatus": "resolved - prediction failed",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "y2k",
+        "infrastructure",
+        "2000",
+        "wrong-prediction"
+      ],
+      "prediction": "Planes falling from sky, power grid failure, banking collapse, return to agrarian living",
+      "predictor": "Gary North, IT survivalists, mainstream media",
+      "year": "1998-1999",
+      "accuracy": "WRONG",
+      "whoProfited": "IT consultants, survival gear merchants, doomsday newsletter writers, gold promoters",
+      "skinInTheGame": false,
+      "lessonsLearned": "Humanity excels at solving highly visible, definitively timed technical problems. Doom predictions often ignore coordinated human engineering capacity."
+    },
+    {
+      "id": "cm-106",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "Dot-Com Crash: Internet Is A Fad Predictions",
+      "content": "Clifford Stoll, Paul Krugman, and broad tech-bear sentiment claimed internet was a passing fad with no more impact than fax machine (1998-2000). ACTUAL: Stock bubble absolutely popped (Nasdaq fell 78%), but internet fundamentally rewired the entire global economy. Surviving companies (Amazon, eBay) became titans.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - partially correct",
+      "reliability": "PARTIALLY RIGHT",
+      "historicalPrecedents": [
+        "cm-028",
+        "cm-096"
+      ],
+      "compoundsWith": [],
+      "currentStatus": "resolved - bubble burst but technology prevailed",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "dot-com",
+        "internet-fad",
+        "2000",
+        "partial-prediction"
+      ],
+      "prediction": "Total irrelevance of internet businesses, complete reversion to brick-and-mortar",
+      "predictor": "Clifford Stoll, Paul Krugman, tech bears",
+      "year": "1998-2000",
+      "accuracy": "PARTIALLY RIGHT",
+      "whoProfited": "Short sellers who correctly timed the bubble burst, value investors",
+      "skinInTheGame": false,
+      "lessonsLearned": "Distinguish between a financial bubble and a technological revolution. Overvaluation does not equal uselessness. Market crashed but underlying technology changed the world."
+    },
+    {
+      "id": "cm-107",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "Peak Oil: End of Industrial Civilization Predictions",
+      "content": "Matthew Simmons, James Howard Kunstler predicted global oil production had irreversibly peaked, causing $200+ oil, permanent food shortages, and collapse of industrialized society (2005-2008). ACTUAL: High prices incentivized massive innovation. Fracking and horizontal drilling unlocked massive shale reserves. US became net exporter. Oil prices later crashed.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - prediction was wrong",
+      "reliability": "WRONG",
+      "historicalPrecedents": [
+        "cm-094"
+      ],
+      "compoundsWith": [],
+      "currentStatus": "resolved - prediction failed",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "peak-oil",
+        "energy",
+        "2005",
+        "wrong-prediction"
+      ],
+      "prediction": "End of modern transportation, globalization collapse, 'The Long Emergency'",
+      "predictor": "Matthew Simmons, James Howard Kunstler",
+      "year": "2005-2008",
+      "accuracy": "WRONG",
+      "whoProfited": "Oil speculators, peak-oil survival book authors, renewable energy promoters",
+      "skinInTheGame": false,
+      "lessonsLearned": "Doomsayers frequently underestimate human ingenuity and the price mechanism. High prices cure high prices by incentivizing new extraction technologies."
+    },
+    {
+      "id": "cm-108",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "Burry/Paulson: Subprime Housing Collapse (CORRECT)",
+      "content": "Michael Burry, John Paulson, Steve Eisman predicted US housing market built on fraudulent subprime mortgages would collapse, crashing global financial system (2005-2007). ACTUAL: Exactly as predicted. Subprime collapsed, triggering GFC. Lehman, Bear Stearns failed or were bailed out.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "2-3 years (Burry started shorting in 2005, crisis hit 2007-2008)",
+      "reliability": "CORRECT",
+      "historicalPrecedents": [
+        "cm-029",
+        "cm-097"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "asset-bubble"
+      ],
+      "currentStatus": "resolved - prediction was correct",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "subprime",
+        "burry",
+        "2008",
+        "correct-prediction",
+        "skin-in-game"
+      ],
+      "prediction": "Systemic banking failure, massive recession, trillions in losses",
+      "predictor": "Michael Burry, John Paulson, Steve Eisman",
+      "year": "2005-2007",
+      "accuracy": "CORRECT",
+      "whoProfited": "Tiny minority of fund managers who bought Credit Default Swaps against housing bonds",
+      "skinInTheGame": true,
+      "lessonsLearned": "Legitimate predictions rely on granular data analysis (Burry reading thousands of prospectuses), not vague ideological grievances. Best predictors are quiet and risk their own capital."
+    },
+    {
+      "id": "cm-109",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "Post-2008 QE Hyperinflation Predictions",
+      "content": "Peter Schiff, Ron Paul, ShadowStats predicted QE and ZIRP post-2008 would immediately cause Weimar-style hyperinflation and total destruction of USD (2009-2011). Claimed gold at $10,000+. ACTUAL: Inflation remained stubbornly low (under 2%) for a decade. QE money sat on bank balance sheets as excess reserves, did not circulate in real economy.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - prediction was wrong",
+      "reliability": "WRONG",
+      "historicalPrecedents": [],
+      "compoundsWith": [],
+      "currentStatus": "resolved - prediction failed",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "qe",
+        "hyperinflation",
+        "schiff",
+        "2009",
+        "wrong-prediction",
+        "skin-in-game"
+      ],
+      "prediction": "Hyperinflation, US sovereign default, gold at $10,000+",
+      "predictor": "Peter Schiff, Ron Paul, ShadowStats",
+      "year": "2009-2011",
+      "accuracy": "WRONG",
+      "whoProfited": "Gold brokers (SchiffGold), anti-Fed political fundraising, fear-based media",
+      "skinInTheGame": true,
+      "lessonsLearned": "Misunderstanding modern banking mechanics (how reserve banking and central bank balance sheets actually work) leads to disastrously wrong macro predictions."
+    },
+    {
+      "id": "cm-110",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "Grexit/Eurozone Collapse Predictions",
+      "content": "Nouriel Roubini ('Dr. Doom') and macro hedge funds predicted Greece's default would force Grexit, causing domino contagion (Italy, Spain, Portugal) shattering the Eurozone (2010-2012). ACTUAL: ECB's Draghi promised 'whatever it takes.' Through bailouts, austerity, and monetary policy, Eurozone remained intact.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - prediction was wrong",
+      "reliability": "WRONG",
+      "historicalPrecedents": [],
+      "compoundsWith": [
+        "geopolitical"
+      ],
+      "currentStatus": "resolved - prediction failed",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "grexit",
+        "eurozone",
+        "roubini",
+        "2010",
+        "wrong-prediction",
+        "skin-in-game"
+      ],
+      "prediction": "Dissolution of Euro, European banking collapse, sovereign defaults",
+      "predictor": "Nouriel Roubini, macro hedge funds",
+      "year": "2010-2012",
+      "accuracy": "WRONG",
+      "whoProfited": "Macro traders timing early volatility, financial news networks",
+      "skinInTheGame": true,
+      "lessonsLearned": "Never underestimate political will to preserve a union. Technocrats and central bankers will bend rules and invent new mechanisms to prevent systemic collapse."
+    },
+    {
+      "id": "cm-111",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "China Hard Landing Predictions",
+      "content": "Kyle Bass and George Soros predicted China's massive debt pile and shadow banking would trigger imminent catastrophic 'hard landing' and 40% currency devaluation (2015-2016). ACTUAL: China's command economy absorbed shock via capital controls, state-directed lending, targeted stimulus. Yuan devalued only modestly. Structural issues remained but apocalypse was avoided.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - prediction timing was wrong",
+      "reliability": "WRONG TIMING",
+      "historicalPrecedents": [
+        "cm-030"
+      ],
+      "compoundsWith": [
+        "geopolitical"
+      ],
+      "currentStatus": "ongoing - structural issues persist but no crash",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "china",
+        "hard-landing",
+        "bass",
+        "soros",
+        "2015",
+        "wrong-timing",
+        "skin-in-game"
+      ],
+      "prediction": "Severe recession in China pulling down entire global economy",
+      "predictor": "Kyle Bass, George Soros",
+      "year": "2015-2016",
+      "accuracy": "WRONG TIMING",
+      "whoProfited": "Financial media. Short-sellers largely lost capital on carry costs.",
+      "skinInTheGame": true,
+      "lessonsLearned": "Applying Western free-market collapse models to state-controlled command economies usually fails. CCP has entirely different levers to hide bad debt and prevent panic."
+    },
+    {
+      "id": "cm-112",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "COVID: Greater Depression Predictions",
+      "content": "Nouriel Roubini, Harry Dent, and widespread media consensus predicted COVID lockdowns would cause a 'Greater Depression' worse than 1930s with years of double-digit unemployment (2020). ACTUAL: Unprecedented multi-trillion-dollar fiscal and monetary stimulus. 2020 market crash was shortest in history (33 days), followed by explosive bull market and rapid employment recovery.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - prediction was wrong",
+      "reliability": "WRONG",
+      "historicalPrecedents": [
+        "cm-098"
+      ],
+      "compoundsWith": [],
+      "currentStatus": "resolved - prediction failed",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "covid",
+        "depression",
+        "roubini",
+        "dent",
+        "2020",
+        "wrong-prediction"
+      ],
+      "prediction": "Decade of global economic depression",
+      "predictor": "Nouriel Roubini, Harry Dent, media consensus",
+      "year": "2020",
+      "accuracy": "WRONG",
+      "whoProfited": "Short-term put option buyers, media networks (record traffic)",
+      "skinInTheGame": false,
+      "lessonsLearned": "In fiat systems, central banks and governments will print and spend whatever required to prevent deflationary depression, shifting risk from depression to inflation."
+    },
+    {
+      "id": "cm-113",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "Post-COVID Weimar Hyperinflation Predictions",
+      "content": "Jack Dorsey, Tucker Carlson, crypto-maximalists predicted post-COVID inflation was permanently out of control, entering Weimar/Zimbabwe-style hyperinflation marking end of fiat era (2021-2022). ACTUAL: Inflation peaked at 9.1% US. Fed's fastest rate-hiking cycle in history pushed rates past 5%. Inflation steadily cooled toward historical norms without hyperinflation.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - prediction was wrong",
+      "reliability": "WRONG",
+      "historicalPrecedents": [],
+      "compoundsWith": [],
+      "currentStatus": "resolved - prediction failed",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "hyperinflation",
+        "post-covid",
+        "crypto",
+        "2021",
+        "wrong-prediction"
+      ],
+      "prediction": "Hyperinflation (>50%/month), USD collapse, Bitcoin becomes global reserve currency",
+      "predictor": "Jack Dorsey, Tucker Carlson, crypto-maximalists",
+      "year": "2021-2022",
+      "accuracy": "WRONG",
+      "whoProfited": "Crypto exchanges, Bitcoin whales, political pundits stoking fear",
+      "skinInTheGame": false,
+      "lessonsLearned": "High inflation is painful but fundamentally different from hyperinflation, which requires complete loss of faith in state institutions. The Fed maintained credibility and acted."
+    },
+    {
+      "id": "cm-114",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "2023 Recession: Soft Landing Impossible Predictions",
+      "content": "Bloomberg Economics ('100% chance of recession'), Jamie Dimon ('Economic Hurricane') predicted aggressive Fed rate hikes guaranteed severe recession in 2023 (2022-2023). ACTUAL: US achieved elusive 'soft landing.' GDP growth remained robust (>2.5%), unemployment near historic lows, stock market hit all-time highs.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - prediction was wrong",
+      "reliability": "WRONG",
+      "historicalPrecedents": [],
+      "compoundsWith": [],
+      "currentStatus": "resolved - prediction failed",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "recession",
+        "soft-landing",
+        "bloomberg",
+        "dimon",
+        "2023",
+        "wrong-prediction",
+        "skin-in-game"
+      ],
+      "prediction": "Deep recession, soaring unemployment, corporate earnings collapse",
+      "predictor": "Bloomberg Economics, Jamie Dimon",
+      "year": "2022-2023",
+      "accuracy": "WRONG",
+      "whoProfited": "Nobody directly, though fixed-income traders bet heavily on rate cuts",
+      "skinInTheGame": true,
+      "lessonsLearned": "Macro models based on historical lag effects often fail when underlying structural factors (post-pandemic labor hoarding, fixed-rate corporate debt) change."
+    },
+    {
+      "id": "cm-115",
+      "category": "historical-precedent",
+      "subcategory": "doom-scorecard",
+      "title": "AI Job Apocalypse / Extinction Predictions",
+      "content": "Eliezer Yudkowsky, sensationalized Goldman Sachs reports predicted generative AI would instantly displace hundreds of millions of workers or result in human extinction (2023-2025). ACTUAL: AI adoption proved powerful productivity tool ('copilot') rather than wholesale replacer. Job displacement was localized, aggregate employment remained strong.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - prediction timing wrong so far",
+      "reliability": "WRONG TIMING",
+      "historicalPrecedents": [],
+      "compoundsWith": [],
+      "currentStatus": "ongoing - still evolving",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "ai-doom",
+        "job-displacement",
+        "extinction",
+        "yudkowsky",
+        "2023",
+        "wrong-timing"
+      ],
+      "prediction": "Mass structural unemployment (30-50%), societal collapse, or literal extinction",
+      "predictor": "Eliezer Yudkowsky, sensationalized Goldman Sachs reports",
+      "year": "2023-2025",
+      "accuracy": "WRONG TIMING",
+      "whoProfited": "AI safety consultants, media clickbait, Big Tech using fear to attract investment",
+      "skinInTheGame": false,
+      "lessonsLearned": "Technology adoption cycles take much longer to reshape organizations than software takes to update. Humans adapt by elevating productivity baseline, not just firing everyone."
+    },
+    {
+      "id": "cm-116",
+      "category": "framework",
+      "subcategory": "doom-scorecard",
+      "title": "50-Year Doom Scorecard: Meta-Analysis",
+      "content": "Overall accuracy rate for 'extreme severity' doom predictions: <5%. While mild recessions and corrections are common, predictions involving dollar collapse, hyperinflation, or end of civilization are almost universally incorrect due to society's capacity for adaptation and institutional intervention.\n\nPATTERN OF PREDICTORS: Dedicated 'permabears' (Schiff, Dent) are consistently wrong because their worldview is ideological rather than analytical. They mistake secular debt cycles for immediate doom. Individuals who are actually correct (Burry) are pragmatic practitioners performing deep, localized data analysis, not macro-philosophers.\n\nWHY DOOM SELLS: Evolutionary loss aversion — we're wired to pay more attention to threats. Doomsaying is lucrative: drives media engagement and allows pundits to sell 'cures' (gold, survival gear, newsletters, crypto).\n\nTHE BURRY PROBLEM: Survivorship bias. Because Burry was spectacularly right once, he's treated as infallible oracle. Ignores thousands who were wrong in 2008, and that Burry himself subsequently predicted several crashes that never materialized. Being right about one idiosyncratic event doesn't grant permanent clairvoyance.\n\nRISK ANALYSIS vs BUSINESS MODEL: Legitimate risk analysis is probabilistic, specific in mechanisms, adjusts when facts change, comes from individuals with capital on the line. Doomsaying-as-business relies on vague catastrophic language, constantly moves goalposts ('the collapse is delayed, not canceled'), and is usually accompanied by subscription or asset class sales.",
+      "dataSource": "Gemini research - 50-Year Doom Scorecard",
+      "leadTime": "N/A - meta-analysis",
+      "reliability": "high - based on 50 years of documented predictions vs outcomes",
+      "historicalPrecedents": [
+        "cm-102 through cm-115"
+      ],
+      "compoundsWith": [],
+      "currentStatus": "reference framework",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "doom-scorecard",
+        "meta-analysis",
+        "loss-aversion",
+        "permabears",
+        "burry-problem",
+        "doomsaying-economics"
+      ]
+    },
+    {
+      "id": "cm-117",
+      "category": "framework",
+      "subcategory": "guru-trap",
+      "title": "The Guru Trap: Why Big-Call Oracles Fail Next",
+      "content": "The 'Guru Trap' or 'Curse of the Big Call': when an analyst correctly predicts a Black Swan, the market crowns them an oracle. But the exact psychological traits and analytical frameworks that allowed them to spot the original crisis become the exact reasons they fail in the next cycle. This is so common in finance it's practically a law. Four distinct failure modes explain why hitting one grand slam leads to subsequent strikeouts:\n\n1. HAMMER AND NAIL BIAS (Over-extrapolation): When an analyst uses a specific tool to predict a crisis (e.g., finding hidden leverage in obscure derivatives), they look for that exact same mechanism in the next cycle. They fight the last war.\n\n2. UNDERESTIMATING INSTITUTIONAL ADAPTATION ('The Fed Put'): Doomsayers identify real mathematical problems but assume the system will sit there and let the math play out. They repeatedly underestimate Central Banks' and politicians' willingness to change rules, print money, or orchestrate bailouts.\n\n3. CONFUSING 'INEVITABLE' WITH 'IMMINENT' (The Timing Problem): A doomsayer correctly identifies unsustainable trajectory (e.g., sovereign debt). But 'unsustainable' can last 30 years. Because they were rewarded for acting early once, they mistake long-term structural headwinds for immediate trading signals.\n\n4. AUDIENCE CAPTURE (The Guru Trap proper): If you predict standard 8% returns, no one invites you on CNBC. Once you achieve 'Oracle' status by predicting doom, media and investors expect you to continue finding dangers. You become incentivized to ignore bullish data and over-index on bearish data to feed the brand.",
+      "dataSource": "Gemini research - Guru Trap Analysis",
+      "leadTime": "N/A - meta-framework",
+      "reliability": "high - pattern confirmed across multiple decades and predictors",
+      "historicalPrecedents": [
+        "cm-108",
+        "cm-102 through cm-115"
+      ],
+      "compoundsWith": [],
+      "currentStatus": "active framework - apply to all current doom predictions",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "guru-trap",
+        "meta-framework",
+        "prediction-failure",
+        "cognitive-bias",
+        "audience-capture",
+        "hammer-nail",
+        "timing-problem"
+      ]
+    },
+    {
+      "id": "cm-118",
+      "category": "historical-precedent",
+      "subcategory": "guru-trap",
+      "title": "Guru Trap Case Study: Michael Burry Post-2008",
+      "content": "WHAT HE GOT RIGHT: 2007-2008 Subprime Mortgage Collapse. Did granular research — read hundreds of pages of obscure MBS prospectuses, realized underlying loans were fraudulent and bound to default when teaser rates reset.\n\nWHAT HE GOT WRONG: Repeated premature crash calls. 'Index Fund Bubble' (2019) — claimed passive investing was a liquidity bubble similar to CDOs. Various imminent crash warnings (2022-2023). In 2023, famously tweeted single word 'Sell' then deleted account as market rallied 20%+.\n\nFAILURE MODE: Hyper-Sensitivity to Structural Flaws (Hammer and Nail). Fundamentally wired to find hidden structural rot. After making fortune finding a fatal flaw everyone missed, began seeing fatal flaws everywhere. Underestimated structural inertia of 401(k) inflows and lack of immediate trigger events (like mortgage resets) in passive investing.",
+      "dataSource": "Gemini research - Guru Trap Analysis",
+      "leadTime": "N/A - case study",
+      "reliability": "high - documented public record",
+      "historicalPrecedents": [
+        "cm-108"
+      ],
+      "compoundsWith": [],
+      "currentStatus": "reference - pattern continues",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "guru-trap",
+        "burry",
+        "index-fund-bubble",
+        "hammer-nail-bias",
+        "case-study"
+      ]
+    },
+    {
+      "id": "cm-119",
+      "category": "historical-precedent",
+      "subcategory": "guru-trap",
+      "title": "Guru Trap Case Study: John Paulson Post-2008",
+      "content": "WHAT HE GOT RIGHT: 'The Greatest Trade Ever' (2007-2008). With Paolo Pellegrini, realized housing was massive bubble, bought cheap credit default swaps against toxic mortgage bonds. Made $20 billion for his firm.\n\nWHAT HE GOT WRONG: 2010s Hyperinflation and Gold bet. Believed Fed QE would destroy the Dollar. Launched gold fund, bet heavily on hyperinflation and fiat collapse. Lost billions as gold stagnated and US enjoyed decade-long low-inflation expansion.\n\nFAILURE MODE: Misunderstanding Monetary Plumbing (Institutional Adaptation). Took purely historical view of money printing (Weimar Germany analogy). Failed to understand post-2008 QE was largely trapped as excess bank reserves, not circulating in real economy. Applied housing-market level of confidence to a totally different macroeconomic mechanism.",
+      "dataSource": "Gemini research - Guru Trap Analysis",
+      "leadTime": "N/A - case study",
+      "reliability": "high - documented public record",
+      "historicalPrecedents": [
+        "cm-109"
+      ],
+      "compoundsWith": [],
+      "currentStatus": "reference - Paulson largely retired from hedge fund management",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "guru-trap",
+        "paulson",
+        "gold",
+        "qe",
+        "monetary-plumbing",
+        "case-study"
+      ]
+    },
+    {
+      "id": "cm-120",
+      "category": "historical-precedent",
+      "subcategory": "guru-trap",
+      "title": "Guru Trap Case Study: Meredith Whitney Post-2008",
+      "content": "WHAT SHE GOT RIGHT: 2007-2008 Banking Collapse. As Oppenheimer analyst, accurately predicted Oct 2007 that Citigroup was so undercapitalized it would slash dividend and raise billions. Triggered massive sell-off, effectively fired starting gun on financial crisis. Dead right about bank balance sheets.\n\nWHAT SHE GOT WRONG: 2010 Municipal Bond Collapse. On 60 Minutes (late 2010), predicted '50 to 100 sizable defaults' by US cities/counties, totaling hundreds of billions. Muni bond market panicked. Defaults never happened.\n\nFAILURE MODE: Underestimating Institutional Willpower. Applied corporate bank analysis framework to municipal governments. But states and cities are not banks — they have taxing authority, immense political capital, and federal backing. Assumed math alone would dictate outcome, ignoring the political machinery that prevents local government bankruptcy.",
+      "dataSource": "Gemini research - Guru Trap Analysis",
+      "leadTime": "N/A - case study",
+      "reliability": "high - documented public record",
+      "historicalPrecedents": [],
+      "compoundsWith": [],
+      "currentStatus": "reference - Whitney's advisory firm later closed",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "guru-trap",
+        "whitney",
+        "municipal-bonds",
+        "institutional-willpower",
+        "case-study"
+      ]
+    },
+    {
+      "id": "cm-121",
+      "category": "historical-precedent",
+      "subcategory": "guru-trap",
+      "title": "Guru Trap Case Study: Nouriel Roubini 'Dr. Doom' Post-2008",
+      "content": "WHAT HE GOT RIGHT: 2008 Housing and Systemic Collapse. Speaking at IMF in 2006, warned of devastating US housing bust, oil shocks, deep recession. Correctly identified macro imbalances in global debt.\n\nWHAT HE GOT WRONG: Almost every recovery phase since. Predicted severe 'double-dip' recession (2010-2011). Repeatedly predicted Eurozone collapse. Missed historic 2010s bull market entirely by maintaining perpetual defensive posture.\n\nFAILURE MODE: Audience Capture and Permabear Psychology. Became global celebrity as 'Dr. Doom.' When entire brand, speaking fee structure, and public identity are wrapped in pessimism, it becomes incredibly difficult to publicly pivot and say 'Actually, things look pretty good.' The incentive structure locks you into bearishness.",
+      "dataSource": "Gemini research - Guru Trap Analysis",
+      "leadTime": "N/A - case study",
+      "reliability": "high - documented public record",
+      "historicalPrecedents": [
+        "cm-110",
+        "cm-112"
+      ],
+      "compoundsWith": [],
+      "currentStatus": "reference - Roubini continues permabear positioning",
+      "lastUpdated": "2026-04-02",
+      "tags": [
+        "guru-trap",
+        "roubini",
+        "dr-doom",
+        "audience-capture",
+        "permabear",
+        "case-study"
+      ]
+    },
+    {
+      "id": "cm-122",
+      "category": "indicator",
+      "subcategory": "food-energy-nexus",
+      "title": "Food-Energy Nexus: The Fossil Fuel Content of Food",
+      "content": "Modern agriculture converts fossil fuels into calories. Haber-Bosch consumes ~2% of global energy, 3-5% of global natural gas. 48-50% of global population fed exclusively by synthetic nitrogen (Erisman 2008). Without it, earth supports ~3.5-4B people. Systemic ratio: 10 cal fossil fuel per 1 cal food (Pimentel). Farm-gate grain EROI positive (~1:3), beef 35-40:1 negative. Processing uses 36% of food-system energy. Fertilizer is 33-45% of direct crop operating costs (corn/wheat). Diesel is 64% of farm fuel ($9.9B/yr US). Retail food: 3.5% is transport, 11.8% goes to farmer.",
+      "dataSource": "USDA ERS, FAO, Pimentel (Cornell), Erisman (Nature Geoscience 2008), Smil",
+      "leadTime": "Structural",
+      "reliability": "Very high",
+      "historicalPrecedents": [
+        "2008 oil spike: FAO crisis",
+        "2022 Russia-Ukraine: FAO all-time high 159.7",
+        "North Korea 1991: fertilizer loss = famine (240K-3.5M dead)"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "geopolitical",
+        "currency-inflation"
+      ],
+      "currentStatus": "active — Hormuz closure creating dual shock: LNG disruption hitting fertilizer production + diesel at $5.40/gal (+50% YoY) hitting entire farm-to-table chain. Northern Hemisphere in critical spring 2026 planting season. Farmers switching corn to soybeans.",
+      "lastUpdated": "2026-04-22",
+      "tags": [
+        "food-energy",
+        "haber-bosch",
+        "nitrogen",
+        "fertilizer",
+        "diesel",
+        "food-prices"
+      ]
+    },
+    {
+      "id": "cm-123",
+      "category": "trigger",
+      "subcategory": "food-energy-nexus",
+      "title": "Hormuz Closure: Food Supply Chain Transmission",
+      "content": "Hormuz carries 21M bpd oil (21% of global) AND 20% of global LNG. Full closure = 12-14M bpd unmitigated shortfall after max pipeline bypass (6-8.5M bpd). LNG has ZERO pipeline alternatives. 30% of seaborne ammonia and 50% of urea exports transit Hormuz. Price transmission: energy spike hits grocery shelf in 3-6 months, seasonal storage items in 12 months. Prices are sticky downward — fast to rise, very slow to fall.",
+      "dataSource": "EIA, IEA, shipping data, market prices Apr 2026",
+      "leadTime": "Immediate",
+      "reliability": "High",
+      "historicalPrecedents": [
+        "1984 Tanker War",
+        "2019 Iran tanker seizures",
+        "Never fully closed in modern era"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "food-energy-nexus",
+        "currency-inflation",
+        "geopolitical"
+      ],
+      "currentStatus": "active — De facto closure since Feb 28. Traffic down 95%+. Brent $99-103 (peaked $128). Diesel $5.40/gal. Urea $847-858/ton (+49% YoY). Ammonia >$1,000/ton. DAP $866-894/ton. SPR at ~405M bbl, drawing 4-8.5M bbl/week.",
+      "lastUpdated": "2026-04-22",
+      "tags": [
+        "hormuz",
+        "oil",
+        "lng",
+        "fertilizer-prices",
+        "diesel",
+        "energy-shock"
+      ]
+    },
+    {
+      "id": "cm-124",
+      "category": "compound-interaction",
+      "subcategory": "food-energy-nexus",
+      "title": "Hormuz 6-Month and 12-Month Closure Scenarios",
+      "content": "6-month: Brent avg $115/bbl (EIA). Missing 2026 fertilizer window = 10-20% global cereal yield reduction by autumn. Food inflation severe Q4 2026/Q1 2027. Europe fails winter gas storage without Qatari LNG. 12-month: SPR depletion risk. Grain reserves (31.9% of consumption, ~3.5 months) begin synchronized collapse. Multi-year famine in developing nations. Just-in-time food system has no buffer for 12-month fertilizer deficit.",
+      "dataSource": "EIA projections, FAO grain reserves, agricultural modeling",
+      "leadTime": "6-12 months",
+      "reliability": "Medium — scenario projections",
+      "historicalPrecedents": [
+        "2008: oil + ethanol = FAO crisis",
+        "2022: Russia/Ukraine = FAO 159.7",
+        "North Korea: fertilizer loss = 30% grain drop"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "food-energy-nexus",
+        "geopolitical",
+        "systemic-banking"
+      ],
+      "currentStatus": "active — 8 weeks into closure. Spring planting disrupted. Farmers switching crop mix. 6-month effects materialize Q3 2026 harvest.",
+      "lastUpdated": "2026-04-22",
+      "tags": [
+        "hormuz",
+        "scenario",
+        "food-crisis",
+        "famine-risk",
+        "grain-reserves"
+      ]
+    },
+    {
+      "id": "cm-125",
+      "category": "indicator",
+      "subcategory": "food-energy-nexus",
+      "title": "FAO Food Price Index and Political Instability Threshold",
+      "content": "NECSI (2011): FAO crossing 210 = widespread violent riots. 2008: crossed 210, 60+ food riots in 30 countries. 2011: hit 230+, catalyzed Arab Spring (Tunisia, Egypt, Libya fell). Current Mar 2026: 128.5 (rising 2.4% MoM). Wheat +4.3%, veg oil +5.1%, sugar +7.2%. Distance to instability threshold: ~64% more rise needed. At current trajectory: reaches danger zone Q1 2027 if Hormuz stays closed.",
+      "dataSource": "FAO, NECSI 2011 study",
+      "leadTime": "3-6 months from energy spike to food price peak",
+      "reliability": "High — 210 threshold held in 2008 and 2011",
+      "historicalPrecedents": [
+        "2008 food riots (60+ in 30 countries)",
+        "2011 Arab Spring",
+        "2022 Sri Lanka collapse"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "geopolitical",
+        "currency-inflation"
+      ],
+      "currentStatus": "warning — FAO at 128.5 (Mar 2026), rising. Well below 210 threshold but trajectory accelerating. If Hormuz closed through Q3, planting disruption + harvest reduction could push toward danger zone Q1 2027.",
+      "lastUpdated": "2026-04-22",
+      "tags": [
+        "fao",
+        "food-prices",
+        "political-instability",
+        "arab-spring",
+        "threshold"
+      ]
+    },
+    {
+      "id": "cm-126",
+      "category": "indicator",
+      "subcategory": "food-energy-nexus",
+      "title": "Global Fertilizer Concentration and Chokepoint Risk",
+      "content": "Top 5 producers = ~38% global revenue. Potash: Canada/Russia/Belarus 60%+ of reserves. Phosphate: Morocco 70%+ of rock phosphate. Nitrogen: tied to fossil fuel (China, India, US, Russia). 50% of seaborne urea and 30% of ammonia transit Hormuz. 2022: 70% of European ammonia capacity forced offline when gas exceeded production cost. Green ammonia 2-3x grey ($700-1000 vs $300-400/ton). NEOM (largest green project) targets 2027. Organic yield gap: 20-25%, exceeding 40% for corn/wheat.",
+      "dataSource": "Industry reports, NEOM project data, 2022 European data",
+      "leadTime": "Structural",
+      "reliability": "High",
+      "historicalPrecedents": [
+        "2022 Russia/China export quotas, European shutdowns",
+        "Sri Lanka 2021 fertilizer ban disaster"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "food-energy-nexus",
+        "geopolitical"
+      ],
+      "currentStatus": "critical — Hormuz removing ~50% of seaborne urea, 30% of ammonia from global market. European TTF 44+ EUR/MWh (+30% YoY), threatening repeat of 2022 ammonia shutdowns. Green alternatives 5+ years from scale.",
+      "lastUpdated": "2026-04-22",
+      "tags": [
+        "fertilizer",
+        "concentration",
+        "chokepoint",
+        "green-ammonia"
+      ]
+    },
+    {
+      "id": "cm-127",
+      "category": "indicator",
+      "subcategory": "food-energy-nexus",
+      "title": "Regional Food Security Vulnerability Map",
+      "content": "US: Most insulated (domestic gas $2.71-2.79, domestic food/energy). But diesel stays high (global crude pricing). Europe: Highly exposed — lost Russian gas, now losing Qatari LNG. Industrial energy crisis repeat. South/SE Asia: Pakistan/Bangladesh ~100% Hormuz LNG dependent. Cannot afford spot replacement. MENA: Egypt massive wheat importer, food prices = regime stability. Sub-Saharan Africa: Most vulnerable — smallholder farmers cannot absorb $1100/ton ammonia. Immediate yield collapse, famine within same calendar year.",
+      "dataSource": "EIA, FAO, country import dependency data",
+      "leadTime": "3-12 months by region",
+      "reliability": "High — structural import dependencies",
+      "historicalPrecedents": [
+        "2011 Arab Spring (Egypt, Tunisia, Libya)",
+        "2022 Sri Lanka",
+        "North Korea 1994-1999 famine"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "food-energy-nexus",
+        "geopolitical",
+        "currency-inflation"
+      ],
+      "currentStatus": "active — US Henry Hub insulated. European TTF spiking. Pakistan/Bangladesh critical LNG shortfalls. Egypt deploying forex reserves for wheat subsidies. Sub-Saharan Africa entering high-risk window.",
+      "lastUpdated": "2026-04-22",
+      "tags": [
+        "food-security",
+        "regional",
+        "vulnerability",
+        "europe",
+        "africa",
+        "asia"
+      ]
+    },
+    {
+      "id": "cm-128",
+      "category": "framework",
+      "subcategory": "global-south",
+      "title": "The Crisis Is Already Here: Global South Permanent Crisis States",
+      "content": "Western crisis forecasting assumes a stable baseline that might be disrupted. For 2+ billion people, there is no baseline stability. Sudan (civil war since 2023, 25M facing acute hunger), Yemen (8 years of war, 21M needing humanitarian aid), Haiti (gang control of 80% of Port-au-Prince, complete state collapse), Myanmar (military coup, civil war, 18M needing aid), the Sahel (cascading coups in Mali, Burkina Faso, Niger), and large parts of Central America live in permanent polycrisis. This is not a forecasting exercise for them. The Western crisis indicators in this brain (CAPE, yield curves, insurance withdrawal) are measuring whether comfortable countries might experience what these populations already endure. The analytical value of including this: Western crises do not exist in isolation. Global South instability feeds migration, supply chain disruption, commodity volatility, and geopolitical realignment that directly impacts the indicators we track.",
+      "dataSource": "UN OCHA, World Food Programme, UNHCR, World Bank",
+      "reliability": "High (institutional data)",
+      "leadTime": "N/A (current state)",
+      "historicalPrecedents": [
+        "Arab Spring 2011 (food prices)",
+        "Venezuelan collapse 2015-present",
+        "Sri Lanka default 2022"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "geopolitical",
+        "currency-inflation"
+      ],
+      "currentStatus": "Active crisis in 15+ countries",
+      "lastUpdated": "2026-04-24",
+      "tags": [
+        "global-south",
+        "permanent-crisis",
+        "sudan",
+        "yemen",
+        "haiti",
+        "myanmar",
+        "sahel",
+        "western-lens"
+      ]
+    },
+    {
+      "id": "cm-129",
+      "category": "framework",
+      "subcategory": "global-south",
+      "title": "IMF/World Bank Debt Trap Architecture as Moloch Mechanism",
+      "content": "The abstract Moloch/coordination-failure framework has a concrete, documented mechanism: the international debt architecture. Structural Adjustment Programs (SAPs) from IMF/World Bank since the 1980s required developing nations to cut social spending, privatize state assets, and open markets to foreign capital in exchange for loans. Result: 52 low-income countries spend more on debt service than on healthcare (Jubilee Debt Campaign, 2023). Zambia, Ghana, Sri Lanka, Ethiopia all defaulted or restructured 2022-2024. The debt is denominated in dollars they cannot print, owed to institutions controlled by creditor nations, with conditions set by the creditors. This is not conspiracy theory — it is documented institutional design. The relevance to Western crisis forecasting: sovereign debt stress in the Global South is a leading indicator for commodity disruption, migration waves, and geopolitical realignment.",
+      "dataSource": "Jubilee Debt Campaign, World Bank IDS, IMF Article IV Reports",
+      "reliability": "High (institutional data)",
+      "leadTime": "6-24 months (debt stress to commodity/migration impact)",
+      "historicalPrecedents": [
+        "Latin American debt crisis 1980s",
+        "Asian financial crisis 1997",
+        "Greek debt crisis 2010-2015",
+        "Sri Lanka 2022",
+        "Zambia 2020"
+      ],
+      "compoundsWith": [
+        "credit-debt",
+        "currency-inflation",
+        "geopolitical"
+      ],
+      "currentStatus": "52 countries spending more on debt than healthcare",
+      "lastUpdated": "2026-04-24",
+      "tags": [
+        "global-south",
+        "imf",
+        "world-bank",
+        "debt-trap",
+        "structural-adjustment",
+        "sovereign-debt"
+      ]
+    },
+    {
+      "id": "cm-130",
+      "category": "trigger",
+      "subcategory": "global-south",
+      "title": "Food Insecurity as Permanent State vs Theoretical Risk",
+      "content": "Western crisis models treat food price spikes as triggers. For 735 million people globally (UN FAO 2023), food insecurity is not a trigger — it is the permanent condition. A Hormuz closure that raises Western food prices 15-20% is an inconvenience for Americans and a death sentence for populations already at caloric minimums. WFP funding cuts ($4B shortfall in 2023) mean the humanitarian buffer that previously absorbed commodity shocks is disappearing. When the next major food price spike hits, there is no safety net for the bottom billion. The cascade: commodity spike hits countries already at breaking point, triggers political instability (Arab Spring pattern), generates migration pressure, feeds into Western political polarization, which further degrades international cooperation. The Western viewer experiences this as 'immigration crisis' without seeing the food-price-to-failed-state-to-migration chain.",
+      "dataSource": "UN FAO State of Food Security 2023, WFP, FEWS NET",
+      "reliability": "High (institutional data)",
+      "leadTime": "3-12 months (commodity spike to migration wave)",
+      "historicalPrecedents": [
+        "Arab Spring 2011 (Russian wheat export ban)",
+        "2007-2008 global food crisis",
+        "Horn of Africa famine 2022"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "geopolitical",
+        "currency-inflation"
+      ],
+      "currentStatus": "735M food insecure globally, WFP funding at critical low",
+      "lastUpdated": "2026-04-24",
+      "tags": [
+        "global-south",
+        "food-insecurity",
+        "wfp",
+        "famine",
+        "migration",
+        "arab-spring-pattern"
+      ]
+    },
+    {
+      "id": "cm-131",
+      "category": "compound-interaction",
+      "subcategory": "global-south",
+      "title": "Western Foreign Policy as Crisis Driver (Not Just Geopolitical Trigger)",
+      "content": "The geopolitical trigger category treats foreign policy events as external shocks. For the Global South, Western foreign policy IS the crisis, not a trigger for one. Iraq invasion (2003) destabilized the entire Middle East for two decades. Libya intervention (2011) created a failed state and weapons pipeline to the Sahel. Afghanistan withdrawal (2021) collapsed the economy overnight. US sanctions regimes (Iran, Venezuela, Cuba, Syria) create humanitarian crises that compound with existing vulnerabilities. The analytical point is not moral judgment — it is forecasting accuracy. Models that treat Western foreign policy as neutral miss that we are often the cause. Cascade: Western intervention creates instability, instability creates refugee flows, refugee flows create political backlash in the West, backlash elects governments that pursue more aggressive foreign policy. The feedback loop is the crisis.",
+      "dataSource": "Costs of War Project (Brown University), UNHCR, Congressional Research Service",
+      "reliability": "High (academic/institutional)",
+      "leadTime": "1-10 years (intervention to full cascade)",
+      "historicalPrecedents": [
+        "Iraq 2003 to ISIS to Syrian refugee crisis to Brexit/Trump",
+        "Libya 2011 to Sahel destabilization",
+        "Afghanistan withdrawal 2021"
+      ],
+      "compoundsWith": [
+        "geopolitical",
+        "energy-shock",
+        "currency-inflation"
+      ],
+      "currentStatus": "Active US military operations in multiple theaters",
+      "lastUpdated": "2026-04-24",
+      "tags": [
+        "global-south",
+        "foreign-policy",
+        "intervention",
+        "feedback-loop",
+        "refugees",
+        "sanctions"
+      ]
+    },
+    {
+      "id": "cm-132",
+      "category": "indicator",
+      "subcategory": "labor-market",
+      "title": "Construction & Manufacturing Jobs: The Only Recession Signal That Matters",
+      "content": "Total non-farm payrolls are a lagging indicator that provides virtually zero recession warning. The economy has 158 million payrolls, but only 13% of them matter for recessions. Construction and manufacturing (21 million jobs) are responsible for nearly 100% of private sector job losses in recessions and provide the longest lead times. Manufacturing jobs peaked an average of 29 MONTHS before the last three recessions started. Construction peaked an average of 9 months before (20 months before 2008). The headline number treats all 158 million jobs as equal, but education/healthcare went 687 months (57 years) without year-over-year contraction. Including them in recession analysis dilutes the cyclical signal to nothing.\n\nIn 4 of the last 7 recessions, construction + manufacturing accounted for MORE than 100% of all private sector job losses (meaning the rest of the economy actually added jobs during the recession). In 2 more, they were 90%+. Even in 2008 (the worst case), they were 53% of all losses despite being only 18% of payrolls.\n\nWithin these sectors, the signal narrows further: durable goods manufacturing (7.8M jobs, expansion-recession spread 12.2%) matters more than non-durables (4.7M jobs, spread 5.8%). Residential construction is more interest-rate-sensitive and faster-moving than non-residential, making it the most important sub-signal.\n\nThe framework: watch residential construction and durable goods manufacturing. When they peak and start declining, the recession clock has started — even if the headline jobs number looks fine for another 9-29 months.",
+      "dataSource": "EPB Research (Eric Basmajian), BLS data analysis",
+      "reliability": "High (based on 7 recessions of BLS data, 1970-2020)",
+      "leadTime": "9-29 months (construction 9mo avg, manufacturing 29mo avg)",
+      "historicalPrecedents": [
+        "Every recession 1970-2020",
+        "2008 GFC (20-month construction lead)",
+        "2001 recession (manufacturing secular decline overlay)"
+      ],
+      "compoundsWith": [
+        "yield-curve",
+        "credit-debt",
+        "asset-bubble"
+      ],
+      "currentStatus": "Monitor residential construction and durable goods manufacturing for year-over-year contraction",
+      "lastUpdated": "2026-04-24",
+      "tags": [
+        "leading-indicator",
+        "construction",
+        "manufacturing",
+        "recession-signal",
+        "durable-goods",
+        "residential",
+        "lagging-indicator",
+        "non-farm-payrolls",
+        "epb-research"
+      ]
+    },
+    {
+      "id": "cm-137",
+      "category": "indicator",
+      "subcategory": "food-energy-nexus",
+      "title": "Petroleum Products Beyond Fuel: Plastics, Pesticides, Pharmaceuticals",
+      "content": "99% of plastics and 99% of synthetic pesticides are petroleum-derived. A sustained Hormuz closure doesn't just hit fuel and fertilizer — it threatens medical supply chains, food packaging, crop protection, and pharmaceutical manufacturing at the precursor level.",
+      "dataSource": "Gemini Deep Research (Apr 2026), industry data",
+      "leadTime": "3-6 months for downstream shortages",
+      "reliability": "High — petrochemical dependencies are structural facts",
+      "historicalPrecedents": [
+        "2022 European resin shortages from gas price spike"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "food-energy-nexus",
+        "geopolitical"
+      ],
+      "currentStatus": "active — 99% of plastics from fossil fuels. 460M MT/yr global production. Medical sector: 300B gloves, 129B masks, 17B IV bags/yr — all petroleum-derived. Pesticide compound effect: 50-75% of commercial pesticide volume is petroleum 'inert' ingredients. Without affordable pesticides, crop losses compound 20-40% in one season. Pharma: 99% of feedstocks/reagents are petrochemical (benzene, toluene, xylene). India/China API manufacturers use Gulf-sourced precursors — Hormuz chokes supply at source.",
+      "lastUpdated": "2026-04-25",
+      "tags": [
+        "plastics",
+        "pesticides",
+        "pharmaceuticals",
+        "petrochemicals",
+        "medical-supply",
+        "food-packaging"
+      ]
+    },
+    {
+      "id": "cm-138",
+      "category": "indicator",
+      "subcategory": "food-energy-nexus",
+      "title": "US Energy Insulation Reality: The Independence Myth Tested",
+      "content": "US is net petroleum exporter but net crude importer (6.4M bpd). Domestic light sweet crude can't fully feed heavy-sour refinery infrastructure. Oil is globally priced at the margin — a Texas producer sells to the highest global bidder, not at a domestic discount. Natural gas genuinely insulated via pipeline, but LNG exports (14.6 Bcf/d record, targeting 23+ Bcf/d) create pull that keeps Henry Hub elevated.",
+      "dataSource": "EIA, refinery data, LNG export capacity data",
+      "leadTime": "Immediate — already visible in gas/diesel prices",
+      "reliability": "High — trade flows and pricing mechanisms are well-documented",
+      "historicalPrecedents": [
+        "Every global oil shock since 1973 has affected US prices despite domestic production"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "food-energy-nexus"
+      ],
+      "currentStatus": "active — US imports 6.4M bpd crude (62% from Canada). Exports light sweet, imports heavy sour. Global pricing: Texas oil sells at $106 Brent, not $70 domestic. Diesel $5.40/gal despite domestic production because diesel tracks global crude. Natural gas genuinely insulated (Henry Hub $2.58-3.91) but LNG export pull keeps prices above historical floor. The 'energy independence' framing is an infrastructure mismatch reality, not a strategic insulation.",
+      "lastUpdated": "2026-04-25",
+      "tags": [
+        "energy-independence",
+        "crude-imports",
+        "global-pricing",
+        "diesel-paradox",
+        "lng-exports"
+      ]
+    },
+    {
+      "id": "cm-139",
+      "category": "indicator",
+      "subcategory": "food-energy-nexus",
+      "title": "Global South Cascading Impacts: Caribbean, Pacific Islands, SE Asia",
+      "content": "Beyond MENA/Africa: Dominican Republic (90% imported energy, 37K bpd petroleum), Haiti (diesel-dependent grid, priced out of spot market), Pacific Islands (up to 25% of GDP on fuel imports, imports dropped to 25% of normal). Fishing fleets confined to port. Outer island communities cut off from food/medical supplies.",
+      "dataSource": "Gemini Deep Research, UN/WFP data, Pacific Islands Forum data",
+      "leadTime": "Immediate — already manifesting",
+      "reliability": "High — import dependencies are structural",
+      "historicalPrecedents": [
+        "2008 food crisis hit small island developing states hardest",
+        "2022 Sri Lanka collapse"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "food-energy-nexus",
+        "geopolitical",
+        "currency-inflation"
+      ],
+      "currentStatus": "active — Haiti: rolling national blackouts, loss of water purification. Pacific Islands: fuel imports at 25% of normal levels. Samoa 2/3 diesel-dependent, Tonga 80%. Fishing fleets confined to port (Fiji, Solomons). Frontier markets in Sub-Saharan Africa and South Asia experiencing balance-of-payment crises, drawing down central bank reserves to dangerous levels. IMF emergency financing requests triggered. WFP issuing red alerts — aid procurement costs spiked while shipping costs doubled. Ration cuts to refugee populations probable by May 2026.",
+      "lastUpdated": "2026-04-25",
+      "tags": [
+        "global-south",
+        "pacific-islands",
+        "caribbean",
+        "haiti",
+        "fishing",
+        "wfp",
+        "imf",
+        "famine-risk"
+      ]
+    },
+    {
+      "id": "cm-140",
+      "category": "compound-interaction",
+      "subcategory": "food-energy-nexus",
+      "title": "The Barrel Breakdown: What 42 Gallons of Crude Becomes",
+      "content": "42 gallons of crude yields ~45 gallons of refined products (processing gain). 45% gasoline, 30% diesel/distillates, 10% jet fuel, plus hydrocarbon gas liquids and naphtha. Naphtha is cracked into ethylene, propylene, butadiene — the 'holy trinity' of modern manufacturing: synthetic rubber (tires), synthetic fibers (polyester clothing), adhesives, paints, detergents. Every branch of the product tree is simultaneously affected by a crude supply disruption.",
+      "dataSource": "EIA refinery product slate data",
+      "leadTime": "Structural — always present",
+      "reliability": "Very high — refinery yields are measured precisely",
+      "historicalPrecedents": [],
+      "compoundsWith": [
+        "energy-shock",
+        "food-energy-nexus"
+      ],
+      "currentStatus": "active — All branches simultaneously affected by Hormuz closure. Not just fuel: plastics, pesticides, pharma precursors, synthetic fibers, rubber, adhesives, paints, detergents all trace back to the same barrel of crude.",
+      "lastUpdated": "2026-04-25",
+      "tags": [
+        "refinery",
+        "naphtha",
+        "ethylene",
+        "petrochemicals",
+        "product-tree",
+        "barrel-breakdown"
+      ]
+    },
+    {
+      "id": "cm-133",
+      "category": "compound-interaction",
+      "subcategory": "energy-shock",
+      "title": "Hormuz Triple Farm Input Crisis: Nitrogen + Pesticides + Diesel Simultaneously",
+      "content": "Farmers face three simultaneous petroleum-derived input crises, not one. 1) NITROGEN FERTILIZER (natural gas feedstock): Haber-Bosch process requires natural gas; Hormuz carries 20% of global LNG. 2) PESTICIDES: 99% of all synthetic pesticides are petroleum-derived. 50-75% of commercial pesticide volume is petroleum 'inert' ingredients (solvents, surfactants, microplastic coatings). Without affordable pesticides, crop losses to insects and blight compound by 20-40% within a single season. 3) DIESEL: At $5.40+/gal (April 2026), tractor fuel and farm equipment costs near record highs. The compound effect is likely multiplicative, not additive: nitrogen-starved crops are MORE vulnerable to pest damage, while high diesel costs make it uneconomical to even harvest reduced yields. US farmers pre-buy contracts but physical delivery depends on shipping through or around Hormuz. Pre-buying a price is not the same as having fertilizer in the barn.",
+      "dataSource": "AI-Stocks Hormuz briefing (April 2026), FAO, petroleum industry data",
+      "reliability": "High (institutional + industry data)",
+      "leadTime": "1-2 growing seasons (immediate price impact, yield impact next harvest)",
+      "historicalPrecedents": [
+        "Sri Lanka 2022 organic farming ban (30-50% yield drops)",
+        "Cuba Special Period 1990s (lost Soviet fertilizer + oil)",
+        "2022 Russia/Ukraine fertilizer export disruption"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "geopolitical",
+        "currency-inflation"
+      ],
+      "currentStatus": "All three inputs at crisis pricing as of April 2026",
+      "lastUpdated": "2026-04-25",
+      "tags": [
+        "hormuz",
+        "nitrogen",
+        "pesticides",
+        "diesel",
+        "compound-effect",
+        "farm-inputs",
+        "food-security",
+        "triple-crisis"
+      ]
+    },
+    {
+      "id": "cm-134",
+      "category": "trigger",
+      "subcategory": "energy-shock",
+      "title": "US 'Energy Independence' Is a Pricing Myth: Global Marginal Pricing",
+      "content": "Despite political claims, the US energy market is structurally tied to global benchmarks. Key facts: 1) US is net exporter of petroleum products but net IMPORTER of unrefined crude (6.4M bpd in 2024). 2) US shale produces 'light sweet' crude but refineries were built for 'heavy sour' crude. US exports its own light crude and imports heavy crude. 3) MARGINAL PRICING: If Brent hits $106/bbl, a Texas producer will NOT sell domestically for $70. They export to the highest bidder. Domestic refiners must pay global rates, passing cost to consumers. 4) NATURAL GAS is genuinely insulated (domestic pipelines, no marine chokepoint). BUT the US is world's largest LNG exporter (14.6 Bcf/d in 2025, targeting 23+ Bcf/d). Hormuz closure taking Qatari LNG offline causes European/Asian buyers to bid up US LNG, pulling domestic prices higher. 5) DIESEL PARADOX: US produces and exports diesel, yet diesel prices track global Brent crude. When Hormuz takes Middle Eastern refined distillates offline, international buyers bid up US diesel to global levels.",
+      "dataSource": "EIA, petroleum industry data, AI-Stocks Hormuz briefing April 2026",
+      "reliability": "High (EIA institutional data)",
+      "leadTime": "Immediate (prices respond within days of disruption)",
+      "historicalPrecedents": [
+        "2022 Russia/Ukraine oil price spike",
+        "1973 OPEC embargo",
+        "2019 Saudi Aramco drone attack"
+      ],
+      "compoundsWith": [
+        "geopolitical",
+        "currency-inflation",
+        "credit-debt"
+      ],
+      "currentStatus": "Brent above $106, diesel $5.40+, April 2026",
+      "lastUpdated": "2026-04-25",
+      "tags": [
+        "energy-independence",
+        "marginal-pricing",
+        "diesel",
+        "lng",
+        "crude-oil",
+        "hormuz",
+        "myth"
+      ]
+    },
+    {
+      "id": "cm-135",
+      "category": "trigger",
+      "subcategory": "global-south",
+      "title": "Pacific Islands and Small States: 25% of GDP on Diesel, Now Priced Out",
+      "content": "Pacific Island nations are the world's most diesel-dependent economies. Tuvalu, Samoa, Vanuatu spent up to 25% of GDP importing diesel for power grids, boats, and vehicles BEFORE the crisis. Samoa: two-thirds of energy from imported diesel. Tonga: 80%. As of April 2026, Pacific fuel imports have dropped to 25% of previous levels due to supply hoarding in Asia. Fishing fleets (crucial for Fiji, Solomon Islands) confined to port - devastating employment, caloric intake, and tuna export revenues. Outer island communities rely entirely on diesel ferries for food and medical supplies, effectively cutting them off. Haiti: lowest electrification in Western hemisphere, diesel generators power fragmented grids and telecom towers. Priced out of spot market = rolling national blackouts, loss of water purification, communications dark zones. Dominican Republic: 90% energy from imported fossil fuels, 37,000 bpd petroleum consumption. IMF emergency financing requests from frontier markets in Sub-Saharan Africa and South Asia as dollar reserves deplete.",
+      "dataSource": "AI-Stocks Hormuz briefing April 2026, IMF, World Bank, Pacific Islands Forum",
+      "reliability": "High (institutional data + scenario modeling)",
+      "leadTime": "Immediate (already occurring as of April 2026)",
+      "historicalPrecedents": [
+        "2008 oil spike impact on Pacific Islands",
+        "Sri Lanka 2022 fuel crisis"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "geopolitical",
+        "currency-inflation"
+      ],
+      "currentStatus": "Pacific fuel imports at 25% of normal. IMF emergency requests active.",
+      "lastUpdated": "2026-04-25",
+      "tags": [
+        "pacific-islands",
+        "haiti",
+        "diesel-dependency",
+        "small-states",
+        "imf",
+        "global-south",
+        "fuel-crisis"
+      ]
+    },
+    {
+      "id": "cm-136",
+      "category": "compound-interaction",
+      "subcategory": "energy-shock",
+      "title": "Petroleum Beyond Fuel: Medical Plastics, Pharmaceuticals, Food Packaging",
+      "content": "99% of global plastics manufactured from fossil fuels (44% coal, 40% petroleum, 8% natural gas). 4-8% of annual global oil consumption goes directly into plastic production (projected 20% by 2050). MEDICAL: 300 billion gloves, 129 billion masks, 17 billion IV bags per year — all petroleum-derived (polypropylene, PVC). Syringes, tubing, blister packaging universally petrochemical. Hormuz closure causes resin inflation, driving up hospital overhead and disrupting sterile equipment supply. FOOD PACKAGING: Most modern food packaging (PE, PET) is petroleum-derived. Scarce packaging resin = dramatically shorter shelf life for perishables = spike in food waste, compounding agricultural crisis. PHARMACEUTICALS: 99% of pharmaceutical feedstocks and reagents are petrochemical-derived. Benzene, toluene, xylene are foundational building blocks for APIs including antibiotics and aspirin. Even though US imports most finished APIs from India/China, those countries use precursor chemicals from Gulf-refined oil. NAPHTHA: 1.55 gallons per barrel become hydrocarbon gas liquids, 0.34 gallons become naphtha — cracked into ethylene, propylene, butadiene (synthetic rubber for tires, polyester clothing, adhesives, paints, detergents).",
+      "dataSource": "AI-Stocks Hormuz briefing April 2026, petroleum industry data, WHO medical supply data",
+      "reliability": "High (industry data)",
+      "leadTime": "3-6 months (resin supply chains have buffer inventory)",
+      "historicalPrecedents": [
+        "COVID-19 PPE shortage 2020",
+        "2021 Texas freeze disrupting petrochemical plants"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "geopolitical"
+      ],
+      "currentStatus": "Resin and naphtha prices rising. Medical supply inflation beginning.",
+      "lastUpdated": "2026-04-25",
+      "tags": [
+        "plastics",
+        "medical-supply",
+        "pharmaceuticals",
+        "naphtha",
+        "food-packaging",
+        "petroleum-products",
+        "hormuz"
+      ]
+    },
+    {
+      "id": "cm-nitrogen-yield-curve",
+      "category": "hormuz-compound-crisis",
+      "title": "Nitrogen Reduction vs Crop Yield: The Non-Linear Curve",
+      "date": "2026-04-25",
+      "content": "The relationship between nitrogen application and crop yield follows a diminishing returns curve, not a linear relationship. The first units of nitrogen produce the most dramatic growth. Cutting nitrogen 30% from peak only drops yields 10-15%. Cutting 60% drops yields 25-30%. Only at 100% removal do catastrophic 40-60% drops occur for cereals. MAJOR EXCEPTION: Soybeans fix their own nitrogen — zero impact from synthetic nitrogen loss. REAL-WORLD EVIDENCE: Sri Lanka (2021-22) banned synthetic fertilizers — rice plummeted 32-54%, tea fell 18-28.7% within ONE season. China long-term field trials: zero-fertilizer plots yield 40-60% less than fertilized. Drop is immediate (first harvest) but worsens over 2-3 years as soil nitrogen bank from previous seasons exhausts. YIELD TABLE (global averages): Corn at -30% N = -10% yield, at -60% N = -30% yield, at -100% N = -58% yield. Rice at -30% N = -9%, -60% N = -25%, -100% N = -49%. Wheat at -30% N = -11%, -60% N = -28%, -100% N = -48%. KEY INSIGHT FOR INFOGRAPHICS: Spreading reduced nitrogen evenly across all acreage is better than concentrating full-rate on fewer acres, because the first units of N per hectare do the most work (diminishing returns curve).",
+      "keyFacts": [
+        "DIMINISHING RETURNS: -30% nitrogen = only -10-15% yield loss",
+        "-60% nitrogen = -25-30% yield loss (NOT proportional)",
+        "-100% nitrogen = -40-60% yield loss for cereals (catastrophic)",
+        "Soybeans: ZERO impact — legumes fix their own nitrogen",
+        "Sri Lanka 2021-22: rice plummeted 32-54% within ONE season after fertilizer ban",
+        "Soil nitrogen bank exhausts after 2-3 years of zero fertilizer",
+        "Spread evenly > concentrate on fewer acres (first units matter most)"
+      ],
+      "tags": [
+        "nitrogen",
+        "yield-curve",
+        "diminishing-returns",
+        "sri-lanka",
+        "haber-bosch",
+        "soybeans"
+      ]
+    },
+    {
+      "id": "cm-haber-bosch-dependency",
+      "category": "hormuz-compound-crisis",
+      "title": "The 48% Fed by Haber-Bosch: Who Specifically Is Dependent",
+      "date": "2026-04-25",
+      "content": "48-50% of humanity is fed by the Haber-Bosch process (Vaclav Smil, Erisman et al.). Nearly half of nitrogen atoms in human dietary protein globally originated in a synthetic fertilizer plant. DEPENDENCY MAP: Most dependent = Asia (China, India, Bangladesh, Indonesia) and Middle East/North Africa (Egypt). Diets reliant on corn, wheat, rice are most Haber-Bosch dependent. SUBSISTENCE FARMERS: Sub-Saharan Africa is generally NOT part of the 48% — they lack capital for synthetic fertilizers and already operate at low baseline yields. A Hormuz shock doesn't directly cut their yields but destroys them INDIRECTLY via skyrocketing global grain prices. HORMUZ CHOKEPOINT: 16-20 million metric tons of nitrogen fertilizer (33% of global seaborne trade) transits Hormuz annually. Key exporters: Qatar, Saudi Arabia, Oman, Iran. COUNTRY EXPOSURE: US/Canada buffered for current season (pre-buy in fall/winter, domestic production) but face devastating costs next season. India massively exposed — over half of fertilizer imports from Persian Gulf. Brazil imports 85%+ of nitrogen, roughly half via Hormuz. DOUBLE-HIT COUNTRIES: Egypt, Bangladesh need Gulf LNG and imported urea to grow domestic crops AND import massive wheat. Disruption crushes domestic harvests while pricing them out of international markets.",
+      "keyFacts": [
+        "48-50% of humanity fed by Haber-Bosch process (Smil, Erisman)",
+        "Most dependent: China, India, Bangladesh, Indonesia, Egypt",
+        "Sub-Saharan Africa: lowest direct dependency but highest vulnerability to price spikes",
+        "33% of global seaborne nitrogen trade transits Strait of Hormuz",
+        "US/Canada: buffered for current season but face devastating costs next year",
+        "India: over half of fertilizer imports from Persian Gulf",
+        "Brazil: imports 85%+ of its nitrogen, ~half via Hormuz",
+        "Egypt, Bangladesh: double-hit — domestic production AND import capacity both crushed"
+      ],
+      "tags": [
+        "haber-bosch",
+        "hormuz",
+        "nitrogen-dependency",
+        "food-security",
+        "chokepoint",
+        "global-south"
+      ]
+    },
+    {
+      "id": "cm-historical-fertilizer-shocks",
+      "category": "hormuz-compound-crisis",
+      "title": "Historical Precedents: What Happens When Fertilizer Supply Collapses",
+      "date": "2026-04-25",
+      "content": "NORTH KOREA (1990s): Lost Soviet fossil fuels and synthetic fertilizers. Today: rice yield 3.5 tons/ha vs South Korea's 5.2+ tons/ha — nearly 2:1 productivity gap from the same geography. CUBA SPECIAL PERIOD (1990s): Lost 1.3 million tons of Soviet chemical fertilizers and oil supply overnight. Agricultural production crashed 47%. Average daily calorie intake plunged from 2,600 to 1,000-1,500. WWI AND WWII: Nitrogen plants commandeered for TNT/munitions instead of ammonia. Crop yields plummeted across Europe. Farmers forced back to crop rotation with nitrogen-fixing legumes (clover, alfalfa) — slow process that couldn't maintain pre-war yields. 2022 UKRAINE/RUSSIA: Sanctions sent urea futures soaring. Developing nation farmers reduced application rates, directly contributing to global food price inflation and localized shortages.",
+      "keyFacts": [
+        "North Korea: 2:1 yield gap vs South Korea from losing fertilizer access (same geography)",
+        "Cuba: 47% agricultural production crash, calorie intake from 2,600 to 1,000-1,500",
+        "WWI/WWII: nitrogen plants diverted to munitions, crop yields plummeted across Europe",
+        "2022 Ukraine: urea futures soared, developing nations cut application, food inflation followed",
+        "Pattern: every historical fertilizer disruption produces immediate and severe food crisis"
+      ],
+      "tags": [
+        "north-korea",
+        "cuba",
+        "historical-precedent",
+        "fertilizer-shock",
+        "food-crisis"
+      ]
+    },
+    {
+      "id": "cm-compound-crisis-multiplicative",
+      "category": "hormuz-compound-crisis",
+      "title": "The Compound Effect Is MULTIPLICATIVE, Not Additive: Nitrogen + Pesticides + Diesel",
+      "date": "2026-04-25",
+      "content": "The April 2026 agricultural crisis is not a single input shock — it is a synergistic compound crisis. Three simultaneous disruptions: (1) Nitrogen: natural gas feedstock disrupted by Hormuz. (2) Pesticides: 99% of synthetic crop protection chemicals rely on petroleum derivatives (solvents, surfactants). (3) Diesel: high fuel costs restrict tractor passes for tilling, spraying, harvesting. THE PESTICIDE FACTOR: Without pesticides, crop losses to weeds/insects/pathogens leap from ~20% to 40-70%. Sri Lanka ban: 81% of farmers reported higher weed infestation, 73% reported severe insect damage. WHY MULTIPLICATIVE NOT ADDITIVE: Nitrogen-starved plants are physically weaker, grow slower, lack canopy needed to shade out weeds. If a farmer loses 30% to nitrogen shortage AND loses pesticide access, aggressive weeds outcompete the stunted crop for whatever residual soil nutrients remain. Combined effect frequently results in TOTAL CROP FAILURE, not just mathematical 50% reduction. THIS IS THE KEY INSIGHT: A 60% nitrogen reduction alone = ~30% yield loss. But 60% nitrogen reduction + no pesticides + expensive diesel = potentially 60%+ yield loss or total failure. The compound scenario is where the catastrophic numbers live.",
+      "keyFacts": [
+        "Three simultaneous disruptions: nitrogen + pesticides + diesel",
+        "99% of synthetic pesticides rely on petroleum derivatives",
+        "Without pesticides: crop losses leap from 20% to 40-70%",
+        "Sri Lanka: 81% higher weed infestation, 73% severe insect damage",
+        "Effect is MULTIPLICATIVE: weak plants can't compete with weeds for remaining nutrients",
+        "30% nitrogen loss alone = manageable. 30% nitrogen + no pesticides = potential total failure",
+        "This compound scenario is where catastrophic yield numbers become realistic"
+      ],
+      "tags": [
+        "compound-crisis",
+        "multiplicative",
+        "pesticides",
+        "diesel",
+        "total-crop-failure",
+        "synergistic"
+      ]
+    },
+    {
+      "id": "cm-141",
+      "category": "indicator",
+      "subcategory": "energy-shock",
+      "title": "Seaborne Oil Buffer Exhausted: Last Pre-War Tankers Arrived April 20",
+      "content": "The world's safety cushion of oil already at sea when the Hormuz conflict began is now gone. The last tankers that crossed Hormuz before fighting started in late February finally reached destinations (Malaysia, California) by April 20. Physical commodity traders warn this is the inflection point — from here, every day of closure is a net draw on reserves with no replacement in transit.",
+      "dataSource": "Patrick Boyle (Apr 26, 2026), physical commodity trader sources",
+      "leadTime": "Immediate — buffer exhausted",
+      "reliability": "High — tanker tracking data is precise",
+      "historicalPrecedents": [
+        "1973 embargo had similar 'pipeline draining' effect but smaller scale"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "food-energy-nexus"
+      ],
+      "currentStatus": "active — Buffer exhausted April 20, 2026. Trafigura estimates 1.5 billion barrel cumulative loss (~5% of annual global output) is now unavoidable. Even if ceasefire holds today, market may not return to equilibrium until 2030 due to permanent supply loss. Only 5 ships transited Hormuz in a recent 24-hour period (vs 45 total since April 8 ceasefire). 22+ ships attacked, several seized by IRGC.",
+      "lastUpdated": "2026-04-26",
+      "tags": [
+        "seaborne-buffer",
+        "tanker-tracking",
+        "trafigura",
+        "supply-loss",
+        "2030-equilibrium"
+      ]
+    },
+    {
+      "id": "cm-142",
+      "category": "indicator",
+      "subcategory": "energy-shock",
+      "title": "US Shale Producers Refusing to Increase Production (Dallas Fed Survey)",
+      "content": "Despite White House pressure, US shale executives are actively resisting calls to increase production. Dallas Fed survey shows operators taking a 'do nothing' approach to 2026 budgets. Rational capital allocation: they can't plan long-term rig deployments when prices swing wildly on presidential tweets. If they overproduce and a peace deal crashes prices, they're left holding the bag. This is learned behavior from prior overdrilling busts.",
+      "dataSource": "Patrick Boyle citing Dallas Fed energy survey (Apr 2026)",
+      "leadTime": "Months — drilling decisions take 6-12 months to reach production",
+      "reliability": "High — Dallas Fed survey is authoritative on shale sector sentiment",
+      "historicalPrecedents": [
+        "2014-2016 shale overproduction bust",
+        "2020 COVID demand destruction aftermath"
+      ],
+      "compoundsWith": [
+        "energy-shock"
+      ],
+      "currentStatus": "active — Administration dispatched Interior Secretary Bergam to beg executives to drill. Treasury Secretary Bessent threatening gas station owners to cut prices (identical to Biden 2022 rhetoric). Shale operators unmoved — extreme volatility between physical and futures prices makes capital planning impossible. 'Do nothing' is the rational response to policy whiplash.",
+      "lastUpdated": "2026-04-26",
+      "tags": [
+        "shale-production",
+        "dallas-fed",
+        "drill-refusal",
+        "capital-allocation",
+        "policy-whiplash"
+      ]
+    },
+    {
+      "id": "cm-143",
+      "category": "indicator",
+      "subcategory": "energy-shock",
+      "title": "Europe Jet Fuel Vulnerability: 70% Self-Sufficiency, 50 Days Reserves",
+      "content": "Europe cannot refine enough jet fuel domestically — capacity covers only 70% of airline demand. Currently sitting on ~50 days of reserves (normal operating level). Kepler modeling shows stocks will fall precipitously if Hormuz flows don't normalize by June. If the US bans refined fuel exports to protect domestic prices, Europe's aviation sector hits a wall.",
+      "dataSource": "Patrick Boyle citing Politico, Kepler/Economist modeling (Apr 2026)",
+      "leadTime": "June 2026 — reserves start critical decline",
+      "reliability": "High — refinery capacity data is structural",
+      "historicalPrecedents": [],
+      "compoundsWith": [
+        "energy-shock",
+        "food-energy-nexus"
+      ],
+      "currentStatus": "active — 50 days reserves at normal consumption. June is the cliff if Hormuz stays closed. US export ban scenario would be devastating. Airlines already cutting capacity and raising fares.",
+      "lastUpdated": "2026-04-26",
+      "tags": [
+        "jet-fuel",
+        "europe-aviation",
+        "refinery-capacity",
+        "kepler-modeling",
+        "export-ban-risk"
+      ]
+    },
+    {
+      "id": "cm-144",
+      "category": "indicator",
+      "subcategory": "energy-shock",
+      "title": "Qatar Helium Chokepoint: 1/3 Global Supply, No Substitute, No Air Shipment",
+      "content": "Qatar produces ~1/3 of global helium supply as a byproduct of natural gas extraction. Helium cannot be safely shipped by air — it must move by sea. With Hormuz blockaded, global helium supply is effectively choked. Helium has the lowest boiling point of any element and extremely high thermal conductivity — irreplaceable as a coolant. Critical uses: MRI machine superconducting magnets, semiconductor chip fabrication (carrier gas in chemical vapor deposition), clean room purge gas. There is no synthetic substitute.",
+      "dataSource": "Patrick Boyle (Apr 26, 2026)",
+      "leadTime": "Weeks — hospital and chip fab reserves are limited",
+      "reliability": "High — helium supply concentration and physics are facts",
+      "historicalPrecedents": [
+        "2012-2013 helium shortage caused MRI machine shutdowns"
+      ],
+      "compoundsWith": [
+        "energy-shock"
+      ],
+      "currentStatus": "active — Qatar helium supply cut off by Hormuz blockade. Hospitals dependent on MRI machines and chip fabs dependent on CVD processes facing supply uncertainty. No workaround — helium is a noble gas with no synthetic production method at scale.",
+      "lastUpdated": "2026-04-26",
+      "tags": [
+        "helium",
+        "qatar",
+        "mri-machines",
+        "semiconductor-fab",
+        "noble-gas",
+        "no-substitute"
+      ]
+    },
+    {
+      "id": "cm-145",
+      "category": "indicator",
+      "subcategory": "food-energy-nexus",
+      "title": "Panama Canal Congestion: Grain Pushed to Back of Queue, 40-Day Waits",
+      "content": "With ships rerouting around Cape of Good Hope to avoid Hormuz, Panama Canal congestion has intensified. Oil tankers outbid bulk grain carriers for scarce transit slots (canal already restricted by historic drought). Wait times stretched to ~40 days. Grain shipping rates increased 50-60%. Lower-value cargoes (grain, bulk commodities) pushed to back of queue as oil tankers pay millions to skip ahead. This creates a food-specific bottleneck that compounds the fertilizer/diesel crisis.",
+      "dataSource": "Patrick Boyle citing FT (Apr 2026)",
+      "leadTime": "Immediate — already causing grain delivery delays",
+      "reliability": "High — canal transit data is tracked precisely",
+      "historicalPrecedents": [
+        "2023-2024 Panama Canal drought restrictions"
+      ],
+      "compoundsWith": [
+        "food-energy-nexus",
+        "energy-shock"
+      ],
+      "currentStatus": "active — 40-day wait times. Grain routes seeing 50-60% shipping cost increases. Oil tankers getting priority slots. Dual chokepoint: Hormuz closed + Panama congested = global shipping capacity severely constrained. Cape of Good Hope rerouting removes significant shipping capacity from the system (longer voyages = fewer available ships).",
+      "lastUpdated": "2026-04-26",
+      "tags": [
+        "panama-canal",
+        "grain-shipping",
+        "transit-queue",
+        "cape-rerouting",
+        "shipping-capacity"
+      ]
+    },
+    {
+      "id": "cm-146",
+      "category": "indicator",
+      "subcategory": "food-energy-nexus",
+      "title": "Anhydrous Ammonia Price Spike: $800 to $1,050/ton, 70% of Farmers Can't Afford Full Fertilizer",
+      "content": "Anhydrous ammonia (primary nitrogen fertilizer) has spiked from ~$800/ton pre-conflict to $1,050/ton. American Farm Bureau Federation survey: ~70% of farmers report being unable to afford all fertilizer needed for this crop cycle. Additionally, sulfur (4th major plant nutrient after N-P-K) is being diverted to higher-value industrial uses like copper smelting, leaving fertilizer producers waiting. This is a compound input crisis: nitrogen expensive + sulfur diverted + diesel expensive = triple squeeze on farming margins.",
+      "dataSource": "Patrick Boyle citing AFBF survey, Louis Dreyfus, FT (Apr 2026)",
+      "leadTime": "This growing season — crop decisions being made now",
+      "reliability": "High — AFBF survey is authoritative on US farm economics",
+      "historicalPrecedents": [
+        "2008 fertilizer price spike preceded food riots in 30+ countries",
+        "2022 post-Ukraine fertilizer shortage"
+      ],
+      "compoundsWith": [
+        "food-energy-nexus",
+        "energy-shock"
+      ],
+      "currentStatus": "active — $1,050/ton ammonia. 70% of US farmers can't afford needed fertilizer. Sulfur diverted to copper smelting. AFBF president: 'farm outlook is bleak, farm country needs help.' Louis Dreyfus chief risk officer flagging sulfur competition. Vital LNG head: 'living on borrowed time — energy crisis will become food crisis.'",
+      "lastUpdated": "2026-04-26",
+      "tags": [
+        "ammonia-price",
+        "fertilizer-affordability",
+        "sulfur-diversion",
+        "afbf-survey",
+        "crop-cycle-2026",
+        "triple-input-squeeze"
+      ]
+    },
+    {
+      "id": "cm-147",
+      "category": "indicator",
+      "subcategory": "geopolitical",
+      "title": "Russia Cutting Kazakh Oil Pipeline to Berlin's PCK Refinery During Hormuz Crisis",
+      "content": "Russia announced suspension of Kazakh oil flow through the Soviet-era Druzhba pipeline that supplies the PCK Schwedt refinery — the facility providing 90% of Berlin's petrol, kerosene, and heating fuel. Timed precisely to maximize European pain during the Hormuz closure. By cutting this alternative supply line while seaborne Middle Eastern imports are choked off, Russia ensures Europe feels maximum pressure from the conflict.",
+      "dataSource": "Patrick Boyle (Apr 26, 2026)",
+      "leadTime": "Immediate — pipeline flow cut",
+      "reliability": "High — pipeline operations are verifiable",
+      "historicalPrecedents": [
+        "2022 Russia gas supply cuts to Europe via Nord Stream"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "geopolitical"
+      ],
+      "currentStatus": "active — PCK Schwedt refinery (90% of Berlin fuel supply) losing its Kazakh oil feed. Russia exploiting Hormuz crisis timing. Europe facing dual supply squeeze: seaborne Middle East oil blocked + pipeline Russian/Kazakh oil cut.",
+      "lastUpdated": "2026-04-26",
+      "tags": [
+        "russia",
+        "druzhba-pipeline",
+        "pck-schwedt",
+        "berlin-fuel",
+        "kazakh-oil",
+        "dual-squeeze"
+      ]
+    },
+    {
+      "id": "cm-148",
+      "category": "compound-interaction",
+      "subcategory": "asset-bubble",
+      "title": "Physical vs Financial Market Disconnect: Equity Markets Pricing Peace While Physical Markets Price War",
+      "content": "S&P 500 hit record highs — equity traders treating Hormuz closure as a buying opportunity. Meanwhile physical commodity traders see 1.5B barrel cumulative loss and 2030 recovery timeline. The disconnect has structural causes: (1) Post-2008 conditioning — every correction was rescued, creating 'buy the dip' muscle memory, (2) ~60-70% of equity volume is passive/index — responds to payroll deposits not geopolitics, (3) Career risk asymmetry — fund managers fired for being bearish and early, never fired for being bullish and wrong ('nobody saw it coming'), (4) TACO thesis — Trump Always Chickens Out, investors assume tariff-style reversal. Fatal flaw: trade wars fought with administrative ink (cancellable), shooting wars fought with drones and missiles (not cancellable). 'It takes two to taco.' Krugman observation: 1978 P/E ratios at historic lows (room to absorb shock), today at historic highs with private credit structures that didn't exist — less oil-dependent economy but more financially fragile.",
+      "dataSource": "Patrick Boyle (Apr 26, 2026), Paul Krugman, Daniel Yergin (OddLots podcast)",
+      "leadTime": "Unknown — disconnect resolves suddenly when it resolves",
+      "reliability": "High — the data points are verifiable; the timing of resolution is unknowable",
+      "historicalPrecedents": [
+        "2007-2008: equity markets ignored subprime signals until Bear Stearns",
+        "1973: markets initially shrugged off embargo",
+        "Every bubble: physical reality eventually wins"
+      ],
+      "compoundsWith": [
+        "asset-bubble",
+        "energy-shock",
+        "credit-debt"
+      ],
+      "currentStatus": "active — Record S&P 500 vs exhausted seaborne buffer, 1.5B barrel loss, $1,050 ammonia, 70% of farmers can't afford fertilizer, 40-day Panama waits, Russia cutting Berlin's fuel. Oil intensity of GDP down 70% since 1970s (economy more resilient) but financial valuations at historic stretch (financial system more fragile). The question: does the Pavlovian buy-the-dip reflex hold, or does physical reality eventually force a repricing?",
+      "lastUpdated": "2026-04-26",
+      "tags": [
+        "physical-financial-disconnect",
+        "passive-flows",
+        "taco-thesis",
+        "career-risk",
+        "pavlovian-conditioning",
+        "krugman",
+        "yergin",
+        "cape-ratio",
+        "private-credit"
+      ]
+    },
+    {
+      "id": "cm-149",
+      "category": "indicator",
+      "subcategory": "geopolitical",
+      "title": "Dual Blockade: Iran Restricting Hostile Vessels, US Navy Running Counter-Blockade",
+      "content": "The Strait of Hormuz is now under dual blockade. Iran restricts passage to 'hostile vessels' from unfriendly countries. US Navy began counter-blockade April 13, targeting ships bound for/departing Iranian ports. The Navy is no longer a neutral guardian of open sea lanes — it's an active combatant running its own blockade. Merchant ships are on their own: turning off GPS transponders, hiding behind Omani flags, navigating Iranian crypto toll demands. Iran seizing MSC container ships. Trump ordered Navy to 'shoot and kill any boat caught laying mines.' The unwritten assumption that the US Navy guarantees free trade is now obsolete.",
+      "dataSource": "Patrick Boyle (Apr 26, 2026)",
+      "leadTime": "Immediate — dual blockade active",
+      "reliability": "High — naval operations and ship seizures are reported in real time",
+      "historicalPrecedents": [
+        "1980s Tanker War (Iran-Iraq)",
+        "2019 Hormuz tanker seizures (limited)"
+      ],
+      "compoundsWith": [
+        "energy-shock",
+        "geopolitical"
+      ],
+      "currentStatus": "active — 3-400 ships waiting to exit ('car park'). Ships running dark (transponders off) to sneak through. Iran demanding crypto tolls (would breach US sanctions if paid). MSC vessels specifically targeted due to Israeli business ties. 6 cruise ships escaped with skeleton crews in February. Western governments offering no systematic safe transit mechanism — 'merchants told to turn off headlights and hope for the best.'",
+      "lastUpdated": "2026-04-26",
+      "tags": [
+        "dual-blockade",
+        "us-navy",
+        "irgc",
+        "transponder-dark",
+        "crypto-tolls",
+        "ship-seizure",
+        "free-trade-assumption"
+      ]
+    },
+    {
+      "id": "cm-150",
+      "category": "compound-interaction",
+      "subcategory": "geopolitical",
+      "title": "The Interdependence Illusion: Economic Integration Failed to Prevent Conflict",
+      "content": "Financial markets spent 30 years operating under 'the great illusion' — that economic interdependence naturally prevents conflict. If Hormuz is essential for global survival, no rational actor would close it. This assumption failed from both ends: (1) Iran discovered holding the global economy hostage with cheap drones is effective leverage — unlike nuclear weapons, it's leverage they can actually USE, (2) major economies spent the last two years dismantling trade interdependence through tariffs, export controls, onshoring — removing the very web of relationships that was supposed to deter conflict. Oil intensity of GDP down 70% since 1970s (less physical vulnerability) but the financial system has much lower margin of safety for prolonged inflation shocks.",
+      "dataSource": "Patrick Boyle (Apr 26, 2026), Daniel Yergin",
+      "leadTime": "Structural — permanent shift in geopolitical risk framework",
+      "reliability": "High — the thesis is supported by current events",
+      "historicalPrecedents": [
+        "Pre-WWI: European economic integration was supposed to prevent war",
+        "2022: Russia gas weapon against Europe despite interdependence"
+      ],
+      "compoundsWith": [
+        "geopolitical",
+        "energy-shock",
+        "asset-bubble"
+      ],
+      "currentStatus": "active — Crisis is rebranding green energy transition from climate policy to national security. China/SE Asia EVs at 50%/40% of new car sales — energy sovereignty play. Asia pivoting to nuclear + EVs while US tries to drill its way out. Capital allocation permanently shifted by the realization that a continent can be held hostage by cheap drones.",
+      "lastUpdated": "2026-04-26",
+      "tags": [
+        "interdependence-illusion",
+        "great-illusion",
+        "drone-leverage",
+        "deglobalization",
+        "energy-sovereignty",
+        "green-rebranding"
+      ]
     }
+  ],
+  "categories": [
+    "food-energy-nexus"
   ]
 }
